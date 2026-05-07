@@ -26,6 +26,9 @@
 .bank-requirements-section::before {
     display: none !important;
 }
+.primary-btn {
+    font-weight: 500 !important;
+}
 /* Start Ticker */
 .security-ticker {
     /* background-color: #181818; */
