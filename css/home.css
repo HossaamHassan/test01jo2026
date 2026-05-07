@@ -41,10 +41,13 @@
 }
 .footer-nav-list li {
     max-width: 140px;
-    line-height: 20px;
+    line-height: 17px;
 }
 .footer-nav-list li br {
     display: none;
+}
+.footer-nav-list {
+    gap: 10px;
 }
 /* Start Ticker */
 .security-ticker {
