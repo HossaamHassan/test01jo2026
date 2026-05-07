@@ -9,6 +9,9 @@
 .nav-link-item {
     padding: 5px 20px;
 }
+.nav-link-item.active {
+    padding: 5px 23px;
+}
 .nav-links {
     padding: 2px 6px;
 }
@@ -35,6 +38,13 @@
 .loans-section span {
     font-size: 1.05rem;
     font-weight: 400;
+}
+.footer-nav-list li {
+    max-width: 14px;
+    line-height: 20px;
+}
+.footer-nav-list li br {
+    display: none;
 }
 /* Start Ticker */
 .security-ticker {

@@ -662,3 +662,10 @@ ul {
 .ai-support-banner .ai-btn {
     height: 64px;
 }
+.footer-nav-list li {
+    max-width: 14px;
+    line-height: 20px;
+}
+.footer-nav-list li br {
+    display: none;
+}
