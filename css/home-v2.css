@@ -407,7 +407,7 @@ ul {
 .exp-desc {
     background-color: rgb(255 255 255 / 50%);
     /* min-height: 124px; */
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(4px);
 }
 
 .exp-desc p {
