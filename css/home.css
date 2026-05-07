@@ -29,6 +29,13 @@
 .primary-btn {
     font-weight: 500 !important;
 }
+.loans-section h4 {
+    font-size: 3.2rem;
+}
+.loans-section span {
+    font-size: 1.05rem;
+    font-weight: 400;
+}
 /* Start Ticker */
 .security-ticker {
     /* background-color: #181818; */
@@ -313,7 +320,7 @@
 
 .loan-offer,
 .loan-calculator {
-    padding: 30px 30px 30px 30px !important;
+    padding: 43px 30px 28px 30px !important;
 }
 
 .loan-offer-containe span {
