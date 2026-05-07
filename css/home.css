@@ -23,6 +23,9 @@
     width: 27px !important;
     height: 27px !important;
 }
+.bank-requirements-section::before {
+    display: none !important;
+}
 /* Start Ticker */
 .security-ticker {
     /* background-color: #181818; */
