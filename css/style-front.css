@@ -799,11 +799,12 @@ a {
     content: "";
     width: 110vw;
     height: 100%;
-    background-image: url("/assets/images/btn\ blur.png");
+    background-image: url("../assets/images/btn\ blur.png");
     left: 41%;
     background-repeat: no-repeat;
     top: 50%;
     transform: translate(-50%, -50%);
+    z-index: -1;
 }
 @media (min-width: 1600px)  {
     .special-section::before {
