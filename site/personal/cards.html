@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/nice-select.css">
+    <link rel="stylesheet" href="/css/fancybox.css">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/css/forms.css">
+    <link rel="stylesheet" href="/css/style-front.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/cards.css">
+    <link rel="stylesheet" href="/css/custom.css">
+    <script src="/js/jquery-3.7.1.js"></script>
+    <script src="/js/jquery.nice-select.js"></script>
+    <script src="/js/fancybox.umd.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/intlTelInputWithUtils.min.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <nav class="main-navbar">
+        <div class="container">
+            <div class="navbar-inner d-flex align-items-center justify-content-between gap-4">
+
+                <!-- Logo -->
+                <a href="#" class="navbar-brand-logo d-flex align-items-center gap-2">
+                    <picture>
+                        <img src="/assets/images/logo-white.png" alt="AJIB" class="nav-logo-img">
+                    </picture>
+                </a>
+
+                <!-- Nav Links -->
+                <ul class="nav-links d-flex align-items-center mb-0 list-unstyled justify-content-between  ">
+                    <li class="nav-item has-mega">
+                        <a href="#" class="nav-link-item sm-size active">Personal</a>
+                        <!-- Mega Menu -->
+                        <div class="mega-menu px-5">
+                            <div class="container">
+                                <h6 class="regular-size semi-bold-font mb-3">Personal Banking</h6>
+                                <div class="mega-cols mt-4">
+                                    <div class="mega-col">
+                                        <div class="md-size">Accounts</div>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">Current</a></li>
+                                            <li><a href="#" class="sm-size">Savings</a></li>
+                                            <li><a href="#" class="sm-size">Time Deposit</a></li>
+                                            <li><a href="#" class="sm-size">Future</a></li>
+                                            <li><a href="#" class="sm-size">Champions</a></li>
+                                            <li><a href="#" class="sm-size">Cheques</a></li>
+                                            <li><a href="#" class="sm-size">IBAN Generator</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <div class="md-size">Cards</div>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">Credit</a></li>
+                                            <li><a href="#" class="sm-size">Debit</a></li>
+                                            <li><a href="#" class="sm-size">Prepaid</a></li>
+                                            <li><a href="#" class="sm-size">Wearables</a></li>
+                                            <li><a href="#" class="sm-size">RJ Debit</a></li>
+                                            <li><a href="#" class="sm-size">AJIB Rewards</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <div class="md-size">Loans</div>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">Personal</a></li>
+                                            <li><a href="#" class="sm-size">Home</a></li>
+                                            <li><a href="#" class="sm-size">AJIB MA3AK</a></li>
+                                            <li><a href="#" class="sm-size">Loan Calculator</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <div class="md-size">Transfers</div>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">International</a></li>
+                                            <li><a href="#" class="sm-size">Local</a></li>
+                                            <li><a href="#" class="sm-size">RTGS</a></li>
+                                            <li><a href="#" class="sm-size">ACH</a></li>
+                                            <li><a href="#" class="sm-size">Western Union</a></li>
+                                            <li><a href="#" class="sm-size">Mastercard Transfast</a></li>
+                                            <li><a href="#" class="sm-size">AJIB Global Branches</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <div class="md-size">Personalized<br>Banking</div>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">Prestige Program</a></li>
+                                            <li><a href="#" class="sm-size">VIP Banking</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <div class="md-size">Investments<br>&amp; Insurance</div>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">AJIB Trading</a></li>
+                                            <li><a href="#" class="sm-size">Wealth Management</a></li>
+                                            <li><a href="#" class="sm-size">Treasury</a></li>
+                                            <li><a href="#" class="sm-size">Prestige life</a></li>
+                                            <li><a href="#" class="sm-size">Sanctuary</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item has-mega">
+                        <a href="#" class="nav-link-item sm-size">Business</a>
+                        <!-- Mega Menu -->
+                        <div class="mega-menu px-5">
+                            <div class="container">
+                                <h6 class="regular-size semi-bold-font mb-3">Business Banking</h6>
+                                <div class="mega-cols mt-4">
+                                    <div class="mega-col">
+                                        <div class="md-size">Corporate banking</div>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">Corporate Finance</a></li>
+                                            <li><a href="#" class="sm-size">Project &amp; Structured Finance</a></li>
+                                            <li><a href="#" class="sm-size">Corporate Lending</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <div class="md-size">Transacting<br>Banking</div>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">Cash Management</a></li>
+                                            <li><a href="#" class="sm-size">Trade Finance</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <div class="md-size">SMEs</div>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">SMEs Overview</a></li>
+                                            <li><a href="#" class="sm-size">Products &amp; Services</a></li>
+                                            <li><a href="#" class="sm-size">SME Centers</a></li>
+                                            <li><a href="#" class="sm-size">Success Stories</a></li>
+                                            <li><a href="#" class="sm-size">FAQs</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item has-mega">
+                        <a href="#" class="nav-link-item sm-size">Digital</a>
+                        <!-- Mega Menu -->
+                        <div class="mega-menu px-5">
+                            <div class="container">
+                                <h6 class="regular-size semi-bold-font mb-3">Digital Banking</h6>
+                                <div class="mega-cols mt-4">
+                                    <div class="mega-col">
+                                        <div class="md-size">Digital Services</div>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">Mobile Banking</a></li>
+                                            <li><a href="#" class="sm-size">Internet Banking</a></li>
+                                            <li><a href="#" class="sm-size">ATM Services</a></li>
+                                            <li><a href="#" class="sm-size">Call Center</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <div class="md-size">Security &amp;<br>Support</div>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">AJIB Security</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <div class="md-size">Payment<br>Solutions</div>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">Apple Pay</a></li>
+                                            <li><a href="#" class="sm-size">Google Pay</a></li>
+                                            <li><a href="#" class="sm-size">eFAWATEERcom</a></li>
+                                            <li><a href="#" class="sm-size">CliQ</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <div class="md-size">Transfers</div>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">International</a></li>
+                                            <li><a href="#" class="sm-size">Local</a></li>
+                                            <li><a href="#" class="sm-size">Western Union</a></li>
+                                            <li><a href="#" class="sm-size">Mastercard Transfast</a></li>
+                                            <li><a href="#" class="sm-size">AJIB Global Branches</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item has-mega">
+                        <a href="#" class="nav-link-item sm-size">Help &amp; About</a>
+                        <!-- Mega Menu -->
+                        <div class="mega-menu px-5">
+                            <div class="container">
+                                <h6 class="regular-size semi-bold-font mb-3">Company</h6>
+                                <div class="mega-cols mt-4">
+                                    <div class="mega-col">
+                                        <div class="md-size">Company</div>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">About AJIB</a></li>
+                                            <li><a href="#" class="sm-size">Investor Relations</a></li>
+                                            <li><a href="#" class="sm-size">Subsidiaries &amp; Affiliates</a></li>
+                                            <li><a href="#" class="sm-size">International Branches</a></li>
+                                            <li><a href="#" class="sm-size">Annual Reports</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <div class="md-size">Documents</div>
+                                        <ul>
+                                            <li><a href="#" class="sm-size with-file">
+                                                    <picture>
+                                                        <img src="/assets/icons/document-text.svg" alt="">
+                                                    </picture>
+                                                    Corporate Governance
+                                                </a></li>
+                                            <li><a href="#" class="sm-size with-file">
+                                                    <picture>
+                                                        <img src="/assets/icons/document-text.svg" alt="">
+                                                    </picture>
+                                                    Correspondent Banks
+                                                </a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <div class="md-size">Resources</div>
+                                        <ul>
+                                            <li><a href="#" class="sm-size with-file">
+                                                    <picture>
+                                                        <img src="/assets/icons/document-text.svg" alt="">
+                                                    </picture>
+                                                    Tariff of Charges
+                                                </a>
+                                            </li>
+                                            <li><a href="#" class="sm-size">ATMs and Branches</a></li>
+                                            <li><a href="#" class="sm-size">Download Centre</a></li>
+                                            <li><a href="#" class="sm-size">Newsroom</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <div class="md-size">Help &amp; Support</div>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">Contact Centre</a></li>
+                                            <li><a href="#" class="sm-size">Complaints</a></li>
+                                            <li><a href="#" class="sm-size">Feedback</a></li>
+                                            <li><a href="#" class="sm-size">Careers</a></li>
+                                            <li><a href="#" class="sm-size">Ask AJIB</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- Right Actions -->
+                <div class="nav-actions d-flex align-items-center gap-2 justify-content-end ">
+                    <button class="nav-search-btn" aria-label="Search">
+                        <picture class="d-flex align-items-center justify-content-center ">
+                            <img src="/assets/icons/magnifying-glass.svg" alt="" width="20" height="20">
+                        </picture>
+                    </button>
+                    <a href="#" class="nav-lang-btn sm-size d-flex align-items-center justify-content-center ">En</a>
+                    <a href="#" class="ai-btn online-btn sm-size">AJIB Online</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Hero Section -->
+    <section class="hero-section position-relative ">
+        <picture>
+            <img src="/assets/images/personal/card-banner.png" alt="" class="hero-image d-none d-lg-block ">
+        </picture>
+        <div class="container position-absolute top-50 start-50 translate-middle ">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>
+                        Bank Smarter with 
+                        <br>
+                        Every Swipe
+                    </h1>
+                </div>
+                <div class="col-lg-6">
+                    <picture>
+                        <img src="/assets/images/personal/credit-cards-banner.png" alt="" class="default-image-class">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Section -->
+    <!-- Start Cards Section -->
+    <section class="cards-section">
+        <div class="container">
+            <div class="section-title mb-5">
+                <h3>Cards</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <ul class="p-0 m-0 list-unstyled filter-list d-flex flex-column gap-4">
+                        <li>
+                            <a href="#" class="d-flex align-items-center gap-2 filter-item active">
+                                <picture>
+                                    <img src="/assets/icons/personal/credit-card.svg" alt="">
+                                </picture>
+                                <p class="m-0">All Cards</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex align-items-center gap-2 filter-item">
+                                <picture>
+                                    <img src="/assets/icons/personal/credit-card.svg" alt="">
+                                </picture>
+                                <p class="m-0">Debit</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex align-items-center gap-2 filter-item">
+                                <picture>
+                                    <img src="/assets/icons/personal/credit-card.svg" alt="">
+                                </picture>
+                                <p class="m-0">Credit</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex align-items-center gap-2 filter-item">
+                                <picture>
+                                    <img src="/assets/icons/personal/mastercard.svg" alt="">
+                                </picture>
+                                <p class="m-0">Visa</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex align-items-center gap-2 filter-item">
+                                <picture>
+                                    <img src="/assets/icons/personal/Airplane.svg" alt="">
+                                </picture>
+                                <p class="m-0">Travel</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex align-items-center gap-2 filter-item">
+                                <picture>
+                                    <img src="/assets/icons/personal/gift.svg" alt="">
+                                </picture>
+                                <p class="m-0">Rewards</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex align-items-center gap-2 filter-item">
+                                <picture>
+                                    <img src="/assets/icons/personal/percent-badge.svg" alt="">
+                                </picture>
+                                <p class="m-0">Cashback</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex align-items-center gap-2 filter-item">
+                                <picture>
+                                    <img src="/assets/icons/personal/academic-cap.svg" alt="">
+                                </picture>
+                                <p class="m-0">Wearables</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row g-3">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="credit-box bg-gray-color-600 radius-30 p-20">
+                                <picture>
+                                    <img src="/assets/images/personal/credit-card.png" alt="" class="default-image-class">
+                                </picture>
+                                <div class="credit-box-content mt-3">
+                                    <h6>
+                                        Visa debit
+                                    </h6>
+                                    <div class="credit-box-btns d-flex align-items-center gap-3 mt-4 m-auto ">
+                                        <a href="#" class="solid-btn w-100 ">
+                                            Benefits & More
+                                        </a>
+                                        <a href="#" class="primary-btn w-100">
+                                            Apply Now
+                                        </a>
+                                    </div>
+                                    <div class="compare-container bg-gray-color mt-3 d-flex align-items-center justify-content-center gap-3 p-3 radius-10">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <p class="m-0">
+                                            Compare card
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="credit-box bg-gray-color-600 radius-30 p-20">
+                                <picture>
+                                    <img src="/assets/images/personal/credit-card.png" alt="" class="default-image-class">
+                                </picture>
+                                <div class="credit-box-content mt-3">
+                                    <h6>
+                                        Visa debit
+                                    </h6>
+                                    <div class="credit-box-btns d-flex align-items-center gap-3 mt-4 m-auto ">
+                                        <a href="#" class="solid-btn w-100 ">
+                                            Benefits & More
+                                        </a>
+                                        <a href="#" class="primary-btn w-100">
+                                            Apply Now
+                                        </a>
+                                    </div>
+                                    <div class="compare-container bg-gray-color mt-3 d-flex align-items-center justify-content-center gap-3 p-3 radius-10">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <p class="m-0">
+                                            Compare card
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="credit-box bg-gray-color-600 radius-30 p-20">
+                                <picture>
+                                    <img src="/assets/images/personal/credit-card.png" alt="" class="default-image-class">
+                                </picture>
+                                <div class="credit-box-content mt-3">
+                                    <h6>
+                                        Visa debit
+                                    </h6>
+                                    <div class="credit-box-btns d-flex align-items-center gap-3 mt-4 m-auto ">
+                                        <a href="#" class="solid-btn w-100 ">
+                                            Benefits & More
+                                        </a>
+                                        <a href="#" class="primary-btn w-100">
+                                            Apply Now
+                                        </a>
+                                    </div>
+                                    <div class="compare-container bg-gray-color mt-3 d-flex align-items-center justify-content-center gap-3 p-3 radius-10">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <p class="m-0">
+                                            Compare card
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="credit-box bg-gray-color-600 radius-30 p-20">
+                                <picture>
+                                    <img src="/assets/images/personal/credit-card.png" alt="" class="default-image-class">
+                                </picture>
+                                <div class="credit-box-content mt-3">
+                                    <h6>
+                                        Visa debit
+                                    </h6>
+                                    <div class="credit-box-btns d-flex align-items-center gap-3 mt-4 m-auto ">
+                                        <a href="#" class="solid-btn w-100 ">
+                                            Benefits & More
+                                        </a>
+                                        <a href="#" class="primary-btn w-100">
+                                            Apply Now
+                                        </a>
+                                    </div>
+                                    <div class="compare-container bg-gray-color mt-3 d-flex align-items-center justify-content-center gap-3 p-3 radius-10">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <p class="m-0">
+                                            Compare card
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="credit-box bg-gray-color-600 radius-30 p-20">
+                                <picture>
+                                    <img src="/assets/images/personal/credit-card.png" alt="" class="default-image-class">
+                                </picture>
+                                <div class="credit-box-content mt-3">
+                                    <h6>
+                                        Visa debit
+                                    </h6>
+                                    <div class="credit-box-btns d-flex align-items-center gap-3 mt-4 m-auto ">
+                                        <a href="#" class="solid-btn w-100 ">
+                                            Benefits & More
+                                        </a>
+                                        <a href="#" class="primary-btn w-100">
+                                            Apply Now
+                                        </a>
+                                    </div>
+                                    <div class="compare-container bg-gray-color mt-3 d-flex align-items-center justify-content-center gap-3 p-3 radius-10">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <p class="m-0">
+                                            Compare card
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="credit-box bg-gray-color-600 radius-30 p-20">
+                                <picture>
+                                    <img src="/assets/images/personal/credit-card.png" alt="" class="default-image-class">
+                                </picture>
+                                <div class="credit-box-content mt-3">
+                                    <h6>
+                                        Visa debit
+                                    </h6>
+                                    <div class="credit-box-btns d-flex align-items-center gap-3 mt-4 m-auto ">
+                                        <a href="#" class="solid-btn w-100 ">
+                                            Benefits & More
+                                        </a>
+                                        <a href="#" class="primary-btn w-100">
+                                            Apply Now
+                                        </a>
+                                    </div>
+                                    <div class="compare-container bg-gray-color mt-3 d-flex align-items-center justify-content-center gap-3 p-3 radius-10">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <p class="m-0">
+                                            Compare card
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="credit-box bg-gray-color-600 radius-30 p-20">
+                                <picture>
+                                    <img src="/assets/images/personal/credit-card.png" alt="" class="default-image-class">
+                                </picture>
+                                <div class="credit-box-content mt-3">
+                                    <h6>
+                                        Visa debit
+                                    </h6>
+                                    <div class="credit-box-btns d-flex align-items-center gap-3 mt-4 m-auto ">
+                                        <a href="#" class="solid-btn w-100 ">
+                                            Benefits & More
+                                        </a>
+                                        <a href="#" class="primary-btn w-100">
+                                            Apply Now
+                                        </a>
+                                    </div>
+                                    <div class="compare-container bg-gray-color mt-3 d-flex align-items-center justify-content-center gap-3 p-3 radius-10">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <p class="m-0">
+                                            Compare card
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="credit-box bg-gray-color-600 radius-30 p-20">
+                                <picture>
+                                    <img src="/assets/images/personal/credit-card.png" alt="" class="default-image-class">
+                                </picture>
+                                <div class="credit-box-content mt-3">
+                                    <h6>
+                                        Visa debit
+                                    </h6>
+                                    <div class="credit-box-btns d-flex align-items-center gap-3 mt-4 m-auto ">
+                                        <a href="#" class="solid-btn w-100 ">
+                                            Benefits & More
+                                        </a>
+                                        <a href="#" class="primary-btn w-100">
+                                            Apply Now
+                                        </a>
+                                    </div>
+                                    <div class="compare-container bg-gray-color mt-3 d-flex align-items-center justify-content-center gap-3 p-3 radius-10">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <p class="m-0">
+                                            Compare card
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="credit-box bg-gray-color-600 radius-30 p-20">
+                                <picture>
+                                    <img src="/assets/images/personal/credit-card.png" alt="" class="default-image-class">
+                                </picture>
+                                <div class="credit-box-content mt-3">
+                                    <h6>
+                                        Visa debit
+                                    </h6>
+                                    <div class="credit-box-btns d-flex align-items-center gap-3 mt-4 m-auto ">
+                                        <a href="#" class="solid-btn w-100 ">
+                                            Benefits & More
+                                        </a>
+                                        <a href="#" class="primary-btn w-100">
+                                            Apply Now
+                                        </a>
+                                    </div>
+                                    <div class="compare-container bg-gray-color mt-3 d-flex align-items-center justify-content-center gap-3 p-3 radius-10">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <p class="m-0">
+                                            Compare card
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="credit-box bg-gray-color-600 radius-30 p-20">
+                                <picture>
+                                    <img src="/assets/images/personal/credit-card.png" alt="" class="default-image-class">
+                                </picture>
+                                <div class="credit-box-content mt-3">
+                                    <h6>
+                                        Visa debit
+                                    </h6>
+                                    <div class="credit-box-btns d-flex align-items-center gap-3 mt-4 m-auto ">
+                                        <a href="#" class="solid-btn w-100 ">
+                                            Benefits & More
+                                        </a>
+                                        <a href="#" class="primary-btn w-100">
+                                            Apply Now
+                                        </a>
+                                    </div>
+                                    <div class="compare-container bg-gray-color mt-3 d-flex align-items-center justify-content-center gap-3 p-3 radius-10">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <p class="m-0">
+                                            Compare card
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="credit-box bg-gray-color-600 radius-30 p-20">
+                                <picture>
+                                    <img src="/assets/images/personal/credit-card.png" alt="" class="default-image-class">
+                                </picture>
+                                <div class="credit-box-content mt-3">
+                                    <h6>
+                                        Visa debit
+                                    </h6>
+                                    <div class="credit-box-btns d-flex align-items-center gap-3 mt-4 m-auto ">
+                                        <a href="#" class="solid-btn w-100 ">
+                                            Benefits & More
+                                        </a>
+                                        <a href="#" class="primary-btn w-100">
+                                            Apply Now
+                                        </a>
+                                    </div>
+                                    <div class="compare-container bg-gray-color mt-3 d-flex align-items-center justify-content-center gap-3 p-3 radius-10">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <p class="m-0">
+                                            Compare card
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="credit-box bg-gray-color-600 radius-30 p-20">
+                                <picture>
+                                    <img src="/assets/images/personal/credit-card.png" alt="" class="default-image-class">
+                                </picture>
+                                <div class="credit-box-content mt-3">
+                                    <h6>
+                                        Visa debit
+                                    </h6>
+                                    <div class="credit-box-btns d-flex align-items-center gap-3 mt-4 m-auto ">
+                                        <a href="#" class="solid-btn w-100 ">
+                                            Benefits & More
+                                        </a>
+                                        <a href="#" class="primary-btn w-100">
+                                            Apply Now
+                                        </a>
+                                    </div>
+                                    <div class="compare-container bg-gray-color mt-3 d-flex align-items-center justify-content-center gap-3 p-3 radius-10">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <p class="m-0">
+                                            Compare card
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Cards Section -->
+    <!-- Start Hero Section -->
+    <section class="hero-section position-relative person-banner">
+        <picture>
+            <img src="/assets/images/personal/bg-person-banner.png" alt="" class="hero-image d-none d-lg-block ">
+        </picture>
+        <picture class="path-bg">
+            <img src="/assets/images/personal/path-person-banner.png" alt="" class="hero-image d-none d-lg-block ">
+        </picture>
+        <div class="container person-banner-container position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-between flex-column text-center  ">
+            <h2>
+            Unlock the Full 
+            <br>
+            Power of Your Cards
+                
+            </h2>
+            <picture>
+                <img src="/assets/images/personal/person-banner.png" alt="">
+            </picture>
+        </div>
+    </section>
+    <section class="bg-gray-color-800 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="person-card">
+                        <h6>
+                            Protect your
+                                <br>
+                            balance
+                        </h6>
+                        <span class="gray-50 mb-2">
+                            Be prepared for unforeseen circumstances, such as job loss or disability, with credit card payment protection insurance.
+                        </span>
+                        <a href="#" class="text-decoration-underline ">
+                            <span>
+                                Understanding payment protection insurance
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="person-card">
+                        <h6>
+                            Save on the 
+                                <br>
+                            annual fee
+                        </h6>
+                        <span class="gray-50 mb-2">
+                            Be prepared for unforeseen circumstances, such as job loss or disability, with credit card payment protection insurance.
+                        </span>
+                        <a href="#" class="text-decoration-underline ">
+                            <span>
+                                Understanding payment protection insurance
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="person-card">
+                        <h6>
+                            Enjoy the benefits of our 
+                                <br>
+                            offer for professionals
+                        </h6>
+                        <span class="gray-50 mb-2">
+                            Be prepared for unforeseen circumstances, such as job loss or disability, with credit card payment protection insurance.
+                        </span>
+                        <a href="#" class="text-decoration-underline ">
+                            <span>
+                                Understanding payment protection insurance
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ai-btn-section py-4">
+        <div class="container d-flex align-items-center justify-content-center ">
+            <a href="#" class="ai-btn w-fit mt-0 mt-md-5">
+                <picture>
+                    <img src="/assets/images/ai-logo.png" alt="" class="ai-logo">
+                </picture>
+                <p class="m-0">ASK AJIB AI</p>
+                <picture>
+                    <img src="/assets/images/Star Icon.svg" alt="" width="16" height="16">
+                </picture>
+            </a>
+        </div>
+    </section>
+    <section class="article-section py-5">
+        <div class="container">
+            <div class="section-title text-center ">
+                <h5 class="fw-normal ">
+                    Get the most out of your cards 
+                    <br>
+                    with these articles
+                </h5>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <a href="#" class="article-card">
+                        <picture>
+                            <img src="/assets/images/personal/article-1.png" alt="" class="default-image-class">
+                        </picture>
+                        <p class="d-block my-3 text-white">
+                            How to maximize credit card rewards 
+                        </p>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="#" class="article-card">
+                        <picture>
+                            <img src="/assets/images/personal/article-2.png" alt="" class="default-image-class">
+                        </picture>
+                        <p class="d-block my-3 text-white">
+                            How to maximize credit card rewards 
+                        </p>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="#" class="article-card">
+                        <picture>
+                            <img src="/assets/images/personal/article-3.png" alt="" class="default-image-class">
+                        </picture>
+                        <p class="d-block my-3 text-white">
+                            How to maximize credit card rewards 
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <a href="#" class="primary-btn w-fit m-auto mt-4 ">
+                See All Articles
+            </a>
+        </div>
+    </section>
+    <!-- End Hero Section -->
+    <!-- Start Footer Section -->
+    <footer class="footer-section">
+        <div class="container">
+            <!-- Top: Logo + Nav + QR -->
+            <div class="footer-top d-flex align-items-start justify-content-between gap-4 flex-column ">
+                <div class="footer-logo mb-4">
+                    <picture>
+                        <img src="/assets/images/logo-white.png" alt="AJIB" class="footer-logo-img">
+                    </picture>
+                </div>
+                <div class="footer-nav d-flex gap-5 flex-wrap">
+                    <div class="footer-nav-col">
+                        <ul class="footer-nav-list">
+                            <li><a href="#" class="lg-size semi-bold-font gray-25">Locations</a></li>
+                            <li><a href="#" class="lg-size regular-font gray-50">Subsidiaries &amp; <br />
+                                    Affiliates</a></li>
+                            <li><a href="#" class="lg-size regular-font gray-50">ATMs</a></li>
+                            <li><a href="#" class="lg-size regular-font gray-50">Branches</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav-col">
+                        <ul class="footer-nav-list">
+                            <li><a href="#" class="lg-size semi-bold-font gray-25">Complaints</a></li>
+                            <li><a href="#" class="lg-size semi-bold-font gray-25">Feedback</a></li>
+                            <li><a href="#" class="lg-size semi-bold-font gray-25">Careers</a></li>
+                            <li><a href="#" class="lg-size semi-bold-font gray-25">Sitemap</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav-col">
+                        <ul class="footer-nav-list">
+                            <li><a href="#" class="lg-size semi-bold-font gray-25">Tariff of Charges </a>
+                            </li>
+                            <li><a href="#" class="lg-size semi-bold-font gray-25">Download Centre</a></li>
+                            <li><a href="#" class="lg-size semi-bold-font gray-25">Legal Disclaimer</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav-col">
+                        <p class="footer-nav-title "></p>
+                        <ul class="footer-nav-list">
+                            <li><a href="#" class="lg-size semi-bold-font gray-25">Reach us</a></li>
+                            <li><a href="#" class="lg-size regular-font gray-50">Call center</a></li>
+                            <li><a href="#" class="lg-size regular-font gray-50">ATMs</a></li>
+                            <li><a href="#" class="lg-size regular-font gray-50">Branches</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- QR Section -->
+
+            </div>
+            <!-- Tagline -->
+            <div class="footer-tagline d-flex align-items-center justify-content-between ">
+                <h1 class="bold-font gray-25">Change the<br>way you money</h1>
+                <picture>
+                    <img src="/assets/images/qr-footer.png" alt="" class="default-image-class">
+                </picture>
+            </div>
+        </div>
+        <!-- Bottom Bar -->
+        <div class="footer-bottom">
+            <div class="container d-flex align-items-center justify-content-between gap-3 flex-wrap">
+                <p class="footer-copy md-size gray-25">© 2025 Developed by dot.jo. all rights reserved.</p>
+                <div class="footer-social d-flex align-items-center gap-1">
+                    <a href="#" class="footer-social-link"><i cla`ss="fa-brands fa-facebook"></i></a>
+                    <picture>
+                        <img src="/assets/icons/youtube.svg" alt="" width="32" height="32">
+                    </picture>
+                    <a href="#" class="footer-social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="footer-social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" class="footer-social-link"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="footer-social-link"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+</body>
+
+</html>
