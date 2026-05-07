@@ -1,8 +1,16 @@
 .online-btn {
-    height: 43px !important;
+    height: 35px !important;
+    padding: 7px 17px !important;
+    font-weight: 500 !important;
+}
+.ai-btn::before {
+    padding: 1.5px;
 }
 .nav-link-item {
-    padding: 5px 15px;
+    padding: 5px 20px ;
+}
+.nav-links {
+    padding: 2px 6px;
 }
 /* Start Ticker */
 .security-ticker {
