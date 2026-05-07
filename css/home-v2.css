@@ -439,7 +439,7 @@ ul {
     background-image:
         linear-gradient(to bottom, #181818 0%, transparent 18%, transparent 82%, #181818 100%),
         linear-gradient(rgba(24, 24, 24, 0.6), rgba(24, 24, 24, 0.6)),
-        url(../assets/images/Experience\ AJIB\ bg.png);
+        url("../assets/images/exp.jpg");
 
     background-repeat: no-repeat;
     background-size: cover;
