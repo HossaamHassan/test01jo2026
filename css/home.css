@@ -3,52 +3,67 @@
     padding: 7px 17px !important;
     font-weight: 400 !important;
 }
+
 .ai-btn::before {
     padding: 1.6px;
 }
+
 .nav-link-item {
     padding: 5px 20px;
 }
+
 .nav-link-item.active {
     padding: 5px 23px;
 }
+
 .nav-links {
     padding: 2px 6px;
 }
+
 .ai-btn {
     padding: 10px 19px !important;
     gap: .8rem !important;
 }
+
 .ai-btn p {
     font-size: .95rem !important;
 }
+
 .ai-btn .ai-logo {
     width: 27px !important;
     height: 27px !important;
 }
+
 .bank-requirements-section::before {
     display: none !important;
 }
+
 .primary-btn {
     font-weight: 500 !important;
 }
+
 .loans-section h4 {
     font-size: 3.2rem;
 }
+
 .loans-section span {
-    font-size: 1.05rem;
+    font-size: 1.1rem;
     font-weight: 400;
 }
+
 .footer-nav-list li {
     max-width: 140px;
     line-height: 17px;
 }
+
 .footer-nav-list li br {
     display: none;
 }
+
 .footer-nav-list {
     gap: 8px;
 }
+
 /* Start Ticker */
 .security-ticker {
     /* background-color: #181818; */
@@ -56,9 +71,11 @@
     white-space: nowrap;
     padding-block: 9rem 6rem;
 }
+
 .arabic-version .security-ticker {
     padding-block: 11rem 6rem;
 }
+
 .ticker-track {
     display: inline-flex;
     animation: ticker-scroll 18s linear infinite;
@@ -116,12 +133,14 @@
     -webkit-background-clip: text;
     color: transparent;
 }
+
 .arabic-version .hero-title .highlight {
     background: unset;
     -webkit-text-fill-color: unset;
     background-clip: transparent;
     color: #fff;
 }
+
 .hero-section .hero-image {
     height: auto;
     width: 100%;
@@ -163,11 +182,13 @@
     width: 120%;
     height: 450px;
 }
+
 .arabic-version .bank-requirements-section::before {
     transform: rotate(12deg);
     top: -20%;
     height: 500px;
 }
+
 /* End Bank Requirements Section */
 .services-section {
     padding-block: 0rem 7rem;
@@ -241,17 +262,21 @@
     background-color: #2d2d2d;
     max-width: 345px;
 }
+
 .arabic-version .personal-loan-content span,
 .arabic-version .loan-offer-container span {
     font-size: 1.1rem;
     line-height: 1.4rem;
 }
+
 .arabic-version .personal-loan-content span {
     max-width: 673px;
 }
+
 .arabic-version .loan-offer-container span {
     max-width: 534px;
 }
+
 /* End Loans Section */
 /* Start Experience Section */
 .experience-section .section-title p {
@@ -291,7 +316,7 @@
 }
 
 .exp-card-title h5 {
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.39);
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 70%);
 }
 
 
@@ -375,8 +400,8 @@
 
 .ai-hero-btn,
 .ai-hero-btn::before {
-    width: 96px;
-    height: 96px;
+    width: 75px;
+    height: 75px;
     border-radius: 999px;
 }
 

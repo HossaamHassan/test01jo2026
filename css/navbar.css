@@ -44,6 +44,8 @@
     transition: color 0.2s, background-color 0.2s;
     white-space: nowrap;
     font-weight: 300;
+    min-width: 129px;
+    text-align: center;
 }
 
 .nav-link-item:hover {
@@ -142,14 +144,17 @@
     height: 47px;
     font-weight: 600;
 }
+
 .arabic-version .online-btn {
     height: 43px;
     padding: 7px 20px;
 
 }
+
 .arabic-version .online-btn {
     font-weight: 500;
 }
+
 .online-btn,
 .online-btn::before {
     border-radius: 50px;
@@ -185,12 +190,15 @@
 .nav-lang-btn:hover {
     color: #fff;
 }
+
 .nav-lang-btn span {
     font-size: .75rem;
 }
+
 .arabic-version .nav-lang-btn span {
     margin-top: -5px;
 }
+
 .nav-cta-btn {
     padding: 0.45rem 1.1rem;
     border-radius: 999px;
