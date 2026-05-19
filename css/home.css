@@ -428,6 +428,12 @@
     }
 }
 
+@media (min-width: 1600px) {
+    .ai-btns {
+        right: 10vw;
+    }
+}
+
 .ai-btns .ask-ai-btn,
 .ai-btns .ai-hero-btn {
     position: absolute;
