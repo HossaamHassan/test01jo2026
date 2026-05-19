@@ -1,5 +1,5 @@
 .online-btn {
-    height: 35px !important;
+    height: 42px !important;
     padding: 7px 17px !important;
     font-weight: 400 !important;
 }
@@ -16,13 +16,16 @@
     padding: 5px 23px;
 }
 
-.nav-links {
-    padding: 2px 6px;
-}
 
 .ai-btn {
     padding: 10px 19px !important;
     gap: .8rem !important;
+}
+
+@media (max-width: 1199.98px) {
+    .ai-btn {
+        padding: 10px 15px !important;
+    }
 }
 
 .ai-btn p {
@@ -201,7 +204,22 @@
 }
 
 .services-section .services-card {
-    padding: 25px 30px;
+    padding: 40px;
+    transition: .3s;
+}
+
+.services-section .services-card picture {
+    width: 42px;
+    height: 42px;
+}
+
+.services-section .services-card img {
+    width: 24px;
+    height: 24px;
+}
+
+.services-section .services-card:hover picture {
+    background-color: #5B9BF4;
 }
 
 .services-section-container {
@@ -287,14 +305,10 @@
     position: absolute;
     top: 0;
     height: 100%;
-    padding: 30px 30px 20px 30px !important;
+    padding: 35px 20px 20px 20px !important;
 }
 
-@media (max-width: 1399.98px) {
-    .exp-card-content {
-        padding: 20px !important;
-    }
-}
+
 
 .exp-desc {
     background-color: rgb(255 255 255 / 50%);
@@ -317,6 +331,7 @@
 
 .exp-card-title h5 {
     text-shadow: 0px 4px 4px rgb(0 0 0 / 70%);
+    padding-inline-start: 20px;
 }
 
 
@@ -378,9 +393,39 @@
 
 .ai-btns {
     position: fixed;
-    right: max(12px, calc((100vw - 1320px) / 2));
-    bottom: 10%;
+    right: 12px;
+    bottom: 85px;
     z-index: 999999;
+}
+
+@media (min-width: 576px) {
+    .ai-btns {
+        right: max(12px, calc((100vw - 540px) / 2));
+    }
+}
+
+@media (min-width: 768px) {
+    .ai-btns {
+        right: max(12px, calc((100vw - 720px) / 2));
+    }
+}
+
+@media (min-width: 992px) {
+    .ai-btns {
+        right: max(12px, calc((100vw - 960px) / 2));
+    }
+}
+
+@media (min-width: 1200px) {
+    .ai-btns {
+        right: max(12px, calc((100vw - 1140px) / 2));
+    }
+}
+
+@media (min-width: 1400px) {
+    .ai-btns {
+        right: max(12px, calc((100vw - 1320px) / 2));
+    }
 }
 
 .ai-btns .ask-ai-btn,
@@ -458,11 +503,6 @@
     pointer-events: auto;
 }
 
-@media (min-width: 1600px) {
-    .ai-btns {
-        right: 10vw;
-    }
-}
 
 @media (max-width: 767.98px) {
     .hero-section {
@@ -527,4 +567,24 @@
 .arabic-version .special-section .section-title h2 {
     text-align: right;
     line-height: 5.2rem;
+}
+
+.brand-color {
+    background: #9E77ED;
+}
+
+.blue-color {
+    background: #2E90FA;
+}
+
+.orange-color {
+    background: #F79009;
+}
+
+.green-color {
+    background: #12B76A;
+}
+
+.purple-color {
+    background: #7A5AF8;
 }
