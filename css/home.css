@@ -1,5 +1,5 @@
 .online-btn {
-    height: 45px !important;
+    height: 47px !important;
     padding: 7px 17px !important;
     font-weight: 400 !important;
 }
@@ -9,16 +9,16 @@
 }
 
 .nav-link-item {
-    padding: 5px 20px;
+    padding: 7px 0;
 }
 
 .nav-link-item.active {
-    padding: 5px 23px;
+    padding: 7px 0;
 }
 
 
 .ai-btn {
-    padding: 10px 19px !important;
+    padding: 12px 23px !important;
     gap: .8rem !important;
 }
 
@@ -216,10 +216,6 @@
 .services-section .services-card img {
     width: 24px;
     height: 24px;
-}
-
-.services-section .services-card:hover picture {
-    background-color: #5B9BF4;
 }
 
 .services-section-container {
@@ -578,19 +574,31 @@
 .brand-color {
     background: #9E77ED;
 }
+.services-section .services-card:hover .brand-color {
+    background-color: #BBA0F2;
+}
 
 .blue-color {
     background: #2E90FA;
 }
-
+.services-section .services-card:hover .blue-color {
+    background-color: #6DB1FC;
+}
 .orange-color {
     background: #F79009;
 }
-
+.services-section .services-card:hover .orange-color {
+    background-color: #F9B153;
+}
 .green-color {
     background: #12B76A;
 }
-
+.services-section .services-card:hover .green-color {
+    background-color: #59CD97;
+}
 .purple-color {
     background: #7A5AF8;
+}
+.services-section .services-card:hover .purple-color  {
+    background-color: #A28BFA;
 }

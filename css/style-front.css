@@ -713,7 +713,7 @@ a {
     gap: 0.5rem;
     padding: 10px 20px;
     box-shadow: 0px 0px 25px 0px #4DE1FF4D;
-    border-radius: 11px;
+    border-radius: 14px;
 }
 
 .ai-btn .ai-logo {
@@ -747,7 +747,7 @@ a {
     padding: 9px 15px;
     border-radius: 50px;
     font-weight: 400;
-    font-size: .85rem;
+    font-size: 1rem;
     align-items: center;
     justify-content: center;
 }
@@ -790,6 +790,7 @@ a {
     width: 100%;
     max-width: 575px;
     overflow: hidden;
+    margin-block: 7rem !important;
 }
 
 .ai-support-banner h4 {
