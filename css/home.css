@@ -400,7 +400,7 @@
 .ai-btns {
     position: fixed;
     right: 12px;
-    bottom: 85px;
+    bottom: 100px;
     z-index: 999999;
 }
 
@@ -459,8 +459,8 @@
 
 .ai-hero-btn,
 .ai-hero-btn::before {
-    width: 75px;
-    height: 75px;
+    width: 95px;
+    height: 95px;
     border-radius: 999px;
 }
 
