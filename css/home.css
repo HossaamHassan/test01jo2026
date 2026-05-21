@@ -322,7 +322,8 @@
     text-align: start;
     margin: 0;
     line-height: var(--card-line-height);
-    font-size: .95rem;
+    font-size: 1.1rem;
+    font-weight: 300;
 }
 
 .exp-desc i {
