@@ -234,7 +234,13 @@
 .nav-actions {
     flex: 1;
 }
-
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar-brand-logo,
+    .nav-links,
+    .nav-actions {
+        flex: unset;
+    }
+}
 .with-file {
     text-decoration: underline !important;
     text-underline-offset: 6px;
