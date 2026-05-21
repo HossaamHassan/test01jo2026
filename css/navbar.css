@@ -175,7 +175,9 @@
 .mega-col ul li a {
     font-weight: 300;
 }
-
+.nav-search-btn:hover, .nav-lang-btn:hover {
+    background-color: #646464;
+}
 /* Right Actions */
 .nav-search-btn,
 .nav-lang-btn {

@@ -331,7 +331,9 @@
 .exp-desc i {
     font-size: 10px;
 }
-
+.exp-desc .aspect-btn:hover {
+    background-color: #5d5d5d;
+}
 .exp-card-title h5 {
     text-shadow: 0px 4px 4px rgb(0 0 0 / 30%);
     padding-inline-start: 30px;
@@ -586,34 +588,34 @@
 .brand-color {
     background: #9E77ED;
 }
-/* .services-section .services-card:hover .brand-color {
+.services-section .services-card:hover .brand-color {
     background-color: #BBA0F2;
-} */
+}
 
 .blue-color {
     background: #2E90FA;
 }
-/* .services-section .services-card:hover .blue-color {
+.services-section .services-card:hover .blue-color {
     background-color: #6DB1FC;
-} */
+}
 .orange-color {
     background: #F79009;
 }
-/* .services-section .services-card:hover .orange-color {
+.services-section .services-card:hover .orange-color {
     background-color: #F9B153;
-} */
+}
 .green-color {
     background: #12B76A;
 }
-/* .services-section .services-card:hover .green-color {
+.services-section .services-card:hover .green-color {
     background-color: #59CD97;
-} */
+}
 .purple-color {
     background: #7A5AF8;
 }
-/* .services-section .services-card:hover .purple-color  {
+.services-section .services-card:hover .purple-color  {
     background-color: #A28BFA;
-} */
+}
 .special-section h1 {
     line-height: 7rem !important;
     font-size: 5.3rem !important;
