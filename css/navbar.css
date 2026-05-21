@@ -108,8 +108,11 @@
     font-size: .85rem;
     font-weight: 500;
     line-height: 15px;
+    color: #dcdcdc;
 }
-
+.mega-col .md-size:hover {
+    color: var(--blue-color);
+}
 .mega-col h6 {
     color: #fff;
     font-size: 0.8rem;

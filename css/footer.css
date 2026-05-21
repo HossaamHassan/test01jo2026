@@ -67,10 +67,13 @@
     font-weight: 500;
 }
 
-/* .footer-nav-list li a:hover {
-    color: #fff;
-} */
-
+.footer-nav-list li a:hover,
+.footer-social-link:hover i {
+    color: var(--blue-color) !important;
+}
+.footer-social-link:hover img {
+    filter: brightness(0) saturate(100%) invert(35%) sepia(78%) saturate(3399%) hue-rotate(204deg) brightness(95%) contrast(96%);
+}
 .footer-qr-widget {
     min-width: 250px;
     max-width: 500px;
