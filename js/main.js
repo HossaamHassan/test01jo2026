@@ -13,6 +13,8 @@ $(document).ready(function () {
         $track[0].style.setProperty("--ticker-width", "-" + singleSetWidth + "px");
     }
 
+    var $defaultActive = $(".nav-item.has-mega .nav-link-item.active").first();
+
     function openNav($item) {
         clearTimeout($item.data("hideTimer"));
         $item.find(".mega-menu").addClass("open");
@@ -23,6 +25,7 @@ $(document).ready(function () {
         $item.data("hideTimer", setTimeout(function () {
             $item.find(".mega-menu").removeClass("open");
             $item.find(".nav-link-item").removeClass("active");
+            $defaultActive.addClass("active");
         }, 200));
     }
 
