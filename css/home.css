@@ -18,7 +18,7 @@
 
 
 .ai-btn {
-    padding: 14px 26px !important;
+    padding: 15px 24px !important;
     gap: .8rem !important;
 }
 
@@ -30,9 +30,10 @@
 
 .ai-btn p {
     font-size: .95rem !important;
+    font-weight: 400 !important;
 }
 .bank-requirements-section .ai-btn p {
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
 }
 .ai-btn .ai-logo {
     width: 32px !important;
@@ -296,22 +297,23 @@
 /* End Loans Section */
 /* Start Experience Section */
 .experience-section .section-title p {
-    margin-top: 16px;
+    margin-top: 24px;
+    font-size: 1.8rem;
 }
 
 .exp-card-content {
     position: absolute;
     top: 0;
     height: 100%;
-    padding: 35px 20px 20px 20px !important;
+    padding: 45px 20px 20px 20px !important;
 }
 
 
 
 .exp-desc {
-    background-color: rgb(255 255 255 / 50%);
+    background-color: rgb(255 255 255 / 40%);
     /* min-height: 124px; */
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(2px);
 }
 
 .exp-desc p {
@@ -328,8 +330,9 @@
 }
 
 .exp-card-title h5 {
-    text-shadow: 0px 4px 4px rgb(0 0 0 / 70%);
-    padding-inline-start: 20px;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 30%);
+    padding-inline-start: 30px;
+    font-size: 2.5rem;
 }
 
 
@@ -603,4 +606,8 @@
 }
 .services-section .services-card:hover .purple-color  {
     background-color: #A28BFA;
+}
+.special-section h1 {
+    line-height: 7rem !important;
+    font-size: 5.3rem !important;
 }
