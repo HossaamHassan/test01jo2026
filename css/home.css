@@ -440,7 +440,7 @@
     }
 }
 .ai-btns .ai-hero-btn {
-    padding: 17px !important;
+    padding: 20px !important;
 }
 .ai-btns .ask-ai-btn,
 .ai-btns .ai-hero-btn {
@@ -459,8 +459,8 @@
 
 .ai-hero-btn,
 .ai-hero-btn::before {
-    width: 95px;
-    height: 95px;
+    width: 90px;
+    height: 90px;
     border-radius: 999px;
 }
 
