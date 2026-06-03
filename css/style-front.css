@@ -2,6 +2,7 @@
     --black-color: #181818;
     --bg-body: #181818;
     --gray-color: #222222;
+    --gray-25: #f3f3f3;
     --gray-color-600: #2d2d2d;
     --gray-color-800: #1f1f1f;
     --white-color: #FFFFFF;
@@ -143,7 +144,7 @@
 
 body {
     font-family: var(--font-family);
-    color: var(--white-color);
+    color: var(--gray-25);
     background-color: var(--bg-body);
     overflow-x: hidden;
 }
@@ -443,6 +444,7 @@ ul {
     }
 } */
 
+
 h1 {
     font-size: 6rem;
     font-weight: 500;
@@ -486,7 +488,7 @@ h4 {
 
 h5 {
     font-size: 2rem;
-    line-height: 55px;
+    /* line-height: 55px; */
     font-weight: 700;
 }
 
@@ -496,7 +498,7 @@ h5 {
 }
 
 h6 {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: 400;
 }
 
@@ -547,6 +549,42 @@ a {
 
 .bold-font {
     font-weight: 700;
+}
+
+.size-22 {
+    font-size: 1.4rem !important;
+}
+
+.size-30 {
+    font-size: 1.875rem !important;
+    line-height: 2.25rem !important;
+}
+
+.mw-400 {
+    max-width: 400px;
+}
+
+@media (max-width: 991.98px) {
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 500;
+        line-height: 3.3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 2.3rem;
+    }
+
+    h3 {
+        font-size: 2.2rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
 }
 
 /* Webkit box  */
@@ -688,7 +726,7 @@ a {
 }
 
 .bg-gray-color {
-    background-color: var(--gray-color);
+    background-color: var(--gray-color) !important;
 }
 
 .bg-gray-color-600 {
@@ -751,12 +789,23 @@ a {
     align-items: center;
     justify-content: center;
 }
+
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+
     .primary-btn,
     .solid-btn {
         padding: 15px 16px;
     }
 }
+
+@media (max-width: 991.98px) {
+
+    .primary-btn,
+    .solid-btn {
+        padding: 7px 22px;
+    }
+}
+
 .arabic-version .primary-btn {
     padding: 10px 21px;
 }
@@ -797,21 +846,25 @@ a {
     overflow: hidden;
     margin-block: 7rem !important;
 }
+
 .ai-support-banner .ai-btn {
     padding: 12px 24px !important;
 }
+
 .ai-support-banner h4 {
     line-height: unset;
 }
+
 .ai-support-banner .regular-size {
     font-size: 1.6rem;
     font-weight: 500;
     margin-bottom: 2px;
 }
+
 .ai-support-title {
     color: #fff;
     font-weight: 700;
-    font-size: 1.1rem; 
+    font-size: 1.1rem;
     margin-bottom: 0.25rem;
 }
 

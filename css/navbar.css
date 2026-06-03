@@ -110,9 +110,11 @@
     line-height: 15px;
     color: #dcdcdc;
 }
+
 .mega-col .md-size:hover {
     color: var(--blue-color);
 }
+
 .mega-col h6 {
     color: #fff;
     font-size: 0.8rem;
@@ -175,9 +177,12 @@
 .mega-col ul li a {
     font-weight: 300;
 }
-.nav-search-btn:hover, .nav-lang-btn:hover {
+
+.nav-search-btn:hover,
+.nav-lang-btn:hover {
     background-color: #646464;
 }
+
 /* Right Actions */
 .nav-search-btn,
 .nav-lang-btn {
@@ -239,13 +244,16 @@
 .nav-actions {
     flex: 1;
 }
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
     .navbar-brand-logo,
     .nav-links,
     .nav-actions {
         flex: unset;
     }
 }
+
 .with-file {
     text-decoration: underline !important;
     text-underline-offset: 6px;
@@ -255,3 +263,8 @@
 }
 
 /* End Navbar */
+@media (max-width: 991.98px) {
+    .nav-actions {
+        display: none !important;
+    }
+}

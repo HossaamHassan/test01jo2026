@@ -21,9 +21,11 @@
     padding: 15px 24px !important;
     gap: .8rem !important;
 }
+
 .ai-btn:hover {
     background-color: #5d5d5d;
 }
+
 @media (max-width: 1199.98px) {
     .ai-btn {
         padding: 10px 15px !important;
@@ -34,9 +36,11 @@
     font-size: .95rem !important;
     font-weight: 400 !important;
 }
+
 .bank-requirements-section .ai-btn p {
     font-size: 1.1rem !important;
 }
+
 .ai-btn .ai-logo {
     width: 32px !important;
     height: 32px !important;
@@ -331,9 +335,11 @@
 .exp-desc i {
     font-size: 10px;
 }
+
 .exp-desc .aspect-btn:hover {
     background-color: #5d5d5d;
 }
+
 .exp-card-title h5 {
     text-shadow: 0px 4px 4px rgb(0 0 0 / 30%);
     padding-inline-start: 30px;
@@ -439,9 +445,11 @@
         right: 10vw;
     }
 }
+
 .ai-btns .ai-hero-btn {
     padding: 20px !important;
 }
+
 .ai-btns .ask-ai-btn,
 .ai-btns .ai-hero-btn {
     position: absolute;
@@ -546,30 +554,8 @@
         gap: 15px;
     }
 
-    .services-card {
-        gap: 25px !important;
-        padding: 16px !important;
-    }
-
-    .services-section {
-        padding-block: 4rem;
-    }
-
-    .special-section .section-title {
-        gap: 24px;
-    }
-
-    .loan-offer,
-    .loan-calculator {
-        padding: 24px !important;
-    }
 }
 
-@media (max-width: 375.98px) {
-    .services-section-container {
-        grid-template-columns: 1fr;
-    }
-}
 
 @media (max-width: 1399.98px) {
 
@@ -582,12 +568,15 @@
     text-align: right;
     line-height: 5.2rem;
 }
+
 .services-section .services-card:hover {
     background-color: #646464;
 }
+
 .brand-color {
     background: #9E77ED;
 }
+
 .services-section .services-card:hover .brand-color {
     background-color: #BBA0F2;
 }
@@ -595,28 +584,150 @@
 .blue-color {
     background: #2E90FA;
 }
+
 .services-section .services-card:hover .blue-color {
     background-color: #6DB1FC;
 }
+
 .orange-color {
     background: #F79009;
 }
+
 .services-section .services-card:hover .orange-color {
     background-color: #F9B153;
 }
+
 .green-color {
     background: #12B76A;
 }
+
 .services-section .services-card:hover .green-color {
     background-color: #59CD97;
 }
+
 .purple-color {
     background: #7A5AF8;
 }
-.services-section .services-card:hover .purple-color  {
+
+.services-section .services-card:hover .purple-color {
     background-color: #A28BFA;
 }
+
 .special-section h1 {
     line-height: 7rem !important;
     font-size: 5.3rem !important;
+}
+
+@media (max-width: 991.98px) {
+    .hero-title {
+        top: 11%;
+    }
+
+    .hero-section-container .hero-image {
+        width: 1100px;
+        margin-top: -2rem;
+    }
+
+    .bank-requirements-container {
+        background-color: #1f1f1f;
+        border-radius: 20px;
+        padding: 24px;
+        gap: 25px;
+    }
+
+    .services-section .section-title p {
+        font-size: 1.2rem;
+    }
+
+    .services-card {
+        padding: 16px !important;
+        border-radius: 20px !important;
+    }
+
+    .services-section {
+        padding-block: 0;
+        margin-top: 1rem !important;
+    }
+
+    .special-section h1 {
+        font-size: 2.5rem !important;
+        line-height: 3.3rem !important;
+    }
+
+    .special-section .section-title {
+        gap: 0px;
+    }
+
+    .special-section::before {
+        width: 120vw;
+    }
+
+    .loans-section h4 {
+        font-size: 2.2rem;
+    }
+
+    .loan-offer,
+    .loan-calculator {
+        padding: 24px !important;
+        height: auto !important;
+    }
+
+    .loan-image,
+    .personal-image {
+        max-width: 200px;
+        padding: 10px;
+    }
+
+    .security-ticker {
+        padding-block: 4rem !important;
+    }
+
+    .experience-section .section-title p {
+        font-size: 1.2rem;
+        max-width: 250px;
+        margin: 0;
+    }
+
+    .exp-card-title h5 {
+        font-size: 2rem;
+    }
+
+    .exp-card-content {
+        padding: 25px 15px 15px 15px !important;
+    }
+
+    .exp-card-title h5 {
+        padding-inline-start: 15px;
+    }
+
+    .exp-card {
+        border-radius: 20px !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .hero-section-container .hero-image {
+        margin-top: -5rem;
+    }
+
+    .hero-title {
+        top: 4%;
+    }
+
+    .personal-loan-order {
+        order: -1;
+    }
+
+    .ai-support-banner {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .ai-support-sub {
+        max-width: 250px;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 5px
+    }
 }
