@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/nice-select.css">
+    <link rel="stylesheet" href="/css/fancybox.css">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/css/forms.css">
+    <link rel="stylesheet" href="/css/style-front.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/personal.css">
+    <link rel="stylesheet" href="/css/transfers.css">
+    <link rel="stylesheet" href="/css/custom.css">
+    <script src="/js/jquery-3.7.1.js"></script>
+    <script src="/js/jquery.nice-select.js"></script>
+    <script src="/js/fancybox.umd.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/intlTelInputWithUtils.min.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+    <title>Transfers</title>
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <nav class="main-navbar">
+        <div class="container">
+            <div class="navbar-inner d-flex align-items-center justify-content-between gap-4">
+
+                <!-- Logo -->
+                <a href="#" class="navbar-brand-logo d-flex align-items-center gap-2">
+                    <picture>
+                        <img src="/assets/images/logo-white.png" alt="AJIB" class="nav-logo-img">
+                    </picture>
+                </a>
+
+                <!-- Nav Links -->
+                <ul class="nav-links d-flex align-items-center mb-0 list-unstyled justify-content-between  ">
+                    <li class="nav-item has-mega">
+                        <a href="#" class="nav-link-item sm-size active">Personal</a>
+                        <!-- Mega Menu -->
+                        <div class="mega-menu px-5">
+                            <div class="container">
+                                <h6 class="regular-size semi-bold-font mb-3">Personal Banking</h6>
+                                <div class="mega-cols mt-4">
+                                    <div class="mega-col">
+                                        <a href="#" class="md-size">Accounts</a>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">Current</a></li>
+                                            <li><a href="#" class="sm-size">Savings</a></li>
+                                            <li><a href="#" class="sm-size">Time Deposit</a></li>
+                                            <li><a href="#" class="sm-size">Future</a></li>
+                                            <li><a href="#" class="sm-size">Champions</a></li>
+                                            <li><a href="#" class="sm-size">Cheques</a></li>
+                                            <li><a href="#" class="sm-size">IBAN Generator</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <a href="#" class="md-size">Cards</a>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">Credit</a></li>
+                                            <li><a href="#" class="sm-size">Debit</a></li>
+                                            <li><a href="#" class="sm-size">Prepaid</a></li>
+                                            <li><a href="#" class="sm-size">Wearables</a></li>
+                                            <li><a href="#" class="sm-size">RJ Debit</a></li>
+                                            <li><a href="#" class="sm-size">AJIB Rewards</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <a href="#" class="md-size">Loans</a>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">Personal</a></li>
+                                            <li><a href="#" class="sm-size">Home</a></li>
+                                            <li><a href="#" class="sm-size">AJIB MA3AK</a></li>
+                                            <li><a href="#" class="sm-size">Loan Calculator</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <a href="#" class="md-size">Transfers</a>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">International</a></li>
+                                            <li><a href="#" class="sm-size">Local</a></li>
+                                            <li><a href="#" class="sm-size">RTGS</a></li>
+                                            <li><a href="#" class="sm-size">ACH</a></li>
+                                            <li><a href="#" class="sm-size">Western Union</a></li>
+                                            <li><a href="#" class="sm-size">Mastercard Transfast</a></li>
+                                            <li><a href="#" class="sm-size">AJIB Global Branches</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <a href="#" class="md-size">Personalized Banking</a>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">Prestige Program</a></li>
+                                            <li><a href="#" class="sm-size">VIP Banking</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <a href="#" class="md-size">Investments&amp; Insurance</a>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">AJIB Trading</a></li>
+                                            <li><a href="#" class="sm-size">Wealth Management</a></li>
+                                            <li><a href="#" class="sm-size">Treasury</a></li>
+                                            <li><a href="#" class="sm-size">Prestige life</a></li>
+                                            <li><a href="#" class="sm-size">Sanctuary</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item has-mega">
+                        <a href="#" class="nav-link-item sm-size">Business</a>
+                        <!-- Mega Menu -->
+                        <div class="mega-menu px-5">
+                            <div class="container">
+                                <h6 class="regular-size semi-bold-font mb-3">Business Banking</h6>
+                                <div class="mega-cols mt-4">
+                                    <div class="mega-col">
+                                        <a href="#" class="md-size">Corporate banking</a>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">Corporate Finance</a></li>
+                                            <li><a href="#" class="sm-size">Project &amp; Structured Finance</a></li>
+                                            <li><a href="#" class="sm-size">Corporate Lending</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <a href="#" class="md-size">Transacting Banking</a>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">Cash Management</a></li>
+                                            <li><a href="#" class="sm-size">Trade Finance</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <a href="#" class="md-size">SMEs</a>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">SMEs Overview</a></li>
+                                            <li><a href="#" class="sm-size">Products &amp; Services</a></li>
+                                            <li><a href="#" class="sm-size">SME Centers</a></li>
+                                            <li><a href="#" class="sm-size">Success Stories</a></li>
+                                            <li><a href="#" class="sm-size">FAQs</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item has-mega">
+                        <a href="#" class="nav-link-item sm-size">Digital</a>
+                        <!-- Mega Menu -->
+                        <div class="mega-menu px-5">
+                            <div class="container">
+                                <h6 class="regular-size semi-bold-font mb-3">Digital Banking</h6>
+                                <div class="mega-cols mt-4">
+                                    <div class="mega-col">
+                                        <a href="#" class="md-size">Digital Services</a>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">Mobile Banking</a></li>
+                                            <li><a href="#" class="sm-size">Internet Banking</a></li>
+                                            <li><a href="#" class="sm-size">ATM Services</a></li>
+                                            <li><a href="#" class="sm-size">Call Center</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <a href="#" class="md-size">Security &amp; Support</a>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">AJIB Security</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <a href="#" class="md-size">Payment Solutions</a>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">Apple Pay</a></li>
+                                            <li><a href="#" class="sm-size">Google Pay</a></li>
+                                            <li><a href="#" class="sm-size">eFAWATEERcom</a></li>
+                                            <li><a href="#" class="sm-size">CliQ</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <a href="#" class="md-size">Transfers</a>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">International</a></li>
+                                            <li><a href="#" class="sm-size">Local</a></li>
+                                            <li><a href="#" class="sm-size">Western Union</a></li>
+                                            <li><a href="#" class="sm-size">Mastercard Transfast</a></li>
+                                            <li><a href="#" class="sm-size">AJIB Global Branches</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item has-mega">
+                        <a href="#" class="nav-link-item sm-size">Help &amp; About</a>
+                        <!-- Mega Menu -->
+                        <div class="mega-menu px-5">
+                            <div class="container">
+                                <h6 class="regular-size semi-bold-font mb-3">Company</h6>
+                                <div class="mega-cols mt-4">
+                                    <div class="mega-col">
+                                        <a href="#" class="md-size">Company</a>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">About AJIB</a></li>
+                                            <li><a href="#" class="sm-size">Investor Relations</a></li>
+                                            <li><a href="#" class="sm-size">Subsidiaries &amp; Affiliates</a></li>
+                                            <li><a href="#" class="sm-size">International Branches</a></li>
+                                            <li><a href="#" class="sm-size">Annual Reports</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <a href="#" class="md-size">Documents</a>
+                                        <ul>
+                                            <li><a href="#" class="sm-size with-file">
+                                                    <picture>
+                                                        <img src="./assets/icons/document-text.svg" alt="">
+                                                    </picture>
+                                                    Corporate Governance
+                                                </a></li>
+                                            <li><a href="#" class="sm-size with-file">
+                                                    <picture>
+                                                        <img src="./assets/icons/document-text.svg" alt="">
+                                                    </picture>
+                                                    Correspondent Banks
+                                                </a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <a href="#" class="md-size">Resources</a>
+                                        <ul>
+                                            <li><a href="#" class="sm-size with-file">
+                                                    <picture>
+                                                        <img src="./assets/icons/document-text.svg" alt="">
+                                                    </picture>
+                                                    Tariff of Charges
+                                                </a>
+                                            </li>
+                                            <li><a href="#" class="sm-size">ATMs and Branches</a></li>
+                                            <li><a href="#" class="sm-size">Download Centre</a></li>
+                                            <li><a href="#" class="sm-size">Newsroom</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-col">
+                                        <a href="#" class="md-size">Help &amp; Support</a>
+                                        <ul>
+                                            <li><a href="#" class="sm-size">Contact Centre</a></li>
+                                            <li><a href="#" class="sm-size">Complaints</a></li>
+                                            <li><a href="#" class="sm-size">Feedback</a></li>
+                                            <li><a href="#" class="sm-size">Careers</a></li>
+                                            <li><a href="#" class="sm-size">Ask AJIB</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- Right Actions -->
+                <div class="nav-actions d-flex align-items-center gap-2 justify-content-end ">
+                    <button class="nav-search-btn" aria-label="Search">
+                        <picture class="d-flex align-items-center justify-content-center ">
+                            <img src="/assets/icons/magnifying-glass.svg" alt="" width="20" height="20">
+                        </picture>
+                    </button>
+                    <a href="#" class="nav-lang-btn sm-size d-flex align-items-center justify-content-center ">En</a>
+                    <a href="#" class="ai-btn online-btn sm-size gray-25">
+                        <p class="m-0 fw-semibold ">
+                            AJIB Online
+                        </p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Start Hero Section -->
+    <section class="hero-section position-relative ">
+        <picture>
+            <img src="/assets/images/personal/transfers-banner.png" alt="" class="hero-image default-image-class">
+        </picture>
+        <div class="hero-content">
+            <h1>Smart, Safe and Simple Transfers</h1>
+        </div>
+    </section>
+    <!-- End Hero Section -->
+    <!-- Start Ajib Transfers Section -->
+    <section class="ajib-transfers-section cards-section">
+        <div class="container">
+            <h3 class="fw-semibold mb-5">Transfers</h3>
+            <div class="row g-3">
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="credit-box bg-gray-color  radius-30 p-30">
+                        <div class="credit-box-content">
+                            <h6 class="fw-medium ">
+                                International
+                            </h6>
+                            <span class="gray-100 credit-box-content-desc">
+                                Tailored benefits designed to support and grow your financial ambitions.
+                            </span>
+                            <ul class="list-unstyled p-0 m-0 d-flex flex-column gap-3 mt-3">
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Mobile device insurance
+                                    </span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Extended purchase protection
+                                    </span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Travel insurance for trips of 10 days or less
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="credit-box-features d-flex justify-content-start gap-4 my-4 ">
+                                <div
+                                    class="credit-box-feat d-flex align-items-start  justify-content-start flex-column ">
+                                    <p class="m-0">
+                                        $0
+                                    </p>
+                                    <span class="gray-100">
+                                        annual fee
+                                    </span>
+                                </div>
+                                <div
+                                    class="credit-box-feat d-flex align-items-start  justify-content-start flex-column ">
+                                    <p class="m-0">
+                                        21.99%
+                                    </p>
+                                    <span class="gray-100">
+                                        for purchases
+                                    </span>
+                                </div>
+                            </div>
+                            <a href="#"
+                                class="rounded-circle solid-btn p-0 d-flex align-items-center justify-content-center aspect-btn ms-auto ">
+                                <i class="fa-solid fa-angle-right text-white"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="credit-box bg-gray-color  radius-30 p-30">
+                        <div class="credit-box-content">
+                            <h6 class="fw-medium ">
+                                International
+                            </h6>
+                            <span class="gray-100 credit-box-content-desc">
+                                Tailored benefits designed to support and grow your financial ambitions.
+                            </span>
+                            <ul class="list-unstyled p-0 m-0 d-flex flex-column gap-3 mt-3">
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Mobile device insurance
+                                    </span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Extended purchase protection
+                                    </span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Travel insurance for trips of 10 days or less
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="credit-box-features d-flex justify-content-start gap-4 my-4 ">
+                                <div
+                                    class="credit-box-feat d-flex align-items-start  justify-content-start flex-column ">
+                                    <p class="m-0">
+                                        $0
+                                    </p>
+                                    <span class="gray-100">
+                                        annual fee
+                                    </span>
+                                </div>
+                                <div
+                                    class="credit-box-feat d-flex align-items-start  justify-content-start flex-column ">
+                                    <p class="m-0">
+                                        21.99%
+                                    </p>
+                                    <span class="gray-100">
+                                        for purchases
+                                    </span>
+                                </div>
+                            </div>
+                            <a href="#"
+                                class="rounded-circle solid-btn p-0 d-flex align-items-center justify-content-center aspect-btn ms-auto ">
+                                <i class="fa-solid fa-angle-right text-white"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="credit-box bg-gray-color  radius-30 p-30">
+                        <div class="credit-box-content">
+                            <h6 class="fw-medium ">
+                                International
+                            </h6>
+                            <span class="gray-100 credit-box-content-desc">
+                                Tailored benefits designed to support and grow your financial ambitions.
+                            </span>
+                            <ul class="list-unstyled p-0 m-0 d-flex flex-column gap-3 mt-3">
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Mobile device insurance
+                                    </span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Extended purchase protection
+                                    </span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Travel insurance for trips of 10 days or less
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="credit-box-features d-flex justify-content-start gap-4 my-4 ">
+                                <div
+                                    class="credit-box-feat d-flex align-items-start  justify-content-start flex-column ">
+                                    <p class="m-0">
+                                        $0
+                                    </p>
+                                    <span class="gray-100">
+                                        annual fee
+                                    </span>
+                                </div>
+                                <div
+                                    class="credit-box-feat d-flex align-items-start  justify-content-start flex-column ">
+                                    <p class="m-0">
+                                        21.99%
+                                    </p>
+                                    <span class="gray-100">
+                                        for purchases
+                                    </span>
+                                </div>
+                            </div>
+                            <a href="#"
+                                class="rounded-circle solid-btn p-0 d-flex align-items-center justify-content-center aspect-btn ms-auto ">
+                                <i class="fa-solid fa-angle-right text-white"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="credit-box bg-gray-color  radius-30 p-30">
+                        <div class="credit-box-content">
+                            <h6 class="fw-medium ">
+                                International
+                            </h6>
+                            <span class="gray-100 credit-box-content-desc">
+                                Tailored benefits designed to support and grow your financial ambitions.
+                            </span>
+                            <ul class="list-unstyled p-0 m-0 d-flex flex-column gap-3 mt-3">
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Mobile device insurance
+                                    </span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Extended purchase protection
+                                    </span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Travel insurance for trips of 10 days or less
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="credit-box-features d-flex justify-content-start gap-4 my-4 ">
+                                <div
+                                    class="credit-box-feat d-flex align-items-start  justify-content-start flex-column ">
+                                    <p class="m-0">
+                                        $0
+                                    </p>
+                                    <span class="gray-100">
+                                        annual fee
+                                    </span>
+                                </div>
+                                <div
+                                    class="credit-box-feat d-flex align-items-start  justify-content-start flex-column ">
+                                    <p class="m-0">
+                                        21.99%
+                                    </p>
+                                    <span class="gray-100">
+                                        for purchases
+                                    </span>
+                                </div>
+                            </div>
+                            <a href="#"
+                                class="rounded-circle solid-btn p-0 d-flex align-items-center justify-content-center aspect-btn ms-auto ">
+                                <i class="fa-solid fa-angle-right text-white"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="credit-box bg-gray-color  radius-30 p-30">
+                        <div class="credit-box-content">
+                            <div class="credit-box-title d-flex align-items-center gap-3 mb-3">
+                                <picture>
+                                    <img src="/assets/icons/personal/western.svg" alt="">
+                                </picture>
+                                <h6 class="fw-medium ">
+                                    Western Union
+                                </h6>
+                            </div>
+                            <span class="gray-100 credit-box-content-desc">
+                                Tailored benefits designed to support and grow your financial ambitions.
+                            </span>
+                            <ul class="list-unstyled p-0 m-0 d-flex flex-column gap-3 mt-3">
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Mobile device insurance
+                                    </span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Extended purchase protection
+                                    </span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Travel insurance for trips of 10 days or less
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="credit-box-features d-flex justify-content-start gap-4 my-4 ">
+                                <div
+                                    class="credit-box-feat d-flex align-items-start  justify-content-start flex-column ">
+                                    <p class="m-0">
+                                        $0
+                                    </p>
+                                    <span class="gray-100">
+                                        annual fee
+                                    </span>
+                                </div>
+                                <div
+                                    class="credit-box-feat d-flex align-items-start  justify-content-start flex-column ">
+                                    <p class="m-0">
+                                        21.99%
+                                    </p>
+                                    <span class="gray-100">
+                                        for purchases
+                                    </span>
+                                </div>
+                            </div>
+                            <a href="#"
+                                class="rounded-circle solid-btn p-0 d-flex align-items-center justify-content-center aspect-btn ms-auto ">
+                                <i class="fa-solid fa-angle-right text-white"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="credit-box bg-gray-color  radius-30 p-30">
+                        <div class="credit-box-content">
+                            <div class="credit-box-title d-flex align-items-center gap-3 mb-3">
+                                <picture>
+                                    <img src="/assets/icons/personal/western.svg" alt="">
+                                </picture>
+                                <h6 class="fw-medium ">
+                                    Western Union
+                                </h6>
+                            </div>
+                            <span class="gray-100 credit-box-content-desc">
+                                Tailored benefits designed to support and grow your financial ambitions.
+                            </span>
+                            <ul class="list-unstyled p-0 m-0 d-flex flex-column gap-3 mt-3">
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Mobile device insurance
+                                    </span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Extended purchase protection
+                                    </span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Travel insurance for trips of 10 days or less
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="credit-box-features d-flex justify-content-start gap-4 my-4 ">
+                                <div
+                                    class="credit-box-feat d-flex align-items-start  justify-content-start flex-column ">
+                                    <p class="m-0">
+                                        $0
+                                    </p>
+                                    <span class="gray-100">
+                                        annual fee
+                                    </span>
+                                </div>
+                                <div
+                                    class="credit-box-feat d-flex align-items-start  justify-content-start flex-column ">
+                                    <p class="m-0">
+                                        21.99%
+                                    </p>
+                                    <span class="gray-100">
+                                        for purchases
+                                    </span>
+                                </div>
+                            </div>
+                            <a href="#"
+                                class="rounded-circle solid-btn p-0 d-flex align-items-center justify-content-center aspect-btn ms-auto ">
+                                <i class="fa-solid fa-angle-right text-white"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="credit-box bg-gray-color  radius-30 p-30">
+                        <div class="credit-box-content">
+                            <div class="credit-box-title d-flex align-items-center gap-3 mb-3">
+                                <picture>
+                                    <img src="/assets/icons/personal/western.svg" alt="">
+                                </picture>
+                                <h6 class="fw-medium ">
+                                    Western Union
+                                </h6>
+                            </div>
+                            <span class="gray-100 credit-box-content-desc">
+                                Tailored benefits designed to support and grow your financial ambitions.
+                            </span>
+                            <ul class="list-unstyled p-0 m-0 d-flex flex-column gap-3 mt-3">
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Mobile device insurance
+                                    </span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Extended purchase protection
+                                    </span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Travel insurance for trips of 10 days or less
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="credit-box-features d-flex justify-content-start gap-4 my-4 ">
+                                <div
+                                    class="credit-box-feat d-flex align-items-start  justify-content-start flex-column ">
+                                    <p class="m-0">
+                                        $0
+                                    </p>
+                                    <span class="gray-100">
+                                        annual fee
+                                    </span>
+                                </div>
+                                <div
+                                    class="credit-box-feat d-flex align-items-start  justify-content-start flex-column ">
+                                    <p class="m-0">
+                                        21.99%
+                                    </p>
+                                    <span class="gray-100">
+                                        for purchases
+                                    </span>
+                                </div>
+                            </div>
+                            <a href="#"
+                                class="rounded-circle solid-btn p-0 d-flex align-items-center justify-content-center aspect-btn ms-auto ">
+                                <i class="fa-solid fa-angle-right text-white"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="credit-box bg-gray-color  radius-30 p-30">
+                        <div class="credit-box-content">
+                            <div class="credit-box-title d-flex align-items-center gap-3 mb-3">
+                                <picture>
+                                    <img src="/assets/icons/personal/western.svg" alt="">
+                                </picture>
+                                <h6 class="fw-medium ">
+                                    Western Union
+                                </h6>
+                            </div>
+                            <span class="gray-100 credit-box-content-desc">
+                                Tailored benefits designed to support and grow your financial ambitions.
+                            </span>
+                            <ul class="list-unstyled p-0 m-0 d-flex flex-column gap-3 mt-3">
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Mobile device insurance
+                                    </span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Extended purchase protection
+                                    </span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-solid fa-check success-color"></i>
+                                    <span class="gray-25">
+                                        Travel insurance for trips of 10 days or less
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="credit-box-features d-flex justify-content-start gap-4 my-4 ">
+                                <div
+                                    class="credit-box-feat d-flex align-items-start  justify-content-start flex-column ">
+                                    <p class="m-0">
+                                        $0
+                                    </p>
+                                    <span class="gray-100">
+                                        annual fee
+                                    </span>
+                                </div>
+                                <div
+                                    class="credit-box-feat d-flex align-items-start  justify-content-start flex-column ">
+                                    <p class="m-0">
+                                        21.99%
+                                    </p>
+                                    <span class="gray-100">
+                                        for purchases
+                                    </span>
+                                </div>
+                            </div>
+                            <a href="#"
+                                class="rounded-circle solid-btn p-0 d-flex align-items-center justify-content-center aspect-btn ms-auto ">
+                                <i class="fa-solid fa-angle-right text-white"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Ajib Transfers Section -->
+    <!-- Start Person Banner -->
+    <section class="person-banner">
+        <picture>
+            <img src="/assets/images/personal/transfers-banner-mac.png" alt="" class="default-image-class">
+        </picture>
+    </section>
+    <!-- End Person Banner -->
+    <div
+        class="ai-support-banner bg-gray-color  d-flex align-items-center justify-content-between gap-4 my-5 m-auto flex-column flex-lg-row">
+        <div class="ai-support-content d-flex align-items-center gap-2">
+            <picture>
+                <img src="/assets/icons/personal/ai-personal.svg" alt="">
+            </picture>
+            <div class="ai-support-text">
+                <h5 class="fw-semibold gray-25 mb-0">Need more help?</h5>
+                <p class="ai-support-sub gray-25 size-22 mt-2">Get instant answers to your questions, anytime.</p>
+            </div>
+        </div>
+        <a href="#" class="ai-btn w-fit gap-3">
+            <picture>
+                <img src="/assets/images/ai-logo.png" alt="" class="ai-logo">
+            </picture>
+            <p class="m-0">ASK AJIB AI</p>
+            <picture>
+                <img src="/assets/images/Star Icon.svg" alt="">
+            </picture>
+        </a>
+    </div>
+    <!-- Start Footer Section -->
+    <footer class="footer-section">
+        <div class="container">
+            <!-- Top: Logo + Nav + QR -->
+            <div class="footer-top d-flex align-items-start justify-content-between gap-4 flex-column ">
+                <div class="footer-logo mb-4">
+                    <picture>
+                        <img src="/assets/images/logo-white.png" alt="AJIB" class="footer-logo-img">
+                    </picture>
+                </div>
+                <!-- Tagline -->
+                <a href="#" class="footer-tagline d-flex align-items-center justify-content-between ">
+                    <picture>
+                        <img src="/assets/images/footer-banner.png" alt="" class="default-image-class">
+                    </picture>
+                </a>
+                <div class="footer-nav d-flex gap-5 flex-wrap">
+                    <div class="footer-nav-col">
+                        <ul class="footer-nav-list">
+                            <li><a href="#" class="lg-size semi-bold-font gray-50">Subsidiaries &amp; <br />
+                                    Affiliates</a></li>
+                            <li><a href="#" class="lg-size semi-bold-font gray-25">Branches</a></li>
+                            <li><a href="#" class="lg-size semi-bold-font gray-50">ATMs</a></li>
+                            <li><a href="#" class="lg-size semi-bold-font gray-50">AJIB Call Center</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav-col">
+                        <ul class="footer-nav-list">
+                            <li><a href="#" class="lg-size semi-bold-font gray-25">Complaints</a></li>
+                            <li><a href="#" class="lg-size semi-bold-font gray-25">Feedback</a></li>
+                            <li><a href="#" class="lg-size semi-bold-font gray-25">Careers</a></li>
+                            <li><a href="#" class="lg-size semi-bold-font gray-25">Sitemap</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav-col">
+                        <ul class="footer-nav-list">
+                            <li><a href="#" class="lg-size semi-bold-font gray-25">Tariff of Charges </a>
+                            </li>
+                            <li><a href="#" class="lg-size semi-bold-font gray-25">Download Centre</a></li>
+                            <li><a href="#" class="lg-size semi-bold-font gray-25">Terms & Conditions</a></li>
+                            <li><a href="#" class="lg-size semi-bold-font gray-25">Legal Disclaimer</a></li>
+                        </ul>
+                    </div>
+                    <!-- <div class="footer-nav-col">
+                        <p class="footer-nav-title "></p>
+                        <ul class="footer-nav-list">
+                            <li><a href="#" class="lg-size semi-bold-font gray-25">Reach us</a></li>
+                            <li><a href="#" class="lg-size regular-font gray-50">Call center</a></li>
+                            <li><a href="#" class="lg-size regular-font gray-50">ATMs</a></li>
+                            <li><a href="#" class="lg-size regular-font gray-50">Branches</a></li>
+                        </ul>
+                    </div> -->
+                </div>
+                <!-- QR Section -->
+
+            </div>
+
+        </div>
+        <!-- Bottom Bar -->
+        <div class="footer-bottom">
+            <div class="container d-flex align-items-center justify-content-between gap-3 flex-wrap">
+                <p class="footer-copy md-size gray-25">© 2025 Developed by dot.jo. all rights reserved.</p>
+                <div class="footer-social d-flex align-items-center gap-1">
+                    <a href="#" class="footer-social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" class="footer-social-link">
+                        <picture>
+                            <img src="/assets/icons/youtube.svg" alt="" width="40" height="40">
+                        </picture>
+                    </a>
+                    <a href="#" class="footer-social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="footer-social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" class="footer-social-link"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="footer-social-link"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+.hero-section .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: var(--container-width);
+    max-width: 100%;
+}
+
+.hero-section .hero-content h1 {
+    max-width: 960px;
+}
+
+.credit-box-btns .primary-btn,
+.credit-box-btns .solid-btn {
+    padding: 9px 10px;
+    font-size: .9rem;
+}
+
+.ai-support-banner {
+    max-width: 900px;
+    margin-bottom: 8rem !important;
+}
+
+.cards-section {
+    background-image: url("/assets/images/personal/bg-cards-section.png");
+    background-size: cover;
+    background-position: 50% 0%;
+    padding-block: 10rem 8rem;
+}
+
+.standard-features-section {
+    padding-block: 16px;
+    padding-inline-end: 16px;
+}
+
+@media (max-width: 991.98px) {
+    .standard-features-section {
+        padding-inline-start: 16px;
+    }
+}
+
+@media (min-width: 576px) {
+    .standard-features-container {
+        padding-inline-start: calc((100vw - 540px) / 2);
+    }
+}
+
+@media (min-width: 768px) {
+    .standard-features-container {
+        padding-inline-start: calc((100vw - 720px) / 2);
+    }
+}
+
+@media (min-width: 992px) {
+    .standard-features-container {
+        padding-inline-start: calc((100vw - 960px) / 2);
+    }
+}
+
+@media (min-width: 1200px) {
+    .standard-features-container {
+        padding-inline-start: calc((100vw - 1140px) / 2);
+    }
+}
+
+@media (min-width: 1400px) {
+    .standard-features-container {
+        padding-inline-start: calc((100vw - 1320px) / 2);
+    }
+}
+
+.standard-features-image {
+    max-width: 650px;
+    margin-inline-end: auto;
+}
+
+@media (max-width: 991.98px) {
+    .standard-features-image {
+        max-width: 100%;
+        margin-top: 2rem;
+    }
+}

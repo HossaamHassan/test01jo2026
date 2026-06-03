@@ -1,79 +1,72 @@
-.cards-section {
-    background-image: url("/assets/images/personal/bg-cards-section.png");
-    background-size: cover;
-background-position: 50% 0%;
-    padding-block: 10rem 8rem;
-}
 .filter-item.active,
 .filter-item.active p {
     color: var(--blue-color) !important;
     font-weight: 600;
 }
+
 .filter-item.active img {
     filter: var(--filter-blue);
 }
+
 .filter-item {
     color: var(--white-color);
 }
+
 .filter-item:hover {
     color: var(--blue-color);
 }
+
 .filter-item:hover img {
     filter: var(--filter-blue);
 }
+
 .credit-box-content i {
     color: var(--success-color);
 }
+
 .credit-box-feat {
     flex: 1;
 }
+
 .credit-box-feat span {
     font-size: .9rem;
 }
+
 .credit-box-btns {
-    width: 90%;
+    /* width: 90%; */
 }
-.credit-box-btns .primary-btn,
-.credit-box-btns .solid-btn {
-    padding-block: 5px;
-}
-/* Person Banner */
-.person-banner {
-    overflow: hidden;
-}
-.person-banner-container {
-    top: 58% !important;
-}
-.path-bg {
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-}
+
+
 /*  */
 .person-card h6 {
     font-weight: 600;
 }
+
 .person-card span,
 .person-card a {
     max-width: 400px;
     display: block;
 }
+
 .person-card a {
     font-size: 1rem;
 }
+
 /*  */
 .article-section {
-    padding-bottom: 16rem !important;
+    padding-bottom: 18rem !important;
 }
+
 /*  */
 .choose-section {
     padding-block: 10rem 6rem;
 }
-.choose-section-container  {
+
+.choose-section-container {
     max-width: 1270px;
 }
-.ai-support-banner {
-    max-width: 700px;
-    margin-bottom: 8rem !important;
+
+.choose-link {
+    font-size: 1rem;
+    text-decoration: underline;
 }

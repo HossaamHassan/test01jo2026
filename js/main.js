@@ -1,3 +1,12 @@
+new Swiper('.exp-swiper', {
+    slidesPerView: 1.2,
+    spaceBetween: 12,
+    breakpoints: {
+        768: { slidesPerView: 2, spaceBetween: 16 },
+        992: { slidesPerView: 3, spaceBetween: 16 }
+    }
+});
+
 $(document).ready(function () {
     // Seamless ticker
     var $track = $("#tickerTrack");
