@@ -13,7 +13,7 @@ $(document).ready(function () {
     if ($track.length) {
         var singleSetWidth = $track[0].scrollWidth;
         $track.append($track.html());
-        var speed = 200;
+        var speed = window.innerWidth <= 991 ? 80 : 200;
         var duration = singleSetWidth / speed;
         $track.css({
             "animation-duration": duration.toFixed(3) + "s",
@@ -61,6 +61,43 @@ $(document).ready(function () {
 
     $(".close-ads").on("click", function () {
         $(".ads-section").hide();
+    });
+
+    // ===== Mobile Menu =====
+    function openMobileMenu() {
+        $("#mobileMenuOverlay").addClass("open");
+        $("body").addClass("overflow-hidden");
+    }
+
+    function closeMobileMenu() {
+        $("#mobileMenuOverlay").removeClass("open");
+        $("body").removeClass("overflow-hidden");
+    }
+
+    $("#mobileMenuOpen").on("click", openMobileMenu);
+    $("#mobileMenuClose").on("click", closeMobileMenu);
+
+    // Close when clicking outside the panel
+    $("#mobileMenuOverlay").on("click", function (e) {
+        if ($(e.target).is("#mobileMenuOverlay")) {
+            closeMobileMenu();
+        }
+    });
+
+    // Level 1 accordion
+    $(".mobile-nav-toggle").on("click", function () {
+        var $item = $(this).closest(".mobile-nav-item");
+        var isOpen = $item.hasClass("open");
+        $(".mobile-nav-item").removeClass("open");
+        if (!isOpen) $item.addClass("open");
+    });
+
+    // Level 2 accordion
+    $(".mobile-sub-toggle").on("click", function () {
+        var $item = $(this).closest(".mobile-sub-item");
+        var isOpen = $item.hasClass("open");
+        $(".mobile-sub-item").removeClass("open");
+        if (!isOpen) $item.addClass("open");
     });
 
     // Tooltip 

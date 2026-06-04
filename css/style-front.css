@@ -3,6 +3,7 @@
     --bg-body: #181818;
     --gray-color: #222222;
     --gray-25: #f3f3f3;
+    --gray-50: #dcdcdc;
     --gray-color-600: #2d2d2d;
     --gray-color-800: #1f1f1f;
     --white-color: #FFFFFF;
@@ -11,7 +12,7 @@
     --font-family: 'Outfit';
     --line-height: 1.6rem;
     --card-line-height: 20px;
-    --title-line-height: 3.5rem;
+    --title-line-height: 2.3rem;
     --main-border: 1px solid #57575640;
     --radius-full: 999px;
     --filter-white: brightness(0) saturate(100%) invert(97%) sepia(0%) saturate(0%) hue-rotate(89deg) brightness(103%) contrast(107%);
@@ -551,6 +552,10 @@ a {
     font-weight: 700;
 }
 
+.size-19 {
+    font-size: 1.2rem !important;
+}
+
 .size-22 {
     font-size: 1.4rem !important;
 }
@@ -574,7 +579,7 @@ a {
     h2 {
         font-size: 2rem;
         font-weight: 400;
-        line-height: 2.3rem;
+        line-height: 2.3rem !important;
     }
 
     h3 {
@@ -704,6 +709,10 @@ a {
     border-radius: 30px;
 }
 
+.p-16 {
+    padding: 16px;
+}
+
 .p-20 {
     padding: 20px;
 }
@@ -729,12 +738,20 @@ a {
     background-color: var(--gray-color) !important;
 }
 
+.bg-gray-color-50 {
+    background-color: var(--gray-50);
+}
+
 .bg-gray-color-600 {
     background-color: var(--gray-color-600);
 }
 
 .bg-gray-color-800 {
     background-color: var(--gray-color-800);
+}
+
+.bg-gray-color-900 {
+    background-color: var(--bg-body);
 }
 
 /* Buttons */
@@ -898,3 +915,54 @@ a {
         left: 50%;
     }
 }
+
+/* Swiper */
+.swiper-button-next::after,
+.swiper-button-prev::after,
+.swiper-button-next svg,
+.swiper-button-prev svg {
+    display: none !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: 40px;
+    height: 40px;
+}
+
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-pagination {
+    position: static;
+}
+
+.swiper-pagination-bullet {
+    opacity: .5;
+    background-color: var(--gray-color) !important;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background-color: var(--primary-color) !important;
+}
+
+
+.arabic-version .swiper-control-container {
+    flex-direction: row-reverse;
+}
+
+.swiper-control-container {
+    position: absolute;
+    left: 50%;
+    top: 6%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 99;
+}
+
+.swiper-button {
+    width: 56px;
+    height: 56px;
+}
+
+/* Swiper */

@@ -1,0 +1,29 @@
+.card-slide-content {
+    margin-bottom: 6rem !important;
+}
+
+.card-slider-section .solid-btn {
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid transparent;
+    border-radius: 999px;
+
+    background:
+        linear-gradient(#181818, #181818) padding-box,
+        linear-gradient(145.59deg, #3B66FF -28.52%, #3BFFCB 130.27%) border-box;
+
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding: 14px 10px;
+    margin-bottom: 4rem !important;
+}
+
+.card-slider-section .solid-btn span {
+    background-image: linear-gradient(145.59deg,
+            #3B66FF -28.52%,
+            #3BFFCB 130.27%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

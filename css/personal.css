@@ -11,10 +11,11 @@
     max-width: 960px;
 }
 
-.credit-box-btns .primary-btn,
-.credit-box-btns .solid-btn {
+.primary-btn,
+.solid-btn {
     padding: 9px 10px;
     font-size: .9rem;
+    font-weight: 500;
 }
 
 .ai-support-banner {
@@ -27,6 +28,10 @@
     background-size: cover;
     background-position: 50% 0%;
     padding-block: 10rem 8rem;
+}
+
+.cards-section h3 {
+    font-size: 3.8rem;
 }
 
 .standard-features-section {
@@ -80,4 +85,107 @@
         max-width: 100%;
         margin-top: 2rem;
     }
+}
+
+.standard-features-container ul span {
+    font-weight: 300;
+}
+
+.credit-box-content-desc {
+    max-width: 280px;
+    display: block;
+}
+
+.credit-box-btns {
+    max-width: 280px;
+}
+
+/* Card Slider */
+.card-slider-section {
+    margin-top: 13rem;
+}
+
+.card-slider {
+    max-width: 850px;
+}
+
+.icon-cashback {
+    margin-block: 6rem 4rem !important;
+}
+
+.card-slide-content {
+    margin-bottom: 10rem;
+}
+
+.ai-support-text h5 {
+    font-size: 1.8rem;
+    font-weight: 500 !important;
+}
+
+.ai-support-sub {
+    font-size: 1.1rem !important;
+}
+
+.online-btn p {
+    font-weight: 500 !important;
+}
+
+.ai-btn:hover {
+    background-color: #5d5d5d;
+}
+
+.champions-section {
+    background-image: url('/assets/images/personal/champion-wallpaper.png');
+    background-size: cover;
+    background-position: center;
+    padding-block: 4rem 8rem;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 991.98px) {
+    .champions-section {
+        background-size: cover;
+    }
+}
+
+.champion-boxes-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+}
+
+@media (max-width: 1439.98px) {
+    .champion-boxes-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .champion-boxes-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 991.98px) {
+    .champion-boxes-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.champion-box-content {
+    display: -webkit-box;
+    line-clamp: 6;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: calc(6* var(--line-height) + 2px);
+}
+
+.champion-title {
+    margin-block: 6rem;
+}
+
+.champion-title h4 {
+    line-height: 2.6rem;
 }

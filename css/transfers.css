@@ -1,3 +1,11 @@
 .ajib-transfers-section {
     background-image: unset;
 }
+
+.credit-box-content h6 {
+    font-size: 1.8rem !important;
+}
+
+.ai-support-banner {
+    margin-top: 0 !important;
+}

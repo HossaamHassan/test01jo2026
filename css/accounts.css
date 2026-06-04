@@ -1,0 +1,66 @@
+.profile-section,
+.obtain-section {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.cards-section {
+    background-position: center;
+}
+
+.standard-features-title {
+    max-width: 675px;
+    line-height: 4.8rem;
+
+}
+
+@media (min-width: 1200px) {
+    .standard-features-title {
+        margin-top: 6rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .standard-features-title {
+        margin-bottom: 0rem !important;
+    }
+}
+
+.profile-card {
+    padding: 30px 20px;
+}
+
+.profile-card p {
+    line-height: 1.1rem;
+}
+
+.obtain-section {
+    margin-block: 10rem;
+}
+
+.obtain-title {
+    max-width: 800px;
+    margin-bottom: 5rem !important;
+}
+
+.profile-title {
+    margin-bottom: 5rem;
+}
+
+.obtain-form {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+@media (max-width: 991.98px) {
+    .obtain-form {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 575.98px) {
+    .obtain-form {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

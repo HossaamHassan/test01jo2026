@@ -4,6 +4,11 @@
     font-weight: 600;
 }
 
+.filter-item p {
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
 .filter-item.active img {
     filter: var(--filter-blue);
 }
@@ -28,8 +33,19 @@
     flex: 1;
 }
 
+.credit-box-feat p {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.credit-box-content-desc-span,
 .credit-box-feat span {
     font-size: .9rem;
+}
+
+.credit-box-content-desc-span {
+    line-height: 1rem !important;
+    display: block;
 }
 
 .credit-box-btns {
@@ -39,13 +55,16 @@
 
 /*  */
 .person-card h6 {
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2rem;
 }
 
 .person-card span,
 .person-card a {
-    max-width: 400px;
+    max-width: 380px;
     display: block;
+    font-weight: 300;
 }
 
 .person-card a {

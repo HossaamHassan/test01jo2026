@@ -2,11 +2,6 @@
     background-position: center;
 }
 
-.credit-box-content-desc {
-    max-width: 280px;
-    display: block;
-}
-
-.credit-box-btns {
-    max-width: 280px;
+.credit-box-content h6 {
+    font-size: 1.8rem !important;
 }

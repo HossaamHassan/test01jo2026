@@ -1,7 +1,7 @@
 label {
-    font-size: 0.95rem;
-    font-weight: 600;
-    color: var(--gray-color);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--gray-25);
 }
 
 label span {
@@ -22,12 +22,13 @@ input[type="checkbox"] {
 
 .form-control {
     width: 100%;
-    background-color: rgb(241 243 245 / 50%) !important;
-    outline: 2px solid rgb(87 87 86 / 15%) !important;
-    border-radius: 8px;
-    border: none;
-    font-weight: 600;
-    font-size: 0.9rem;
+    border: 1px solid #505050;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #505050;
+    background-color: var(--bg-body);
+    border-radius: 12px;
+    box-shadow: 0px 1px 2px 0px #1018280D;
     padding: 1rem 1.5rem;
 }
 
@@ -42,18 +43,20 @@ input[type="checkbox"] {
 
 .form-select {
     width: 100%;
-    outline: var(--main-border);
-    border-radius: var(--radius-circle);
-    border: none;
-    font-weight: 700;
-    font-size: 0.9rem;
-    color: var(--primary-color);
+    border: 1px solid #505050;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #505050;
+    background-color: var(--bg-body);
+    border-radius: 12px;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
 }
 
+
 .form-select:focus {
-    border: none;
+    border: 1px solid #505050;
     box-shadow: unset;
-    outline: 1px solid rgb(0 38 62 / 10%);
 }
 
 .arabic-version .form-select {
