@@ -189,3 +189,7 @@
 .champion-title h4 {
     line-height: 2.6rem;
 }
+
+.form-check-input {
+    margin: 0 !important;
+}

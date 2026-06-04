@@ -162,6 +162,7 @@
 @media (max-width: 767.98px) {
     .hero-image-mobile {
         width: 103vw;
+        margin-top: -8rem;
     }
 }
 
