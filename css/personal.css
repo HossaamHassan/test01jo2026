@@ -193,3 +193,31 @@
 .form-check-input {
     margin: 0 !important;
 }
+
+/*  */
+.person-card h6 {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+
+.person-card span,
+.person-card a {
+    max-width: 380px;
+    display: block;
+    font-weight: 300;
+}
+
+.person-card a {
+    font-size: 1rem;
+}
+
+.ai-btn p {
+    font-weight: 500;
+}
+
+.icon-cashback h6,
+.card-slide-content h6 {
+    font-size: 1.3rem;
+    font-weight: 300;
+}

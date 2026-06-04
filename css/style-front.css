@@ -864,6 +864,12 @@ a {
     margin-block: 7rem !important;
 }
 
+@media (min-width: 2030px) {
+    .ai-support-banner {
+        max-width: 800px;
+    }
+}
+
 .ai-support-banner .ai-btn {
     padding: 12px 24px !important;
 }

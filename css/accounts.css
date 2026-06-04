@@ -64,3 +64,7 @@
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+.profile-card-content h5 {
+    font-size: 1.8rem !important;
+}

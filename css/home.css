@@ -64,7 +64,6 @@
 }
 
 .footer-nav-list li {
-    max-width: 140px;
     line-height: 17px;
 }
 
@@ -134,7 +133,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-block: 5rem 5rem;
+    padding-block: 8rem 5rem;
     position: relative;
     z-index: 4;
 }

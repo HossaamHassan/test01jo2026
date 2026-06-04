@@ -23,7 +23,7 @@
 
 .personalized-section-container .nav-item-personalized p,
 .content-link-body p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .personalized-section-container .nav-item-personalized i {
@@ -60,7 +60,8 @@
 }
 
 .apply-card h6 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    font-weight: 500 !important;
 }
 
 .apply-card a {

@@ -63,6 +63,78 @@ $(document).ready(function () {
         $(".ads-section").hide();
     });
 
+    // ===== Compare Bar =====
+    var MAX_COMPARE = 4;
+    var compareList = [];
+
+    function renderCompareBar() {
+        var $slots = $("#compareSlots");
+        var $bar = $("#compareBar");
+        if (!$bar.length) return;
+
+        $slots.empty();
+
+        for (var i = 0; i < MAX_COMPARE; i++) {
+            if (compareList[i]) {
+                var item = compareList[i];
+                $slots.append(
+                    '<div class="compare-slot filled" data-id="' + item.id + '">' +
+                        '<img src="' + item.img + '" alt="' + item.name + '">' +
+                        '<p class="compare-slot-name">' + item.name + '</p>' +
+                        '<button class="compare-slot-remove" data-id="' + item.id + '" aria-label="Remove">' +
+                            '<i class="fa-solid fa-xmark"></i>' +
+                        '</button>' +
+                    '</div>'
+                );
+            } else {
+                $slots.append('<div class="compare-slot empty"></div>');
+            }
+        }
+
+        if (compareList.length > 0) {
+            $bar.addClass("active");
+        } else {
+            $bar.removeClass("active");
+        }
+
+        // Remove button handler
+        $(".compare-slot-remove").on("click", function (e) {
+            e.preventDefault();
+            var id = $(this).data("id");
+            compareList = compareList.filter(function (c) { return c.id !== id; });
+            $('[data-compare-id="' + id + '"]').prop("checked", false);
+            renderCompareBar();
+        });
+    }
+
+    // Checkbox handler
+    $(document).on("change", ".compare-container .form-check-input", function () {
+        var $box = $(this).closest(".credit-box");
+        var id = $box.index();
+        var name = $box.find("h6").text().trim();
+        var img = $box.find("picture img").attr("src");
+
+        $(this).attr("data-compare-id", id);
+
+        if ($(this).is(":checked")) {
+            if (compareList.length >= MAX_COMPARE) {
+                $(this).prop("checked", false);
+                return;
+            }
+            compareList.push({ id: id, name: name, img: img });
+        } else {
+            compareList = compareList.filter(function (c) { return c.id !== id; });
+        }
+        renderCompareBar();
+    });
+
+    // Close bar
+    $("#compareBarClose").on("click", function () {
+        compareList = [];
+        $(".compare-container .form-check-input").prop("checked", false);
+        renderCompareBar();
+    });
+
     // ===== Mobile Menu =====
     function openMobileMenu() {
         $("#mobileMenuOverlay").addClass("open");
