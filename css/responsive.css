@@ -53,12 +53,19 @@
         background-size: contain;
     }
 
-    .champion-number h6 {
+    .champion-box-title h6 {
         font-size: 1.3rem;
-        font-size: 300;
     }
 
-    .champion-number img {
+    .champion-box-content h6 {
+        font-weight: 300;
+    }
+
+    .champion-box-title img {
         width: 25px;
+    }
+
+    .standard-features-container .size-30 {
+        font-size: 1.7rem !important;
     }
 }
