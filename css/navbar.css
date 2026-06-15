@@ -203,7 +203,7 @@
 .nav-lang-btn {
     background: none;
     border: none;
-    color: rgba(255, 255, 255, 1);
+    color: #dcdcdc;
     cursor: pointer;
     transition: color 0.2s;
     background-color: #222222;
