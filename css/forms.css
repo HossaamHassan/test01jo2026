@@ -237,3 +237,6 @@ input[type="checkbox"] {
     background-color: transparent !important;
     border-color: var(--blue-color) !important;
 }
+.form-check-input[type=checkbox] {
+    border-radius: 0 !important;
+}
