@@ -55,6 +55,10 @@
 
     .champion-number h6 {
         font-size: 1.3rem;
-        font-size: 500;
+        font-size: 300;
+    }
+
+    .champion-number img {
+        width: 25px;
     }
 }
