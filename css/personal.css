@@ -228,3 +228,6 @@
     font-size: 1.3rem;
     font-weight: 300;
 }
+.icon-cashback h6 {
+    color: var(--gray-25);
+}
