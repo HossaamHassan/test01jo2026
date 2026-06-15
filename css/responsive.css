@@ -2,36 +2,54 @@
     .online-btn {
         padding: 7px 16px;
     }
+
     .nav-logo-img {
         height: 28px;
     }
+
     .online-btn p {
         font-size: .9rem !important;
         font-weight: 300 !important;
     }
+
     .compare-container p {
         font-size: .9rem;
     }
+
     .form-check-input {
         width: 12px;
         height: 12px;
     }
+
     .compare-container {
         gap: 7px !important;
     }
+
     .person-card span,
     .person-card a {
         max-width: 279px;
-    } 
+    }
+
     .article-card p {
         font-size: 1.1rem !important;
         color: var(--gray-50) !important;
     }
+
     .swiper-button {
         height: 40px;
         width: 40px;
     }
+
     .card-slider {
         max-width: 650px;
+    }
+
+    .card-slide-content {
+        max-width: 590px !important;
+        margin: auto;
+    }
+
+    .champions-section {
+        background-size: contain;
     }
 }
