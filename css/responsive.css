@@ -27,4 +27,8 @@
         font-size: 1.1rem !important;
         color: var(--gray-50) !important;
     }
+    .swiper-button {
+        height: 40px;
+        width: 40px;
+    }
 }
