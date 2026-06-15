@@ -526,4 +526,7 @@
         padding: 7px 16px;
         font-weight: 300;
     }
+    .nav-logo-img {
+        height: 28px;
+    }
 }
