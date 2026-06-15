@@ -204,6 +204,7 @@
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 2rem;
+    color: var(--white-color);
 }
 
 .person-card span,
@@ -211,6 +212,7 @@
     max-width: 380px;
     display: block;
     font-weight: 300;
+    font-size: 1.1rem;
 }
 
 .person-card a {

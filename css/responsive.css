@@ -19,4 +19,8 @@
     .compare-container {
         gap: 7px !important;
     }
+    .person-card span,
+    .person-card a {
+        max-width: 279px;
+    } 
 }
