@@ -524,9 +524,13 @@
 @media (min-width: 1200px) and (max-width: 1599.98px) {
     .online-btn {
         padding: 7px 16px;
-        font-weight: 300;
+
     }
     .nav-logo-img {
         height: 28px;
+    }
+    .online-btn p {
+        font-size: .9rem !important;
+        font-weight: 300;
     }
 }
