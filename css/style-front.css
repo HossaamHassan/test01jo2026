@@ -228,6 +228,9 @@ ul li::marker {
     :root {
         --container-width: 1140px;
     }
+    html {
+        font-size: 13px;
+    }
 }
 
 @media (max-width:1199.98px) {
