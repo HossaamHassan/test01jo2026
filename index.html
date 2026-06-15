@@ -32,7 +32,7 @@
                 <img src="./assets/images/logo-dots.png" alt="" class="default-image-class">
             </picture>
         </a>
-        <a href="#" class="ai-btn ask-ai-btn w-fit gap-5">
+        <a href="#" class="ai-btn ask-ai-btn w-fit gap-5" id="aiModalTrigger">
             <div class="ai-btn-content d-flex align-items-center gap-3">
                 <picture>
                     <img src="./assets/images/ai-logo.png" alt="" class="ai-logo">
@@ -46,6 +46,159 @@
                 <i class="fa-solid fa-arrow-right"></i>
             </div>
         </a>
+    </div>
+    <!-- AI Modal -->
+    <div class="ai-modal-wrap" id="ai-modal" style="display:none;">
+        <div class="ai-modal-content d-flex flex-column align-items-center justify-content-center gap-5">
+
+            <!-- Close -->
+            <button class="ai-modal-close" id="aiModalClose" aria-label="Close">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="ai-modal-content-container">
+                <h2 class="ai-modal-title mb-5">All your banking needs</h2>
+
+                <!-- Swiper Cards -->
+                <div class="swiper ai-cards-swiper d-none ">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="ai-card">
+                                <picture>
+                                    <img src="/assets/icons/user-white.svg" alt="">
+                                </picture>
+                                <p class="ai-card-label">Open an<br>Account</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ai-card ai-card--teal">
+                                <div class="ai-card-icon">
+                                    <picture>
+                                        <img src="/assets/icons/Loans.svg" alt="">
+                                    </picture>
+                                </div>
+                                <p class="ai-card-label">Apply for<br>a loan</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ai-card">
+                                <div class="ai-card-icon">
+                                    <picture>
+                                        <img src="/assets/icons/user-white.svg" alt="">
+                                    </picture>
+                                </div>
+                                <p class="ai-card-label">Open an<br>Account</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ai-card ai-card--teal">
+                                <div class="ai-card-icon">
+                                    <picture>
+                                        <img src="/assets/icons/Loans.svg" alt="">
+                                    </picture>
+                                </div>
+                                <p class="ai-card-label">Apply for<br>a loan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ai-radios-box d-none">
+                    <h6>
+                        What will you mainly use the card for?
+                    </h6>
+                    <ul class="p-0 mt-4 d-flex align-items-start flex-column gap-2">
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                                <label class="form-check-label" for="radioDefault1">
+                                    Everyday purchases
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                                <label class="form-check-label" for="radioDefault1">
+                                    Everyday purchases
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                                <label class="form-check-label" for="radioDefault1">
+                                    Everyday purchases
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                                <label class="form-check-label" for="radioDefault1">
+                                    Everyday purchases
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                                <label class="form-check-label" for="radioDefault1">
+                                    Everyday purchases
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                                <label class="form-check-label" for="radioDefault1">
+                                    Everyday purchases
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                                <label class="form-check-label" for="radioDefault1">
+                                    Everyday purchases
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                                <label class="form-check-label" for="radioDefault1">
+                                    Everyday purchases
+                                </label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper ai-cards-swiper d-none ">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <picture>
+                                <img src="" alt="" class="default-image-class">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chat Input -->
+            <div class="ai-chat-input d-flex align-items-center gap-2">
+                <input type="text" placeholder="Ask me anything" class="ai-chat-field">
+                <button class="ai-chat-mic">
+                    <picture>
+                        <img src="/assets/icons/microphone.svg" alt="">
+                    </picture>
+                </button>
+                <button class="ai-chat-send">
+                    <picture>
+                        <img src="/assets/icons/arrow-rocket.svg" alt="">
+                    </picture>
+                </button>
+            </div>
+
+        </div>
     </div>
     <!-- Start Navbar -->
     <nav class="main-navbar">
@@ -931,6 +1084,12 @@
     </div>
 
     <!-- Start Footer Section -->
+                     <!-- Tagline -->
+                <a href="#" class="footer-tagline d-flex align-items-center justify-content-between ">
+                    <picture>
+                        <img src="./assets/images/footer-banner.png" alt="" class="default-image-class">
+                    </picture>
+                </a>
     <footer class="footer-section">
         <div class="container">
             <!-- Top: Logo + Nav + QR -->
@@ -940,12 +1099,6 @@
                         <img src="./assets/images/logo-white.png" alt="AJIB" class="footer-logo-img">
                     </picture>
                 </div>
-                <!-- Tagline -->
-                <a href="#" class="footer-tagline d-flex align-items-center justify-content-between ">
-                    <picture>
-                        <img src="./assets/images/footer-banner.png" alt="" class="default-image-class">
-                    </picture>
-                </a>
                 <div class="footer-nav d-flex gap-5 flex-wrap">
                     <div class="footer-nav-col">
                         <ul class="footer-nav-list">
@@ -1010,7 +1163,7 @@
     <!-- End Footer Section -->
     <script>
         new Swiper('.exp-swiper', {
-            slidesPerView: 1.1,
+            slidesPerView: 13,
             spaceBetween: 12,
             breakpoints: {
                 768: { slidesPerView: 2, spaceBetween: 16 },

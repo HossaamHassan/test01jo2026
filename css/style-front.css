@@ -709,6 +709,10 @@ a {
     border-radius: 30px;
 }
 
+.radius-40 {
+    border-radius: 40px;
+}
+
 .p-16 {
     padding: 16px;
 }
@@ -736,6 +740,10 @@ a {
 
 .bg-gray-color {
     background-color: var(--gray-color) !important;
+}
+
+.bg-gray-color-25 {
+    background-color: var(--gray-25);
 }
 
 .bg-gray-color-50 {
@@ -972,3 +980,41 @@ a {
 }
 
 /* Swiper */
+/* Modal */
+button.btn-close i {
+    font-size: 12px !important;
+}
+
+button.btn-close {
+    background-image: unset !important;
+    opacity: 1;
+}
+
+.modal .modal-content {
+    padding: 40px !important;
+}
+
+/* Modal link */
+.content-link {
+    max-width: 714px;
+    position: absolute;
+    inset-inline-end: 10px;
+    top: 10px;
+    height: 98vh;
+    position: fixed;
+    overflow-y: auto;
+    z-index: 9999;
+}
+
+.content-link-header h4 {
+    max-width: 400px;
+}
+
+.close-btn {
+    width: 56px;
+    height: 56px;
+}
+
+#ai-modal {
+    z-index: 999999 !important;
+}

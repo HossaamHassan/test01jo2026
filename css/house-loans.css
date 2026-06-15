@@ -27,3 +27,17 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
+.content-link-header h4 {
+    max-width: 305px;
+}
+
+.content-link-overlay {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #18181899;
+    z-index: 9999;
+    backdrop-filter: blur(1px);
+}

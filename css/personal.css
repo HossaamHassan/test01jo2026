@@ -18,6 +18,10 @@
     font-weight: 500;
 }
 
+.reset-btn {
+    font-size: .9rem;
+}
+
 .ai-support-banner {
     max-width: 900px;
     margin-bottom: 8rem !important;
@@ -92,7 +96,7 @@
 }
 
 .credit-box-content-desc {
-    max-width: 280px;
+    max-width: 340px;
     display: block;
 }
 
@@ -137,7 +141,7 @@
 .champions-section {
     background-image: url('/assets/images/personal/champion-wallpaper.png');
     background-size: cover;
-    background-position: center;
+
     padding-block: 4rem 8rem;
     background-repeat: no-repeat;
 }
@@ -145,6 +149,7 @@
 @media (max-width: 991.98px) {
     .champions-section {
         background-size: cover;
+        background-position: center;
     }
 }
 

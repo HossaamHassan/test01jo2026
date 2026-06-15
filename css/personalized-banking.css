@@ -40,24 +40,7 @@
     font-weight: 600;
 }
 
-.content-link {
-    max-width: 714px;
-    position: absolute;
-    inset-inline-end: 10px;
-    top: 10px;
-    height: 98vh;
-    position: fixed;
-    overflow-y: auto;
-}
 
-.content-link-header h4 {
-    max-width: 400px;
-}
-
-.close-btn {
-    width: 56px;
-    height: 56px;
-}
 
 .apply-card h6 {
     font-size: 1.2rem;
@@ -66,4 +49,7 @@
 
 .apply-card a {
     font-size: .9rem;
+}
+.apply-card:hover {
+    background-color: #5d5d5d;
 }

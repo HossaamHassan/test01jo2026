@@ -7,6 +7,33 @@ new Swiper('.exp-swiper', {
     }
 });
 
+var aiSwiper = null;
+
+function openAiModal() {
+    $("#ai-modal").fadeIn(200);
+    $("body").addClass("overflow-hidden");
+    if (aiSwiper) { aiSwiper.destroy(true, true); }
+    aiSwiper = new Swiper('.ai-cards-swiper', {
+        slidesPerView: 1.3,
+        spaceBetween: 14,
+        centeredSlides: true,
+        breakpoints: {
+            576: { slidesPerView: 2.2, spaceBetween: 16 },
+            768: { slidesPerView: 3, spaceBetween: 20, centeredSlides: false }
+        }
+    });
+}
+
+function closeAiModal() {
+    $("#ai-modal").fadeOut(200);
+    $("body").removeClass("overflow-hidden");
+}
+
+$(document).ready(function () {
+    $("#aiModalTrigger").on("click", function (e) { e.preventDefault(); openAiModal(); });
+    $("#aiModalClose").on("click", closeAiModal);
+});
+
 $(document).ready(function () {
     // Seamless ticker
     var $track = $("#tickerTrack");
@@ -79,11 +106,11 @@ $(document).ready(function () {
                 var item = compareList[i];
                 $slots.append(
                     '<div class="compare-slot filled" data-id="' + item.id + '">' +
-                        '<img src="' + item.img + '" alt="' + item.name + '">' +
-                        '<p class="compare-slot-name">' + item.name + '</p>' +
-                        '<button class="compare-slot-remove" data-id="' + item.id + '" aria-label="Remove">' +
-                            '<i class="fa-solid fa-xmark"></i>' +
-                        '</button>' +
+                    '<img src="' + item.img + '" alt="' + item.name + '">' +
+                    '<p class="compare-slot-name">' + item.name + '</p>' +
+                    '<button class="compare-slot-remove" data-id="' + item.id + '" aria-label="Remove">' +
+                    '<i class="fa-solid fa-xmark"></i>' +
+                    '</button>' +
                     '</div>'
                 );
             } else {
@@ -93,24 +120,31 @@ $(document).ready(function () {
 
         if (compareList.length > 0) {
             $bar.addClass("active");
-        } else {
-            $bar.removeClass("active");
         }
-
-        // Remove button handler
-        $(".compare-slot-remove").on("click", function (e) {
-            e.preventDefault();
-            var id = $(this).data("id");
-            compareList = compareList.filter(function (c) { return c.id !== id; });
-            $('[data-compare-id="' + id + '"]').prop("checked", false);
-            renderCompareBar();
-        });
     }
+
+    // Remove single card from compare bar
+    $(document).on("click", ".compare-slot-remove", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var id = $(this).data("id");
+        compareList = compareList.filter(function (c) { return c.id !== id; });
+        $('[data-compare-id="' + id + '"]').prop("checked", false);
+        renderCompareBar();
+    });
+
+    // Click on compare-container toggles its checkbox
+    $(document).on("click", ".compare-container", function (e) {
+        if (!$(e.target).is(".form-check-input")) {
+            var $cb = $(this).find(".form-check-input");
+            $cb.prop("checked", !$cb.prop("checked")).trigger("change");
+        }
+    });
 
     // Checkbox handler
     $(document).on("change", ".compare-container .form-check-input", function () {
         var $box = $(this).closest(".credit-box");
-        var id = $box.index();
+        var id = $box.closest('[class*="col-"]').index();
         var name = $box.find("h6").text().trim();
         var img = $box.find("picture img").attr("src");
 
@@ -132,6 +166,7 @@ $(document).ready(function () {
     $("#compareBarClose").on("click", function () {
         compareList = [];
         $(".compare-container .form-check-input").prop("checked", false);
+        $("#compareBar").removeClass("active");
         renderCompareBar();
     });
 
@@ -175,52 +210,64 @@ $(document).ready(function () {
     // Tooltip 
     $('[data-bs-toggle="tooltip"]').tooltip();
 
-    // Search
-    $(".search-btn").on("click", function (e) {
-        e.preventDefault();
-        $(".searchBarOpen").addClass("active");
-        $("body").addClass("overflow-hidden");
+    $('select').niceSelect();
+
+    // Inject images into nice-select options
+    $('select option[data-img]').each(function () {
+        var val = $(this).val();
+        var img = $(this).data('img');
+        var text = $(this).text().trim();
+        var $li = $(this).closest('select').next('.nice-select').find('.option[data-value="' + val + '"]');
+        $li.html('<img src="' + img + '" alt="">' + text);
     });
 
-    $(".searchBarOpen--closeBtn").on("click", function () {
-        $(".searchBarOpen").removeClass("active");
-        $("body").removeClass("overflow-hidden");
+    // ===== Nice Select Search =====
+    $('.nice-searchable').each(function () {
+        var $niceSelect = $(this).next('.nice-select');
+        $niceSelect.find('.current').replaceWith(
+            '<span class="nice-search-wrapper">' +
+            '<img src="/assets/icons/magnifying-glass.svg" class="nice-search-icon" alt="">' +
+            '<input type="text" class="nice-search-trigger" placeholder="Search...">' +
+            '</span>'
+        );
+        $niceSelect.addClass('nice-has-search');
     });
 
-    // Notifications
-    const notificationsContainer = $(".notifications-container");
-    const bell = $(".bell");
-    const bellIcon = $(".bell .bell-icon")
-    const closed = "./assets/icons/Component 290.svg";
-    const opened = "./assets/icons/pink-bell.svg";
+    // Open dropdown on input focus/click
+    $(document).on('focus click', '.nice-search-trigger', function (e) {
+        e.stopPropagation();
+        var $ns = $(this).closest('.nice-select');
+        $('.nice-select').not($ns).removeClass('open');
+        $ns.addClass('open');
+    });
 
+    // Filter options while typing
+    $(document).on('input', '.nice-search-trigger', function () {
+        var q = $(this).val().toLowerCase();
+        $(this).closest('.nice-select').find('.option').each(function () {
+            $(this).toggle($(this).text().toLowerCase().indexOf(q) > -1);
+        });
+    });
 
-    bellIcon.on("click", () => {
-        // Close tools menu if open
-        if ($('.tools-container').hasClass('open')) {
-            $('.tools-container').removeClass('open');
-            $(".tools-btn .pen-icon").attr('src', closedTools);
+    // On option select: put text in input
+    $(document).on('click', '.nice-has-search .option', function () {
+        $(this).closest('.nice-select').find('.nice-search-trigger').val($(this).text().trim());
+    });
+
+    // Outside click: close + reset options visibility
+    $(document).on('click', function () {
+        $('.nice-has-search .option').show();
+    });
+
+    // Update current display when option with image is selected
+    $('.nice-img-select').on('change', function () {
+        var $opt = $(this).find('option:selected');
+        var img = $opt.data('img');
+        var $current = $(this).next('.nice-select').find('.current');
+        if (img) {
+            $current.html('<img src="' + img + '" alt="" >' + $opt.text().trim());
+        } else {
+            $current.text($opt.text().trim());
         }
-        notificationsContainer.toggleClass("open");
-        const current = bellIcon.attr('src');
-        bellIcon.attr('src', current === closed ? opened : closed);
-    });
-
-    // Tools
-    const toolsContainer = $(".tools-container");
-    const toolBtn = $(".tools-btn");
-    const penIcon = $(".tools-btn .pen-icon")
-    const closedTools = "./assets/icons/Component 292.svg";
-    const openedTools = "./assets/icons/pink-pen.svg";
-
-    penIcon.on("click", () => {
-        // Close notifications menu if open
-        if ($('.notifications-container').hasClass('open')) {
-            $('.notifications-container').removeClass('open');
-            $(".bell .bell-icon").attr('src', closed);
-        }
-        toolsContainer.toggleClass("open");
-        const current = penIcon.attr('src');
-        penIcon.attr('src', current === closedTools ? openedTools : closedTools);
     });
 });

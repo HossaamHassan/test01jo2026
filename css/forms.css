@@ -26,20 +26,22 @@ input[type="checkbox"] {
     border: 1px solid #505050;
     font-weight: 400;
     font-size: 1rem;
-    color: #505050;
+    color: #505050 !important;
     background-color: var(--bg-body);
     border-radius: 12px;
     box-shadow: 0px 1px 2px 0px #1018280D;
-    padding: 1rem 1.5rem;
+    padding: 10px 14px !important;
 }
 
 .form-control:focus {
     border: none;
     box-shadow: unset;
+    background-color: var(--bg-body);
+    border: 1px solid #505050;
 }
 
 .form-control::placeholder {
-    color: var(--gray-color) !important;
+    color: #505050 !important;
 }
 
 .form-select {
@@ -51,9 +53,102 @@ input[type="checkbox"] {
     background-color: var(--bg-body);
     border-radius: 12px;
     box-shadow: 0px 1px 2px 0px #1018280D;
+    padding: 10px 14px !important;
     --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+    --bs-form-select-bg-img: unset;
 }
 
+.nice-select:after {
+    width: 8px;
+    height: 8px;
+    border-color: #fff;
+}
+
+.nice-select .list {
+    width: 100%;
+    border: 1px solid #505050;
+    box-shadow: 0px 4px 6px -2px #10182808;
+    box-shadow: 0px 12px 16px -4px #10182814;
+    background-color: var(--gray-color-800);
+    border-radius: 8px;
+}
+
+.nice-select .option {
+    color: var(--gray-25);
+    font-weight: 500 !important;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-inline: 12px;
+    margin-bottom: 5px;
+}
+
+.nice-opt-img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+/* Nice Select Search Trigger */
+.nice-has-search {
+    padding-right: 12px;
+}
+
+.nice-has-search::after {
+    display: none;
+}
+
+.nice-search-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.nice-search-icon {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    opacity: 0.6;
+}
+
+.nice-search-trigger {
+    background: none;
+    border: none;
+    outline: none;
+    color: var(--gray-25);
+    font-size: 0.85rem;
+    width: 100%;
+    cursor: text;
+}
+
+.nice-search-trigger::placeholder {
+    color: rgba(255, 255, 255, 0.35);
+}
+
+.nice-select .current {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nice-select .option:hover,
+.nice-select .option.focus,
+.nice-select .option.selected.focus {
+    background-color: var(--gray-color-600);
+
+}
+
+.nice-select .option.focus,
+.nice-select .option.selected.focus {
+    background-image: url(/assets/icons/blue-check.svg);
+    background-repeat: no-repeat;
+    background-position: 90% center;
+}
 
 .form-select:focus {
     border: 1px solid #505050;
@@ -133,63 +228,12 @@ input[type="checkbox"] {
     margin-inline-end: 0.5em;
 }
 
-
-/* Filters Section */
-.filters-section {
-    margin-bottom: 1.9rem;
+.form-check-input:checked[type=radio] {
+    background-image: url("/assets/icons/check.svg");
+    background-size: 8px;
 }
 
-.filters-section .filter-select-input {
-    padding-inline: 1.25rem !important;
-    padding-block: 13px !important;
-    font-size: 0.95rem;
-    font-weight: 600;
-    outline: 1px solid rgba(87 87 86 / 25%);
-    color: var(--gray-color);
-    background-image: url('../assets/icons/Arrow_drop_left.svg');
-    background-position: left 0.65rem center;
-    background-size: 1.5rem;
-}
-
-.filters-section .filter-select-input:focus {
-    box-shadow: none;
-    border: none;
-    outline-color: rgba(89 92 163 / 70%);
-}
-
-.filters-section .search-wrapper {
-    position: relative;
-}
-
-.filters-section .search-input {
-    padding-inline-start: 2.2rem;
-    padding-inline-end: 1rem;
-    padding-block: 13px !important;
-    outline-width: 1px !important;
-    font-size: 0.9rem;
-    font-weight: 500;
-    color: var(--primary-color) !important;
-    background-color: var(--white-color) !important;
-    min-width: 265px;
-}
-
-.filters-section .search-input::placeholder {
-    color: rgb(87 87 86 / 50%) !important;
-}
-
-.filters-section .search-icon {
-    position: absolute;
-    inset-inline-start: 0.85rem;
-    inset-block-start: 50%;
-    transform: translateY(-50%);
-    color: var(--primary-color);
-    font-size: 0.9rem;
-}
-
-.nice-select:after {
-    display: none;
-}
-
-.nice-select .option {
-    text-align: start;
+.form-check-input:checked {
+    background-color: transparent !important;
+    border-color: var(--blue-color) !important;
 }
