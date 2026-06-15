@@ -7,7 +7,7 @@
     }
     .online-btn p {
         font-size: .9rem !important;
-        font-weight: 300;
+        font-weight: 300 !important;
     }
     .compare-container p {
         font-size: .9rem;
