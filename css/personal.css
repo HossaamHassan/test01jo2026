@@ -227,7 +227,8 @@
 .card-slide-content h6 {
     font-size: 1.3rem;
     font-weight: 300;
+    color: var(--gray-25);
 }
-.icon-cashback h6 {
+.card-slide-content * {
     color: var(--gray-25);
 }
