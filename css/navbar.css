@@ -52,7 +52,7 @@
 
 .nav-link-item:hover {
     background-color: #181818;
-    color: #fff;
+    color: #f3f3f3;
     font-weight: 500;
 }
 
@@ -60,7 +60,7 @@
 .mobile-nav-toggle.active,
 .mobile-nav-item.open {
     background-color: #181818;
-    color: #fff;
+    color: #f3f3f3;
     font-weight: 500;
 }
 
