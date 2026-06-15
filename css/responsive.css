@@ -23,4 +23,8 @@
     .person-card a {
         max-width: 279px;
     } 
+    .article-card p {
+        font-size: 1.1rem !important;
+        color: var(--gray-50) !important;
+    }
 }
