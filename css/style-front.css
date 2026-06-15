@@ -809,7 +809,7 @@ a {
 .solid-btn {
     display: flex;
     background-color: var(--blue-color);
-    color: var(--white-color);
+    color: var(--gray-25);
     padding: 14px 22px;
     border-radius: 50px;
     font-weight: 400;
