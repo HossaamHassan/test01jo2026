@@ -232,3 +232,7 @@
 .card-slide-content * {
     color: var(--gray-25);
 }
+.card-slide-content {
+    max-width: 705px !important;
+    margin: auto;
+}
