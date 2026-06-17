@@ -10,7 +10,7 @@
     z-index: 1000;
     background-color: transparent;
     width: 100%;
-    padding-block: 0.9375rem;
+    padding-block: 1.5rem;
     transition: background-color 0.3s ease;
 }
 
