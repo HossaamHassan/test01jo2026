@@ -83,4 +83,20 @@
     .ai-support-banner .ai-btn {
         padding: 1rem 1.5rem !important;
     }
+
+    .ai-btn::before {
+        padding: 1px !important;
+    }
+
+    .ai-support-banner .ai-btn p {
+        font-size: 1.1rem;
+    }
+
+    .ai-support-content img {
+        width: 60px;
+    }
+
+    .ai-support-content {
+        gap: 20px !important;
+    }
 }
