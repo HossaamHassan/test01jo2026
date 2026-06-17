@@ -1,6 +1,7 @@
 @media (min-width: 1200px) and (max-width: 1599.98px) {
     .hero-section .hero-content h1 {
         font-size: 6.3rem;
+        line-height: 6.5rem;
     }
 
     .online-btn {
@@ -127,5 +128,15 @@
 
     .credit-box-btns {
         max-width: 17.5rem;
+    }
+
+    .profile-section,
+    .obtain-section {
+        max-width: 66.5rem !important;
+    }
+
+    .obtain-section .form-container {
+        border-radius: 15px !important;
+        padding: 2.2rem !important;
     }
 }

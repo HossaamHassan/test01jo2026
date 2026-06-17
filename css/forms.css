@@ -60,6 +60,10 @@ input[type="checkbox"] {
     --bs-form-select-bg-img: unset;
 }
 
+.nice-select {
+    height: 2.625rem;
+}
+
 .nice-select:after {
     width: 0.5rem;
     height: 0.5rem;
