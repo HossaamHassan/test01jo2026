@@ -322,7 +322,7 @@
     position: absolute;
     top: 0;
     height: 100%;
-    padding: 2.8125rem 1.25rem 1.25rem 1.25rem !important;
+    padding: 60px 20px 20px 20px !important;
 }
 
 
@@ -715,7 +715,7 @@
     }
 
     .exp-card-content {
-        padding: 2.5rem 0.9375rem 0.9375rem 0.9375rem !important;
+        padding: 37px 14px 14px 14px !important;
     }
 
     .exp-card-title h5 {
