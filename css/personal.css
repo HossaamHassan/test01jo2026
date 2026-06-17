@@ -1,6 +1,6 @@
 .hero-section .hero-content {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: var(--container-width);
@@ -31,7 +31,7 @@
     background-image: url("/assets/images/personal/bg-cards-section.png");
     background-size: cover;
     background-position: 50% 0%;
-    padding-block: 14rem 11rem;
+    padding-block: 12rem 11rem;
 }
 
 .cards-section h3 {
