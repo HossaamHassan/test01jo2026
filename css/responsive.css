@@ -79,4 +79,8 @@
     .solid-btn {
         padding: 0.4625rem 0.525rem;
     }
+
+    .ai-support-banner .ai-btn {
+        padding: 1rem 1.5rem !important;
+    }
 }
