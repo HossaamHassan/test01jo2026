@@ -68,3 +68,7 @@
 .profile-card-content h5 {
     font-size: 1.8rem !important;
 }
+
+.profile-card-content .only-3-lines {
+    height: calc(3* 1.1rem + 0.125rem);
+}

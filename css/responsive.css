@@ -1,4 +1,8 @@
 @media (min-width: 1200px) and (max-width: 1599.98px) {
+    .hero-section .hero-content h1 {
+        font-size: 6.3rem;
+    }
+
     .online-btn {
         padding: 0.4375rem 1rem;
     }
@@ -69,5 +73,10 @@
     .standard-features-container .size-30 {
         font-size: 1.5rem !important;
         line-height: 2rem !important;
+    }
+
+    .primary-btn,
+    .solid-btn {
+        padding: 0.4625rem 0.525rem;
     }
 }

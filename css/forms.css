@@ -27,16 +27,17 @@ input[type="checkbox"] {
     font-weight: 400;
     font-size: 1rem;
     color: #505050 !important;
-    background-color: var(--bg-body);
+    background-color: var(--gray-color-800);
     border-radius: 0.75rem;
     box-shadow: 0 0.0625rem 0.125rem 0 #1018280D;
     padding: 0.625rem 0.875rem !important;
+    display: flex;
 }
 
 .form-control:focus {
     border: none;
     box-shadow: unset;
-    background-color: var(--bg-body);
+    background-color: var(--gray-color-800);
     border: 0.0625rem solid #505050;
 }
 
@@ -45,12 +46,13 @@ input[type="checkbox"] {
 }
 
 .form-select {
+    display: flex;
     width: 100%;
     border: 0.0625rem solid #505050;
     font-weight: 400;
     font-size: 1rem;
     color: #505050;
-    background-color: var(--bg-body);
+    background-color: var(--gray-color-800);
     border-radius: 0.75rem;
     box-shadow: 0 0.0625rem 0.125rem 0 #1018280D;
     padding: 0.625rem 0.875rem !important;
@@ -105,7 +107,6 @@ input[type="checkbox"] {
     align-items: center;
     gap: 0.5rem;
     width: 100%;
-    position: absolute;
     top: 0;
 }
 
@@ -237,6 +238,7 @@ input[type="checkbox"] {
     background-color: transparent !important;
     border-color: var(--blue-color) !important;
 }
+
 .form-check-input[type=checkbox] {
     border-radius: 0 !important;
 }

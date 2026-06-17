@@ -173,11 +173,24 @@
                         </li>
                     </ul>
                 </div>
-                <div class="swiper ai-cards-swiper d-none ">
+                <div class="swiper credit-cards-swiper d-none">
+                    <h5 class="fw-normal mb-5">
+                        Here are the best cards recommended for you
+                    </h5>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <picture>
-                                <img src="" alt="" class="default-image-class">
+                                <img src="/assets/images/personal/Mastercard.png" alt="" class="default-image-class">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <img src="/assets/images/personal/Mastercard.png" alt="" class="default-image-class">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <img src="/assets/images/personal/Mastercard.png" alt="" class="default-image-class">
                             </picture>
                         </div>
                     </div>
@@ -1169,6 +1182,14 @@
             breakpoints: {
                 768: { slidesPerView: 2, spaceBetween: 16 },
                 992: { slidesPerView: 3, spaceBetween: 16 }
+            }
+        });
+        new Swiper('.credit-cards-swiper', {
+            slidesPerView: 2,
+            spaceBetween: 12,
+            breakpoints: {
+                768: { slidesPerView: 1, spaceBetween: 16 },
+                992: { slidesPerView: 2, spaceBetween: 16 }
             }
         });
     </script>

@@ -1,11 +1,21 @@
 /* Start Navbar */
+@media (min-width: 992px) {
+    .main-navbar {
+        position: fixed;
+    }
+}
+
 .main-navbar {
-    position: fixed;
     top: 0;
     z-index: 1000;
     background-color: transparent;
     width: 100%;
     padding-block: 0.9375rem;
+    transition: background-color 0.3s ease;
+}
+
+.main-navbar.scrolled {
+    background-color: #181818;
 }
 
 .navbar-inner {

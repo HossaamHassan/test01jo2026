@@ -224,10 +224,17 @@ ul li::marker {
     }
 }
 
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+    :root {
+        --container-width: 82.5rem;
+    }
+}
+
 @media (min-width: 1200px) and (max-width: 1399.98px) {
     :root {
-        --container-width: 71.25rem;
+        --container-width: 87.7rem;
     }
+
     html {
         font-size: 0.8125rem;
     }
@@ -235,7 +242,7 @@ ul li::marker {
 
 @media (max-width:1199.98px) {
     :root {
-        --container-width: 60rem;
+        --container-width: 62rem;
     }
 
     html {

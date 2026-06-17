@@ -1,3 +1,12 @@
+// Navbar scroll background
+$(window).on("scroll", function () {
+    if ($(this).scrollTop() > 10) {
+        $(".main-navbar").addClass("scrolled");
+    } else {
+        $(".main-navbar").removeClass("scrolled");
+    }
+});
+
 new Swiper('.exp-swiper', {
     slidesPerView: 1.2,
     spaceBetween: 12,
