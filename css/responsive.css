@@ -124,4 +124,8 @@
     .credit-box-content-desc {
         font-size: 1.1rem;
     }
+
+    .credit-box-btns {
+        max-width: 17.5rem;
+    }
 }
