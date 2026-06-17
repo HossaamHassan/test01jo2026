@@ -11,6 +11,7 @@
 .personalized-title {
     max-width: 0.5625rem;
     margin-bottom: 4rem;
+    margin-top: 7rem;
 }
 
 .personalized-section-container {
@@ -50,6 +51,7 @@
 .apply-card a {
     font-size: .9rem;
 }
+
 .apply-card:hover {
     background-color: #5d5d5d;
 }

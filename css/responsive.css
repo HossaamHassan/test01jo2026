@@ -154,4 +154,12 @@
     .services-section .section-title p {
         font-size: 1.3rem;
     }
+
+    .credit-box-title img {
+        width: 40px;
+    }
+
+    .apply-card img {
+        width: 30px;
+    }
 }
