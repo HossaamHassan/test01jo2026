@@ -99,4 +99,9 @@
     .ai-support-content {
         gap: 20px !important;
     }
+
+    .compare-card-title {
+        font-size: 6.5rem;
+        line-height: 6.5rem;
+    }
 }
