@@ -80,12 +80,12 @@
     /* background-color: #181818; */
     overflow: hidden;
     white-space: nowrap;
-    padding-block: 9rem 6rem;
+    padding-block: 11rem;
 }
 
-.arabic-version .security-ticker {
+/* .arabic-version .security-ticker {
     padding-block: 11rem 6rem;
-}
+} */
 
 .ticker-track {
     display: inline-flex;
@@ -253,9 +253,14 @@
 
 .services-section .section-title p {
     font-size: 1.5rem;
+    margin-top: 2rem !important;
 }
 
 /* Start Loans Section */
+.loans-section {
+    margin-top: 8rem !important;
+}
+
 .calculate-icon {
     box-shadow: 0 0 1.25rem 0 #4A4458;
     border: 0.0625rem solid #525252;

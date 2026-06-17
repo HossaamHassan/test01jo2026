@@ -150,4 +150,8 @@
         border-radius: 15px !important;
         padding: 2.2rem !important;
     }
+
+    .services-section .section-title p {
+        font-size: 1.3rem;
+    }
 }
