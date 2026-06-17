@@ -116,4 +116,8 @@
     .standard-features-container ul li img {
         width: 18px;
     }
+
+    .credit-box-feat span {
+        font-size: 1rem !important;
+    }
 }
