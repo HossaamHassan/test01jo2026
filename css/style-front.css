@@ -862,6 +862,10 @@ a {
     background-color: transparent;
 }
 
+.solid-btn:hover {
+    background-color: #5d5d5d;
+}
+
 .aspect-btn {
     width: 2.375rem;
     height: 2.375rem;
