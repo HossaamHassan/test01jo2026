@@ -45,6 +45,7 @@
 
 .credit-box-feat span {
     font-size: 1.1rem;
+    color: #959595;
 }
 
 .credit-box-content-desc-span {
@@ -60,7 +61,7 @@
 
 /*  */
 .article-section {
-    padding-block:10rem 25rem !important;
+    padding-block: 10rem 25rem !important;
 }
 
 /*  */
