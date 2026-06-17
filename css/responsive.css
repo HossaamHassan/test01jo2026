@@ -4,6 +4,10 @@
         line-height: 6.8rem;
     }
 
+    .hero-section-container .hero-image {
+        margin-top: 3rem;
+    }
+
     .hero-section .hero-content h1 {
         font-size: 6.3rem;
         line-height: 6.5rem;
