@@ -28,7 +28,7 @@
 }
 
 .footer-logo-img {
-    height: 40px;
+    height: 2.5rem;
     width: auto;
     object-fit: contain;
     filter: var(--filter-white);
@@ -75,8 +75,8 @@
     filter: brightness(0) saturate(100%) invert(35%) sepia(78%) saturate(3399%) hue-rotate(204deg) brightness(95%) contrast(96%);
 }
 .footer-qr-widget {
-    min-width: 250px;
-    max-width: 500px;
+    min-width: 15.625rem;
+    max-width: 31.25rem;
     flex-shrink: 0;
 }
 
@@ -92,14 +92,14 @@
 }
 
 .footer-qr-widget img {
-    width: 72px;
-    height: 72px;
+    width: 4.5rem;
+    height: 4.5rem;
     object-fit: contain;
     flex-shrink: 0;
 }
 
 .footer-tagline {
-    padding-block: 2rem 0rem;
+    padding-block: 2rem 0;
 }
 
 .footer-tagline h2 {
@@ -122,8 +122,8 @@
 }
 
 .footer-social-link {
-    width: 36px;
-    height: 36px;
+    width: 2.25rem;
+    height: 2.25rem;
     border-radius: 50%;
     display: flex;
     align-items: center;

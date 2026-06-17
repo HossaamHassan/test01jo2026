@@ -13,7 +13,7 @@ label span {
 
 input,
 select {
-    padding-block: 12px !important;
+    padding-block: 0.75rem !important;
 }
 
 input[type="radio"],
@@ -23,21 +23,21 @@ input[type="checkbox"] {
 
 .form-control {
     width: 100%;
-    border: 1px solid #505050;
+    border: 0.0625rem solid #505050;
     font-weight: 400;
     font-size: 1rem;
     color: #505050 !important;
     background-color: var(--bg-body);
-    border-radius: 12px;
-    box-shadow: 0px 1px 2px 0px #1018280D;
-    padding: 10px 14px !important;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.0625rem 0.125rem 0 #1018280D;
+    padding: 0.625rem 0.875rem !important;
 }
 
 .form-control:focus {
     border: none;
     box-shadow: unset;
     background-color: var(--bg-body);
-    border: 1px solid #505050;
+    border: 0.0625rem solid #505050;
 }
 
 .form-control::placeholder {
@@ -46,31 +46,31 @@ input[type="checkbox"] {
 
 .form-select {
     width: 100%;
-    border: 1px solid #505050;
+    border: 0.0625rem solid #505050;
     font-weight: 400;
     font-size: 1rem;
     color: #505050;
     background-color: var(--bg-body);
-    border-radius: 12px;
-    box-shadow: 0px 1px 2px 0px #1018280D;
-    padding: 10px 14px !important;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.0625rem 0.125rem 0 #1018280D;
+    padding: 0.625rem 0.875rem !important;
     --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
     --bs-form-select-bg-img: unset;
 }
 
 .nice-select:after {
-    width: 8px;
-    height: 8px;
+    width: 0.5rem;
+    height: 0.5rem;
     border-color: #fff;
 }
 
 .nice-select .list {
     width: 100%;
-    border: 1px solid #505050;
-    box-shadow: 0px 4px 6px -2px #10182808;
-    box-shadow: 0px 12px 16px -4px #10182814;
+    border: 0.0625rem solid #505050;
+    box-shadow: 0 0.25rem 0.375rem -0.125rem #10182808;
+    box-shadow: 0 0.75rem 1rem -0.25rem #10182814;
     background-color: var(--gray-color-800);
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
 .nice-select .option {
@@ -78,14 +78,14 @@ input[type="checkbox"] {
     font-weight: 500 !important;
     display: flex;
     align-items: center;
-    gap: 8px;
-    padding-inline: 12px;
-    margin-bottom: 5px;
+    gap: 0.5rem;
+    padding-inline: 0.75rem;
+    margin-bottom: 0.3125rem;
 }
 
 .nice-opt-img {
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
     border-radius: 50%;
     object-fit: cover;
     flex-shrink: 0;
@@ -93,7 +93,7 @@ input[type="checkbox"] {
 
 /* Nice Select Search Trigger */
 .nice-has-search {
-    padding-right: 12px;
+    padding-right: 0.75rem;
 }
 
 .nice-has-search::after {
@@ -103,15 +103,15 @@ input[type="checkbox"] {
 .nice-search-wrapper {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 0.5rem;
     width: 100%;
     position: absolute;
     top: 0;
 }
 
 .nice-search-icon {
-    width: 16px;
-    height: 16px;
+    width: 1rem;
+    height: 1rem;
     flex-shrink: 0;
     opacity: 0.6;
 }
@@ -133,7 +133,7 @@ input[type="checkbox"] {
 .nice-select .current {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 0.5rem;
 }
 
 .nice-select .option:hover,
@@ -151,7 +151,7 @@ input[type="checkbox"] {
 }
 
 .form-select:focus {
-    border: 1px solid #505050;
+    border: 0.0625rem solid #505050;
     box-shadow: unset;
 }
 
@@ -163,7 +163,7 @@ input[type="checkbox"] {
 .form-textarea {
     width: 100%;
     padding: 0.75rem 1rem;
-    outline: 2px solid rgb(87 87 86 / 15%);
+    outline: 0.125rem solid rgb(87 87 86 / 15%);
     border-radius: var(--radius-circle);
     border: none;
     font-weight: 700;
@@ -177,13 +177,13 @@ input[type="checkbox"] {
 .form-textarea:focus {
     border: none;
     box-shadow: unset;
-    outline: 2px solid var(--primary-color);
+    outline: 0.125rem solid var(--primary-color);
 }
 
 .form-check-input {
-    width: 16px;
-    height: 16px;
-    border: 1px solid #757575 !important;
+    width: 1rem;
+    height: 1rem;
+    border: 0.0625rem solid #757575 !important;
     background-color: transparent;
 }
 
@@ -193,7 +193,7 @@ input[type="checkbox"] {
 
 .form-check-input:checked {
     background-color: var(--blue-color) !important;
-    border: 1px solid #757575 !important;
+    border: 0.0625rem solid #757575 !important;
 }
 
 .checkbox-btns-container,
@@ -230,7 +230,7 @@ input[type="checkbox"] {
 
 .form-check-input:checked[type=radio] {
     background-image: url("/assets/icons/check.svg");
-    background-size: 8px;
+    background-size: 0.5rem;
 }
 
 .form-check-input:checked {

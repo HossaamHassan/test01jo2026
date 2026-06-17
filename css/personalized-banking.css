@@ -9,7 +9,7 @@
 }
 
 .personalized-title {
-    max-width: 9px;
+    max-width: 0.5625rem;
     margin-bottom: 4rem;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .personalized-section-container .nav-item-personalized i {
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .personalized-section-container .nav-item-personalized.active,

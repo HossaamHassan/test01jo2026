@@ -1,24 +1,24 @@
 .online-btn {
-    height: 51px !important;
-    padding: 7px 17px !important;
+    height: 3.1875rem !important;
+    padding: 0.4375rem 1.0625rem !important;
     font-weight: 400 !important;
 }
 
 .ai-btn::before {
-    padding: 1.6px;
+    padding: 0.1rem;
 }
 
 .nav-link-item {
-    padding: 7px 0;
+    padding: 0.4375rem 0;
 }
 
 .nav-link-item.active {
-    padding: 7px 0;
+    padding: 0.4375rem 0;
 }
 
 
 .ai-btn {
-    padding: 15px 24px !important;
+    padding: 0.9375rem 1.5rem !important;
     gap: .8rem !important;
 }
 
@@ -28,7 +28,7 @@
 
 @media (max-width: 1199.98px) {
     .ai-btn {
-        padding: 10px 15px !important;
+        padding: 0.625rem 0.9375rem !important;
     }
 }
 
@@ -42,8 +42,8 @@
 }
 
 .ai-btn .ai-logo {
-    width: 32px !important;
-    height: 32px !important;
+    width: 2rem !important;
+    height: 2rem !important;
 }
 
 .bank-requirements-section::before {
@@ -64,7 +64,7 @@
 }
 
 .footer-nav-list li {
-    line-height: 17px;
+    line-height: 1.0625rem;
 }
 
 .footer-nav-list li br {
@@ -72,7 +72,7 @@
 }
 
 .footer-nav-list {
-    gap: 8px;
+    gap: 0.5rem;
 }
 
 /* Start Ticker */
@@ -167,9 +167,9 @@
 
 .qr-hero {
     background-color: #0000004D;
-    backdrop-filter: blur(8.899999618530273px);
-    padding: 20px;
-    max-width: 600px;
+    backdrop-filter: blur(0.55625rem);
+    padding: 1.25rem;
+    max-width: 37.5rem;
 }
 
 .hero-title {
@@ -185,7 +185,7 @@
 .bank-requirements-section {
     position: relative;
     z-index: 2;
-    margin-top: -100px;
+    margin-top: -6.25rem;
 }
 
 .bank-requirements-section::before {
@@ -193,23 +193,23 @@
     position: absolute;
     left: -10%;
     top: -40%;
-    padding: 2px;
+    padding: 0.125rem;
     background-color: rgb(0 0 0 / 20%);
     z-index: 0;
     transform: rotate(-12deg);
     width: 120%;
-    height: 450px;
+    height: 28.125rem;
 }
 
 .arabic-version .bank-requirements-section::before {
     transform: rotate(12deg);
     top: -20%;
-    height: 500px;
+    height: 31.25rem;
 }
 
 /* End Bank Requirements Section */
 .services-section {
-    padding-block: 0rem 7rem;
+    padding-block: 0 7rem;
     position: relative;
     z-index: 3;
 }
@@ -219,24 +219,24 @@
 }
 
 .services-section .services-card {
-    padding: 40px;
+    padding: 2.5rem;
     transition: .3s;
 }
 
 .services-section .services-card picture {
-    width: 42px;
-    height: 42px;
+    width: 2.625rem;
+    height: 2.625rem;
 }
 
 .services-section .services-card img {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .services-section-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 @media (max-width: 1199.98px) {
@@ -257,20 +257,20 @@
 
 /* Start Loans Section */
 .calculate-icon {
-    box-shadow: 0px 0px 20px 0px #4A4458;
-    border: 1px solid #525252;
+    box-shadow: 0 0 1.25rem 0 #4A4458;
+    border: 0.0625rem solid #525252;
     background-blend-mode: luminosity;
     background: #7F7F7F66;
     background-blend-mode: overlay;
     background: #3D3D3D80;
-    width: 85px;
-    height: 85px;
+    width: 5.3125rem;
+    height: 5.3125rem;
 }
 
 @media (max-width: 1439.98px) {
     .calculate-icon {
-        width: 68px;
-        height: 68px;
+        width: 4.25rem;
+        height: 4.25rem;
     }
 }
 
@@ -279,17 +279,17 @@
 }
 
 .loan-image {
-    outline: 1px solid #2d2d2d;
-    padding: 20px;
+    outline: 0.0625rem solid #2d2d2d;
+    padding: 1.25rem;
     background-color: #2d2d2d;
-    max-width: 287px;
+    max-width: 17.938rem;
 }
 
 .personal-image {
-    outline: 1px solid #2d2d2d;
-    padding: 20px;
+    outline: 0.0625rem solid #2d2d2d;
+    padding: 1.25rem;
     background-color: #2d2d2d;
-    max-width: 345px;
+    max-width: 21.562rem;
 }
 
 .arabic-version .personal-loan-content span,
@@ -299,17 +299,17 @@
 }
 
 .arabic-version .personal-loan-content span {
-    max-width: 673px;
+    max-width: 42.062rem;
 }
 
 .arabic-version .loan-offer-container span {
-    max-width: 534px;
+    max-width: 33.375rem;
 }
 
 /* End Loans Section */
 /* Start Experience Section */
 .experience-section .section-title p {
-    margin-top: 24px;
+    margin-top: 1.5rem;
     font-size: 1.8rem;
 }
 
@@ -317,15 +317,15 @@
     position: absolute;
     top: 0;
     height: 100%;
-    padding: 45px 20px 20px 20px !important;
+    padding: 2.8125rem 1.25rem 1.25rem 1.25rem !important;
 }
 
 
 
 .exp-desc {
     background-color: rgb(255 255 255 / 40%);
-    /* min-height: 124px; */
-    backdrop-filter: blur(2px);
+    /* min-height: 7.75rem; */
+    backdrop-filter: blur(0.125rem);
 }
 
 .exp-desc p {
@@ -339,7 +339,7 @@
 }
 
 .exp-desc i {
-    font-size: 10px;
+    font-size: 0.625rem;
 }
 
 .exp-desc .aspect-btn:hover {
@@ -347,8 +347,8 @@
 }
 
 .exp-card-title h5 {
-    text-shadow: 0px 4px 4px rgb(0 0 0 / 30%);
-    padding-inline-start: 30px;
+    text-shadow: 0 0.25rem 0.25rem rgb(0 0 0 / 30%);
+    padding-inline-start: 1.875rem;
     font-size: 2.5rem;
 }
 
@@ -357,9 +357,9 @@
 .nav-item.has-mega:hover .mega-menu {
     width: 65vw;
     margin: auto;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-color: #222222;
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 .ticker-and-exp {
@@ -392,57 +392,57 @@
 
 .loan-offer,
 .loan-calculator {
-    padding: 43px 30px 28px 30px !important;
+    padding: 2.6875rem 1.875rem 1.75rem 1.875rem !important;
 }
 
 .loan-offer-containe span {
-    max-width: 534px;
+    max-width: 33.375rem;
 }
 
 .personal-loan-content span {
-    max-width: 600px;
+    max-width: 37.5rem;
     display: block;
 }
 
 .hero-section-container .hero-image {
     /* transform: translateX(-12%); */
-    width: 1490px;
+    width: 93.125rem;
 }
 
 .ai-btns {
     position: fixed;
-    right: 12px;
-    bottom: 115px;
+    right: 0.75rem;
+    bottom: 7.1875rem;
     z-index: 999999;
 }
 
 @media (min-width: 576px) {
     .ai-btns {
-        right: max(12px, calc((100vw - 540px) / 2));
+        right: max(0.75rem, calc((100vw - 33.75rem) / 2));
     }
 }
 
 @media (min-width: 768px) {
     .ai-btns {
-        right: max(12px, calc((100vw - 720px) / 2));
+        right: max(0.75rem, calc((100vw - 45rem) / 2));
     }
 }
 
 @media (min-width: 992px) {
     .ai-btns {
-        right: max(12px, calc((100vw - 960px) / 2));
+        right: max(0.75rem, calc((100vw - 60rem) / 2));
     }
 }
 
 @media (min-width: 1200px) {
     .ai-btns {
-        right: max(12px, calc((100vw - 1140px) / 2));
+        right: max(0.75rem, calc((100vw - 71.25rem) / 2));
     }
 }
 
 @media (min-width: 1400px) {
     .ai-btns {
-        right: max(12px, calc((100vw - 1320px) / 2));
+        right: max(0.75rem, calc((100vw - 82.5rem) / 2));
     }
 }
 
@@ -453,7 +453,7 @@
 }
 
 .ai-btns .ai-hero-btn {
-    padding: 20px !important;
+    padding: 1.25rem !important;
 }
 
 .ai-btns .ask-ai-btn,
@@ -462,7 +462,7 @@
     top: 0;
     right: 0;
     transform: translateY(-50%);
-    min-width: 350px;
+    min-width: 21.875rem;
 }
 
 .ai-hero-btn {
@@ -473,9 +473,9 @@
 
 .ai-hero-btn,
 .ai-hero-btn::before {
-    width: 90px;
-    height: 90px;
-    border-radius: 999px;
+    width: 5.625rem;
+    height: 5.625rem;
+    border-radius: 62.438rem;
 }
 
 .ai-btn-disc .sm-size {
@@ -483,17 +483,17 @@
 }
 
 .ai-btns .ai-logo {
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
 }
 
 .arrow-ai-btn {
     background: linear-gradient(135deg, rgba(43, 127, 255, 0.9) 0%, rgba(152, 16, 250, 0.9) 100%);
-    border-top: 1px solid #FFFFFF1A;
-    box-shadow: 0px 4px 6px -4px #AD46FF40;
-    box-shadow: 0px 10px 15px -3px #AD46FF40;
-    width: 48px;
-    height: 48px;
+    border-top: 0.0625rem solid #FFFFFF1A;
+    box-shadow: 0 0.25rem 0.375rem -0.25rem #AD46FF40;
+    box-shadow: 0 0.625rem 0.9375rem -0.1875rem #AD46FF40;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -501,8 +501,8 @@
 }
 
 .ask-ai-btn {
-    padding: 20px !important;
-    border-radius: 30px !important;
+    padding: 1.25rem !important;
+    border-radius: 1.875rem !important;
     opacity: 0;
     transform: translateY(-50%);
     pointer-events: none;
@@ -511,7 +511,7 @@
 }
 
 .ask-ai-btn::before {
-    border-radius: 30px !important;
+    border-radius: 1.875rem !important;
 }
 
 .ai-hero-btn {
@@ -547,17 +547,17 @@
 
     .bank-requirements-container {
         background-color: #1f1f1f;
-        border-radius: 20px;
-        padding: 24px;
-        gap: 34px;
+        border-radius: 1.25rem;
+        padding: 1.5rem;
+        gap: 2.125rem;
     }
 
     .bank-requirements-container .ai-btn {
-        border-radius: 12.24px;
+        border-radius: 0.765rem;
     }
 
     .services-section-container {
-        gap: 15px;
+        gap: 0.9375rem;
     }
 
 }
@@ -630,15 +630,15 @@
     }
 
     .hero-section-container .hero-image {
-        width: 1100px;
+        width: 68.75rem;
         margin-top: -2rem;
     }
 
     .bank-requirements-container {
         background-color: #1f1f1f;
-        border-radius: 20px;
-        padding: 24px;
-        gap: 25px;
+        border-radius: 1.25rem;
+        padding: 1.5rem;
+        gap: 1.5625rem;
     }
 
     .services-section .section-title p {
@@ -646,14 +646,14 @@
     }
 
     .services-card {
-        padding: 25px 30px !important;
-        border-radius: 20px !important;
-        gap: 25px !important;
+        padding: 1.5625rem 1.875rem !important;
+        border-radius: 1.25rem !important;
+        gap: 1.5625rem !important;
     }
 
     .services-section .services-card picture {
-        width: 56px;
-        height: 56px;
+        width: 3.5rem;
+        height: 3.5rem;
     }
 
     .services-card h6 {
@@ -671,7 +671,7 @@
     }
 
     .special-section .section-title {
-        gap: 0px;
+        gap: 0;
     }
 
     .special-section::before {
@@ -684,14 +684,14 @@
 
     .loan-offer,
     .loan-calculator {
-        padding: 24px !important;
+        padding: 1.5rem !important;
         height: auto !important;
     }
 
     .loan-image,
     .personal-image {
-        max-width: 200px;
-        padding: 10px;
+        max-width: 12.5rem;
+        padding: 0.625rem;
     }
 
     .security-ticker {
@@ -700,7 +700,7 @@
 
     .experience-section .section-title p {
         font-size: 1.2rem;
-        max-width: 250px;
+        max-width: 15.625rem;
         margin: 0;
     }
 
@@ -709,15 +709,15 @@
     }
 
     .exp-card-content {
-        padding: 40px 15px 15px 15px !important;
+        padding: 2.5rem 0.9375rem 0.9375rem 0.9375rem !important;
     }
 
     .exp-card-title h5 {
-        padding-inline-start: 15px;
+        padding-inline-start: 0.9375rem;
     }
 
     .exp-card {
-        border-radius: 20px !important;
+        border-radius: 1.25rem !important;
     }
 
     .calc-pic {
@@ -754,14 +754,14 @@
     .ai-support-banner {
         flex-direction: column;
         text-align: center;
-        gap: 20px;
+        gap: 1.25rem;
     }
 
     .ai-support-sub {
-        max-width: 250px;
+        max-width: 15.625rem;
         text-align: center;
         font-size: 1.2rem;
-        margin-top: 5px
+        margin-top: 0.3125rem
     }
 }
 
@@ -771,24 +771,24 @@
     inset: 0;
     z-index: 2000;
     background: #00000066;
-    backdrop-filter: blur(18px);
-    -webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(1.125rem);
+    -webkit-backdrop-filter: blur(1.125rem);
 }
 
 .ai-modal-content {
     width: 100%;
     height: 100%;
-    padding: 60px 24px;
+    padding: 3.75rem 1.5rem;
     position: relative;
     justify-content: space-between !important;
 }
 
 .ai-modal-close {
     position: absolute;
-    top: 24px;
-    inset-inline-end: 24px;
-    width: 40px;
-    height: 40px;
+    top: 1.5rem;
+    inset-inline-end: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
     border: 0;
@@ -821,20 +821,20 @@
 .ai-cards-swiper,
 .ai-modal-content-container {
     width: 100%;
-    max-width: 810px;
+    max-width: 50.625rem;
 }
 
 .ai-card {
     background: linear-gradient(#111, #111) padding-box,
         linear-gradient(145.59deg, #CC3BFF -28.52%, #3B66FF 130.27%) border-box;
-    border: 1.5px solid transparent;
-    border-radius: 30px;
-    padding: 30px;
+    border: 0.09375rem solid transparent;
+    border-radius: 1.875rem;
+    padding: 1.875rem;
     cursor: pointer;
     transition: transform 0.2s;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 1rem;
 }
 
 .ai-card--teal {
@@ -853,11 +853,11 @@
 /* Chat Input */
 .ai-chat-input {
     width: 100%;
-    max-width: 500px;
+    max-width: 31.25rem;
     background: #1a1a1a;
-    border-radius: 30px;
-    padding: 30px;
-    max-width: 810px;
+    border-radius: 1.875rem;
+    padding: 1.875rem;
+    max-width: 50.625rem;
 }
 
 .ai-chat-field {
@@ -876,13 +876,13 @@
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
     cursor: pointer;
-    padding: 6px;
+    padding: 0.375rem;
     flex-shrink: 0;
 }
 
 .ai-chat-send {
-    width: 36px;
-    height: 36px;
+    width: 2.25rem;
+    height: 2.25rem;
     border-radius: 50%;
     background: var(--blue-color);
     border: none;
@@ -901,8 +901,8 @@
 }
 
 .ai-chat-send {
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 
 .ai-cards-swiper {

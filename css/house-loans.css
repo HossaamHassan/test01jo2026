@@ -6,8 +6,8 @@
     align-items: center;
     justify-content: center;
 
-    border: 2px solid transparent;
-    border-radius: 999px;
+    border: 0.125rem solid transparent;
+    border-radius: 62.438rem;
 
     background:
         linear-gradient(#181818, #181818) padding-box,
@@ -15,7 +15,7 @@
 
     font-weight: 600;
     font-size: 1.3rem;
-    padding: 14px 10px;
+    padding: 0.875rem 0.625rem;
     margin-bottom: 4rem !important;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .content-link-header h4 {
-    max-width: 305px;
+    max-width: 19.062rem;
 }
 
 .content-link-overlay {
@@ -39,5 +39,5 @@
     height: 100vh;
     background: #18181899;
     z-index: 9999;
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(0.0625rem);
 }

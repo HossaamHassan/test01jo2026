@@ -11,10 +11,10 @@
     --success-color: #12B76A;
     --font-family: 'Outfit';
     --line-height: 1.6rem;
-    --card-line-height: 20px;
+    --card-line-height: 1.25rem;
     --title-line-height: 2.3rem;
-    --main-border: 1px solid #57575640;
-    --radius-full: 999px;
+    --main-border: 0.0625rem solid #57575640;
+    --radius-full: 62.438rem;
     --filter-white: brightness(0) saturate(100%) invert(97%) sepia(0%) saturate(0%) hue-rotate(89deg) brightness(103%) contrast(107%);
     --filter-blue: brightness(0) saturate(100%) invert(39%) sepia(90%) saturate(749%) hue-rotate(169deg) brightness(92%) contrast(91%);
 }
@@ -183,7 +183,7 @@ h3,
 h4,
 h5,
 h6 {
-    /* margin: 5px 0px; */
+    /* margin: 0.3125rem 0; */
 }
 
 th,
@@ -210,7 +210,7 @@ ul li::marker {
     }
 
     html {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 }
 
@@ -220,42 +220,42 @@ ul li::marker {
     }
 
     html {
-        font-size: 16px;
+        font-size: 1rem;
     }
 }
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
     :root {
-        --container-width: 1140px;
+        --container-width: 71.25rem;
     }
     html {
-        font-size: 13px;
+        font-size: 0.8125rem;
     }
 }
 
 @media (max-width:1199.98px) {
     :root {
-        --container-width: 960px;
+        --container-width: 60rem;
     }
 
     html {
-        font-size: 15px;
+        font-size: 0.9375rem;
     }
 }
 
 @media (max-width:991.98px) {
     :root {
-        --container-width: 720px;
+        --container-width: 45rem;
     }
 
     html {
-        font-size: 15px;
+        font-size: 0.9375rem;
     }
 }
 
 @media (max-width:767.98px) {
     :root {
-        --container-width: 540px;
+        --container-width: 33.75rem;
     }
 
 }
@@ -287,14 +287,14 @@ h1 {
     font-size: 6.875rem;
     ;
     font-weight: 500;
-    line-height: 130px;
+    line-height: 8.125rem;
 }
 
 h2 {
     font-size: 6.25rem;
     ;
     font-weight: 400;
-    line-height: 130px;
+    line-height: 8.125rem;
 }
 
 h3 {
@@ -309,7 +309,7 @@ h3 {
 
 h4 {
     font-size: 3.75rem;
-    line-height: 65px;
+    line-height: 4.0625rem;
     font-weight: 400;
 }
 
@@ -320,7 +320,7 @@ h4 {
 
 h5 {
     font-size: 3rem;
-    line-height: 55px;
+    line-height: 3.4375rem;
     font-weight: 700;
 }
 
@@ -352,9 +352,9 @@ a {
 
 span,
 .card-date {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 1.625rem;
 }
 
 th {
@@ -409,42 +409,42 @@ ul {
 }
 @media (max-width: 767.98px) {
     h1 {
-        font-size: 36px;
-        line-height: 38px;
+        font-size: 2.25rem;
+        line-height: 2.375rem;
     }
 
     h2 {
-        font-size: 30px;
-        line-height: 32px;
+        font-size: 1.875rem;
+        line-height: 2rem;
     }
 
     h3 {
-        font-size: 30px;
-        line-height: 32px;
+        font-size: 1.875rem;
+        line-height: 2rem;
     }
 
     h4 {
         font-size: 2rem;
-        line-height: 30px;
+        line-height: 1.875rem;
     }
 
     h5 {
         font-size: 1.5rem;
-        line-height: 25px;
+        line-height: 1.5625rem;
     }
 
     h6 {
         font-size: 1.25rem;
-        line-height: 20px;
+        line-height: 1.25rem;
     }
 
     p {
-        font-size: 18px;
-        line-height: 20px;
+        font-size: 1.125rem;
+        line-height: 1.25rem;
     }
     .regular-size {
-        font-size: 20px;
-        line-height: 22px;
+        font-size: 1.25rem;
+        line-height: 1.375rem;
     }
 } */
 
@@ -492,7 +492,7 @@ h4 {
 
 h5 {
     font-size: 2rem;
-    /* line-height: 55px; */
+    /* line-height: 3.4375rem; */
     font-weight: 700;
 }
 
@@ -569,7 +569,7 @@ a {
 }
 
 .mw-400 {
-    max-width: 400px;
+    max-width: 25rem;
 }
 
 @media (max-width: 991.98px) {
@@ -603,7 +603,7 @@ a {
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    height: calc(1* var(--line-height) + 2px);
+    height: calc(1* var(--line-height) + 0.125rem);
 }
 
 .only-2-lines {
@@ -613,7 +613,7 @@ a {
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    height: calc(2* var(--line-height) + 2px);
+    height: calc(2* var(--line-height) + 0.125rem);
 }
 
 .title-only-2-lines {
@@ -623,7 +623,7 @@ a {
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    height: calc(2* var(--title-line-height) + 2px);
+    height: calc(2* var(--title-line-height) + 0.125rem);
 }
 
 .only-3-lines {
@@ -633,7 +633,7 @@ a {
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    height: calc(3* var(--card-line-height) + 2px);
+    height: calc(3* var(--card-line-height) + 0.125rem);
 }
 
 .only-4-lines {
@@ -643,7 +643,7 @@ a {
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    height: calc(4* var(--card-line-height) + 2px);
+    height: calc(4* var(--card-line-height) + 0.125rem);
 }
 
 .default-image-class {
@@ -689,47 +689,47 @@ a {
 }
 
 .radius-5 {
-    border-radius: 5px;
+    border-radius: 0.3125rem;
 }
 
 .radius-6 {
-    border-radius: 6px !important;
+    border-radius: 0.375rem !important;
 }
 
 .radius-8 {
-    border-radius: 8px !important;
+    border-radius: 0.5rem !important;
 }
 
 .radius-10 {
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .radius-20 {
-    border-radius: 20px;
+    border-radius: 1.25rem;
 }
 
 .radius-30 {
-    border-radius: 30px;
+    border-radius: 1.875rem;
 }
 
 .radius-40 {
-    border-radius: 40px;
+    border-radius: 2.5rem;
 }
 
 .p-16 {
-    padding: 16px;
+    padding: 1rem;
 }
 
 .p-20 {
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .p-30 {
-    padding: 30px;
+    padding: 1.875rem;
 }
 
 .p-40 {
-    padding: 40px !important;
+    padding: 2.5rem !important;
 }
 
 .arabic-version .fa-arrow-right,
@@ -777,14 +777,14 @@ a {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    padding: 10px 20px;
-    box-shadow: 0px 0px 25px 0px #4DE1FF4D;
-    border-radius: 14px;
+    padding: 0.625rem 1.25rem;
+    box-shadow: 0 0 1.5625rem 0 #4DE1FF4D;
+    border-radius: 0.875rem;
 }
 
 .ai-btn .ai-logo {
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
 }
 
 .ai-btn p {
@@ -795,8 +795,8 @@ a {
     content: "";
     position: absolute;
     inset: 0;
-    padding: 2px;
-    border-radius: 14px;
+    padding: 0.125rem;
+    border-radius: 0.875rem;
     background: linear-gradient(90deg, #155DFC 0%, #9810FA 50%, #1447E6 100%);
     -webkit-mask:
         linear-gradient(#fff 0 0) content-box,
@@ -810,8 +810,8 @@ a {
     display: flex;
     background-color: var(--blue-color);
     color: var(--gray-25);
-    padding: 14px 22px;
-    border-radius: 50px;
+    padding: 0.875rem 1.375rem;
+    border-radius: 3.125rem;
     font-weight: 400;
     font-size: 1rem;
     align-items: center;
@@ -822,7 +822,7 @@ a {
 
     .primary-btn,
     .solid-btn {
-        padding: 10px 16px;
+        padding: 0.625rem 1rem;
     }
 }
 
@@ -830,12 +830,12 @@ a {
 
     .primary-btn,
     .solid-btn {
-        padding: 7px 22px;
+        padding: 0.4375rem 1.375rem;
     }
 }
 
 .arabic-version .primary-btn {
-    padding: 10px 21px;
+    padding: 0.625rem 1.3125rem;
 }
 
 .primary-btn:hover {
@@ -847,42 +847,42 @@ a {
 }
 
 .solid-btn {
-    border: 1px solid var(--white-color);
+    border: 0.0625rem solid var(--white-color);
     background-color: transparent;
 }
 
 .aspect-btn {
-    width: 38px;
-    height: 38px;
+    width: 2.375rem;
+    height: 2.375rem;
 }
 
 .qr-hero p {
-    max-width: 350px !important;
+    max-width: 21.875rem !important;
 }
 
 
 .loan-offer-container p {
-    max-width: 535px !important;
+    max-width: 33.438rem !important;
 }
 
 .ai-support-banner {
     background-color: #1e1e1e;
-    border-radius: 30px;
-    padding: 30px;
+    border-radius: 1.875rem;
+    padding: 1.875rem;
     width: 100%;
-    max-width: 600px;
+    max-width: 37.5rem;
     overflow: hidden;
     margin-block: 7rem !important;
 }
 
 @media (min-width: 2030px) {
     .ai-support-banner {
-        max-width: 800px;
+        max-width: 50rem;
     }
 }
 
 .ai-support-banner .ai-btn {
-    padding: 12px 24px !important;
+    padding: 0.75rem 1.5rem !important;
 }
 
 .ai-support-banner h4 {
@@ -892,7 +892,7 @@ a {
 .ai-support-banner .regular-size {
     font-size: 1.6rem;
     font-weight: 500;
-    margin-bottom: 2px;
+    margin-bottom: 0.125rem;
 }
 
 .ai-support-title {
@@ -943,8 +943,8 @@ a {
 
 .swiper-button-next,
 .swiper-button-prev {
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .swiper-button-next,
@@ -978,14 +978,14 @@ a {
 }
 
 .swiper-button {
-    width: 56px;
-    height: 56px;
+    width: 3.5rem;
+    height: 3.5rem;
 }
 
 /* Swiper */
 /* Modal */
 button.btn-close i {
-    font-size: 12px !important;
+    font-size: 0.75rem !important;
 }
 
 button.btn-close {
@@ -994,15 +994,15 @@ button.btn-close {
 }
 
 .modal .modal-content {
-    padding: 40px !important;
+    padding: 2.5rem !important;
 }
 
 /* Modal link */
 .content-link {
-    max-width: 714px;
+    max-width: 44.625rem;
     position: absolute;
-    inset-inline-end: 10px;
-    top: 10px;
+    inset-inline-end: 0.625rem;
+    top: 0.625rem;
     height: 98vh;
     position: fixed;
     overflow-y: auto;
@@ -1010,12 +1010,12 @@ button.btn-close {
 }
 
 .content-link-header h4 {
-    max-width: 400px;
+    max-width: 25rem;
 }
 
 .close-btn {
-    width: 56px;
-    height: 56px;
+    width: 3.5rem;
+    height: 3.5rem;
 }
 
 #ai-modal {

@@ -1,6 +1,6 @@
 .profile-section,
 .obtain-section {
-    max-width: 1400px;
+    max-width: 87.5rem;
     margin: auto;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .standard-features-title {
-    max-width: 675px;
+    max-width: 42.188rem;
     line-height: 4.8rem;
 
 }
@@ -22,12 +22,12 @@
 
 @media (max-width: 991.98px) {
     .standard-features-title {
-        margin-bottom: 0rem !important;
+        margin-bottom: 0 !important;
     }
 }
 
 .profile-card {
-    padding: 30px 20px;
+    padding: 1.875rem 1.25rem;
 }
 
 .profile-card p {
@@ -39,7 +39,7 @@
 }
 
 .obtain-title {
-    max-width: 800px;
+    max-width: 50rem;
     margin-bottom: 5rem !important;
 }
 
@@ -50,7 +50,7 @@
 .obtain-form {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 @media (max-width: 991.98px) {

@@ -1,10 +1,10 @@
 @media (min-width: 1200px) and (max-width: 1599.98px) {
     .online-btn {
-        padding: 7px 16px;
+        padding: 0.4375rem 1rem;
     }
 
     .nav-logo-img {
-        height: 28px;
+        height: 1.75rem;
     }
 
     .online-btn p {
@@ -17,17 +17,17 @@
     }
 
     .form-check-input {
-        width: 12px;
-        height: 12px;
+        width: 0.75rem;
+        height: 0.75rem;
     }
 
     .compare-container {
-        gap: 7px !important;
+        gap: 0.4375rem !important;
     }
 
     .person-card span,
     .person-card a {
-        max-width: 279px;
+        max-width: 17.438rem;
     }
 
     .article-card p {
@@ -36,16 +36,16 @@
     }
 
     .swiper-button {
-        height: 40px;
-        width: 40px;
+        height: 2.5rem;
+        width: 2.5rem;
     }
 
     .card-slider {
-        max-width: 650px;
+        max-width: 40.625rem;
     }
 
     .card-slide-content {
-        max-width: 590px !important;
+        max-width: 36.875rem !important;
         margin: auto;
     }
 
@@ -63,7 +63,7 @@
     }
 
     .champion-box-title img {
-        width: 25px;
+        width: 1.5625rem;
     }
 
     .standard-features-container .size-30 {

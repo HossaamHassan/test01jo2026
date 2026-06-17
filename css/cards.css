@@ -69,7 +69,7 @@
 }
 
 .choose-section-container {
-    max-width: 1270px;
+    max-width: 79.375rem;
 }
 
 .choose-link {
@@ -86,13 +86,13 @@
     z-index: 1500;
     background: #22222280;
     background-blend-mode: multiply;
-    backdrop-filter: blur(12px);
-    padding: 14px 0;
+    backdrop-filter: blur(0.75rem);
+    padding: 0.875rem 0;
     transform: translateY(100%);
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    height: 120px;
+    border-top-left-radius: 1.875rem;
+    border-top-right-radius: 1.875rem;
+    height: 7.5rem;
 }
 
 .compare-bar.active {
@@ -101,42 +101,42 @@
 
 /* Slots */
 .compare-slot {
-    width: 126px;
-    height: 80px;
-    border-radius: 12px;
+    width: 7.875rem;
+    height: 5rem;
+    border-radius: 0.75rem;
     flex-shrink: 0;
     position: relative;
     overflow: visible;
 }
 
 .compare-slot.empty {
-    border: 1px solid #757575;
+    border: 0.0625rem solid #757575;
     background: transparent;
 }
 
 .compare-slot.filled {
     background: #222;
-    border: 1.5px solid rgba(59, 102, 255, 0.35);
+    border: 0.09375rem solid rgba(59, 102, 255, 0.35);
 }
 
 .compare-slot.filled img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     display: block;
 }
 
 .compare-slot-name {
     position: absolute;
-    bottom: -18px;
+    bottom: -1.125rem;
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
     font-size: 0.6rem;
     color: rgba(255, 255, 255, 0.55);
     margin: 0;
-    max-width: 80px;
+    max-width: 5rem;
     overflow: hidden;
     text-overflow: ellipsis;
     display: none;
@@ -144,10 +144,10 @@
 
 .compare-slot-remove {
     position: absolute;
-    top: -7px;
-    right: -7px;
-    width: 18px;
-    height: 18px;
+    top: -0.4375rem;
+    right: -0.4375rem;
+    width: 1.125rem;
+    height: 1.125rem;
     border-radius: 50%;
     background: #fff;
     border: none;
@@ -165,11 +165,11 @@
 
 /* Close button */
 .compare-bar-close {
-    width: 36px;
-    height: 36px;
+    width: 2.25rem;
+    height: 2.25rem;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    border: 0.0625rem solid rgba(255, 255, 255, 0.15);
     color: #fff;
     font-size: 0.9rem;
     cursor: pointer;

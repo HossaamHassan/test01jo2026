@@ -1,5 +1,5 @@
 .compare-card-title {
-    max-width: 575px;
+    max-width: 35.938rem;
     background: linear-gradient(145.59deg, #CC3BFF -28.52%, #3B66FF 130.27%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -9,13 +9,13 @@
 }
 
 .compare-card-container {
-    max-width: 1244px;
+    max-width: 77.75rem;
     margin: 0 auto;
     padding-block: 6rem 12rem;
 }
 
 .cash-advance {
-    max-width: 82px;
+    max-width: 5.125rem;
 }
 
 .standard-features-title {
