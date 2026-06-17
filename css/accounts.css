@@ -2,6 +2,7 @@
 .obtain-section {
     max-width: 87.5rem;
     margin: auto;
+    margin-block: 10rem;
 }
 
 .cards-section {
@@ -34,9 +35,6 @@
     line-height: 1.1rem;
 }
 
-.obtain-section {
-    margin-block: 10rem;
-}
 
 .obtain-title {
     max-width: 50rem;

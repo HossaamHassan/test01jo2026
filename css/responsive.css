@@ -5,7 +5,7 @@
     }
 
     .online-btn {
-        padding: 0.4375rem 1.3rem;
+        padding: 0.4375rem 1.3rem !important;
     }
 
     .nav-logo-img {
@@ -93,7 +93,8 @@
         font-size: 1.1rem;
     }
 
-    .ai-support-content img {
+    .ai-support-content img,
+    .profile-card img {
         width: 60px;
     }
 
