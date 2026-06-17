@@ -352,7 +352,7 @@
 }
 
 .exp-card-title h5 {
-    text-shadow: 0 0.25rem 0.25rem rgb(0 0 0 / 30%);
+    text-shadow: 0 0.25rem 0.25rem rgb(0 0 0 / 50%);
     padding-inline-start: 1.875rem;
     font-size: 2.5rem;
     color: var(--white-color);
