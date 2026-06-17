@@ -45,7 +45,7 @@
 
 .credit-box-feat span {
     font-size: 1.1rem;
-    color: #959595;
+    color: #959595 !important;
 }
 
 .credit-box-content-desc-span {
