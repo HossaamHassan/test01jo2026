@@ -1,4 +1,9 @@
 @media (min-width: 1200px) and (max-width: 1599.98px) {
+    .hero-title h1 {
+        font-size: 6.3rem;
+        line-height: 6.8rem;
+    }
+
     .hero-section .hero-content h1 {
         font-size: 6.3rem;
         line-height: 6.5rem;
