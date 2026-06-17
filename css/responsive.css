@@ -112,4 +112,8 @@
     .standard-features-title {
         font-size: 5.5rem;
     }
+
+    .standard-features-container ul li img {
+        width: 18px;
+    }
 }
