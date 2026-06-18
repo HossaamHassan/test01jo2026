@@ -117,13 +117,15 @@
 }
 
 /* Card Slider */
+
 @media (min-width: 992px) {
     .card-slider-section {
         margin-top: 13rem;
     }
 }
 
-.card-slider {
+.card-slider,
+.card-slider-container {
     max-width: 53.125rem;
 }
 

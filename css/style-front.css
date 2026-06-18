@@ -887,7 +887,7 @@ a {
     width: 100%;
     max-width: 37.5rem;
     overflow: hidden;
-    margin-block: 7rem !important;
+    margin-block: 7rem 6rem !important;
 }
 
 @media (min-width: 2030px) {
