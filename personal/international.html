@@ -562,6 +562,9 @@
     <!-- Card Slider Section -->
     <section class="card-slider-section">
         <div class="container">
+            <picture class="bg-slider">
+                <img src="/assets/images/bg-slider.png" alt="" class="default-image-class">
+            </picture>
             <div class="swiper card-slider position-relative ">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -569,7 +572,7 @@
                             <h1 class="fw-semibold ">
                                 Champions
                             </h1>
-                            <ul class="icon-cashback m-0 p-0 d-flex gap-5 align-items-center justify-content-center">
+                            <ul class="icon-cashback m-0 p-0 d-flex gap-5 align-items-center justify-content-between">
                                 <li class="d-flex align-items-center gap-3 flex-column ">
                                     <picture>
                                         <img src="/assets/icons/personal/cachback-icon.svg" alt="">
@@ -621,7 +624,7 @@
                             <h1 class="fw-semibold ">
                                 Champions
                             </h1>
-                            <ul class="icon-cashback m-0 p-0 d-flex gap-5 align-items-center justify-content-center">
+                            <ul class="icon-cashback m-0 p-0 d-flex gap-5 align-items-center justify-content-between">
                                 <li class="d-flex align-items-center gap-2 flex-column ">
                                     <picture>
                                         <img src="/assets/icons/personal/cachback-icon.svg" alt="">
@@ -944,6 +947,12 @@
         </a>
     </div>
     <!-- Start Footer Section -->
+    <!-- Tagline -->
+    <a href="#" class="footer-tagline d-flex align-items-center justify-content-between ">
+        <picture>
+            <img src="/assets/images/footer-banner.png" alt="" class="default-image-class">
+        </picture>
+    </a>
     <footer class="footer-section">
         <div class="container">
             <!-- Top: Logo + Nav + QR -->
@@ -953,16 +962,10 @@
                         <img src="/assets/images/logo-white.png" alt="AJIB" class="footer-logo-img">
                     </picture>
                 </div>
-                <!-- Tagline -->
-                <a href="#" class="footer-tagline d-flex align-items-center justify-content-between ">
-                    <picture>
-                        <img src="/assets/images/footer-banner.png" alt="" class="default-image-class">
-                    </picture>
-                </a>
                 <div class="footer-nav d-flex gap-5 flex-wrap">
                     <div class="footer-nav-col">
                         <ul class="footer-nav-list">
-                            <li><a href="#" class="lg-size semi-bold-font gray-50">Subsidiaries &amp; <br />
+                            <li><a href="#" class="lg-size semi-bold-font gray-50">Subsidiaries &amp;
                                     Affiliates</a></li>
                             <li><a href="#" class="lg-size semi-bold-font gray-25">Branches</a></li>
                             <li><a href="#" class="lg-size semi-bold-font gray-50">ATMs</a></li>
@@ -1023,6 +1026,9 @@
     <!-- End Footer Section -->
     <script>
         var swiper = new Swiper(".card-slider", {
+            spaceBetween: 30,
+            effect: "fade",
+            fadeEffect: { crossFade: true },
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
