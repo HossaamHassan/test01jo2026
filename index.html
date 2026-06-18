@@ -60,7 +60,7 @@
                 <h2 class="ai-modal-title mb-5">All your banking needs</h2>
 
                 <!-- Swiper Cards -->
-                <div class="swiper ai-cards-swiper ">
+                <div class="swiper ai-cards-swipe">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="ai-card">
@@ -1173,11 +1173,12 @@
     <!-- End Footer Section -->
     <script>
         new Swiper('.exp-swiper', {
-            slidesPerView: 13,
+            slidesPerView: 1.2,
             spaceBetween: 12,
             breakpoints: {
-                768: { slidesPerView: 2, spaceBetween: 16 },
-                992: { slidesPerView: 3, spaceBetween: 16 }
+                768: { slidesPerView: 1.2, spaceBetween: 16 },
+                992: { slidesPerView: 3, spaceBetween: 16 },
+                1200: { slidesPerView: 3, spaceBetween: 16 }
             }
         });
         new Swiper('.credit-cards-swiper', {
