@@ -32,6 +32,7 @@ input[type="checkbox"] {
     box-shadow: 0 0.0625rem 0.125rem 0 #1018280D;
     padding: 0.625rem 0.875rem !important;
     display: flex;
+    height: 2.625rem;
 }
 
 .form-control:focus {

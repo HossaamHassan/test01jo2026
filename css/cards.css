@@ -10,21 +10,21 @@
     color: var(--gray-25);
 }
 
-.filter-item.active img {
+/* .filter-item.active {
     filter: var(--filter-blue);
-}
+} */
 
 .filter-item {
     color: var(--white-color);
 }
 
-.filter-item:hover {
+.filter-item:hover p {
     color: var(--blue-color);
 }
 
-.filter-item:hover img {
+/* .filter-item:hover img {
     filter: var(--filter-blue);
-}
+} */
 
 .credit-box-content i {
     color: var(--success-color);

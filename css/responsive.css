@@ -29,6 +29,7 @@
 
     .compare-container p {
         font-size: .9rem;
+        font-weight: 400;
     }
 
     .form-check-input {
@@ -38,6 +39,7 @@
 
     .compare-container {
         gap: 0.4375rem !important;
+        padding: 10px !important;
     }
 
     .person-card span,
@@ -179,5 +181,27 @@
 
     .footer-logo-img {
         height: 3rem;
+    }
+
+    .choose-section-content img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .choose-section-container {
+        max-width: 70.375rem;
+    }
+
+    .modal-form .modal-content {
+        max-width: 70%;
+        margin: auto;
+    }
+
+    .form-check-input:checked[type=radio] {
+        background-size: 0.4rem;
+    }
+
+    .article-section .section-title h4 {
+        font-size: 2.5rem;
     }
 }

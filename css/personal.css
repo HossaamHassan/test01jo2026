@@ -264,11 +264,15 @@
     .ai-support-banner {
         padding-inline: 1.875rem;
         padding-block: 2rem;
-        max-width: 51.25rem;
+        max-width: 51.25rem !important;
     }
 }
 
 .bg-slider {
     position: absolute;
     top: 0;
+}
+
+.slogan-section {
+    padding-block: 2rem;
 }
