@@ -44,6 +44,10 @@
     padding-inline-end: 1rem;
 }
 
+.credit-box {
+    height: 100%;
+}
+
 @media (max-width: 991.98px) {
     .standard-features-section {
         padding-inline-start: 1rem;

@@ -36,7 +36,7 @@
                 <!-- Logo -->
                 <a href="#" class="navbar-brand-logo d-flex align-items-center gap-2">
                     <picture>
-                        <img src="/assets/images/logo-white.png" alt="AJIB" class="nav-logo-img">
+                        <img src="../assets/images/logo-white.png" alt="AJIB" class="nav-logo-img">
                     </picture>
                 </a>
 
@@ -217,13 +217,13 @@
                                         <ul>
                                             <li><a href="#" class="sm-size with-file">
                                                     <picture>
-                                                        <img src="./assets/icons/document-text.svg" alt="">
+                                                        <img src="../assets/icons/document-text.svg" alt="">
                                                     </picture>
                                                     Corporate Governance
                                                 </a></li>
                                             <li><a href="#" class="sm-size with-file">
                                                     <picture>
-                                                        <img src="./assets/icons/document-text.svg" alt="">
+                                                        <img src="../assets/icons/document-text.svg" alt="">
                                                     </picture>
                                                     Correspondent Banks
                                                 </a></li>
@@ -234,7 +234,7 @@
                                         <ul>
                                             <li><a href="#" class="sm-size with-file">
                                                     <picture>
-                                                        <img src="./assets/icons/document-text.svg" alt="">
+                                                        <img src="../assets/icons/document-text.svg" alt="">
                                                     </picture>
                                                     Tariff of Charges
                                                 </a>
@@ -264,7 +264,7 @@
                 <div class="nav-actions d-flex align-items-center gap-2 justify-content-end ">
                     <button class="nav-search-btn" aria-label="Search">
                         <picture class="d-flex align-items-center justify-content-center ">
-                            <img src="/assets/icons/magnifying-glass.svg" alt="" width="20" height="20">
+                            <img src="../assets/icons/magnifying-glass.svg" alt="" width="20" height="20">
                         </picture>
                     </button>
                     <a href="#" class="nav-lang-btn sm-size d-flex align-items-center justify-content-center ">En</a>
@@ -275,10 +275,288 @@
                     </a>
                 </div>
 
+                <!-- Mobile Hamburger (visible only on mobile) -->
+                <button class="mobile-hamburger d-flex d-lg-none align-items-center justify-content-center"
+                    id="mobileMenuOpen" aria-label="Open menu">
+                    <i class="fa-solid fa-bars fs-1"></i>
+                </button>
+
             </div>
         </div>
     </nav>
-    <!-- End Navbar -->
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+        <div class="mobile-menu-panel">
+            <!-- Header -->
+            <div class="mobile-menu-header d-flex align-items-center justify-content-between">
+                <a href="#" class="navbar-brand-logo d-flex align-items-center gap-2">
+                    <picture>
+                        <img src="../assets/images/logo-white.png" alt="AJIB" class="nav-logo-img">
+                    </picture>
+                </a>
+                <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Close menu">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <!-- Search -->
+            <div class="mobile-menu-search d-flex align-items-center gap-2">
+                <div class="mobile-search-input d-flex align-items-center gap-2 flex-grow-1">
+                    <picture class="d-flex align-items-center justify-content-center ">
+                        <img src="../assets/icons/magnifying-glass.svg" alt="" width="20" height="20">
+                    </picture>
+                    <input type="text" placeholder="Search here....">
+                    <picture class="d-flex align-items-center justify-content-center ">
+                        <img src="../assets/icons/microphone.svg" alt="" width="20" height="20">
+                    </picture>
+                </div>
+                <a href="#" class="nav-lang-btn sm-size d-flex align-items-center justify-content-center ">En</a>
+            </div>
+
+            <!-- Nav Items -->
+            <div class="mobile-menu-nav">
+
+                <!-- Personal -->
+                <div class="mobile-nav-item">
+                    <div class="mobile-nav-toggle active" data-target="mobile-personal">
+                        <span>Personal</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="mobile-nav-sub" id="mobile-personal">
+
+                        <div class="mobile-sub-item">
+                            <div class="mobile-sub-toggle" data-target="mob-accounts">
+                                <span>Accounts</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="mobile-sub-list" id="mob-accounts">
+                                <a href="#">Current</a>
+                                <a href="#">Savings</a>
+                                <a href="#">Time Deposit</a>
+                                <a href="#">Future</a>
+                                <a href="#">Champions</a>
+                                <a href="#">Cheques</a>
+                                <a href="#">IBAN Generator</a>
+                            </div>
+                        </div>
+
+                        <div class="mobile-sub-item">
+                            <div class="mobile-sub-toggle" data-target="mob-cards">
+                                <span>Cards</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="mobile-sub-list" id="mob-cards">
+                                <a href="#">Credit</a>
+                                <a href="#">Debit</a>
+                                <a href="#">Prepaid</a>
+                                <a href="#">Wearables</a>
+                                <a href="#">RJ Debit</a>
+                                <a href="#">AJIB Rewards</a>
+                            </div>
+                        </div>
+
+                        <div class="mobile-sub-item">
+                            <div class="mobile-sub-toggle" data-target="mob-loans">
+                                <span>Loans</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="mobile-sub-list" id="mob-loans">
+                                <a href="#">Personal</a>
+                                <a href="#">Home</a>
+                                <a href="#">AJIB MA3AK</a>
+                                <a href="#">Loan Calculator</a>
+                            </div>
+                        </div>
+
+                        <div class="mobile-sub-item">
+                            <div class="mobile-sub-toggle" data-target="mob-transfers">
+                                <span>Transfers</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="mobile-sub-list" id="mob-transfers">
+                                <a href="#">International</a>
+                                <a href="#">Local</a>
+                                <a href="#">RTGS</a>
+                                <a href="#">ACH</a>
+                                <a href="#">Western Union</a>
+                                <a href="#">Mastercard Transfast</a>
+                                <a href="#">AJIB Global Branches</a>
+                            </div>
+                        </div>
+
+                        <div class="mobile-sub-item">
+                            <div class="mobile-sub-toggle" data-target="mob-personalized">
+                                <span>Personalized Banking</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="mobile-sub-list" id="mob-personalized">
+                                <a href="#">Prestige Program</a>
+                                <a href="#">VIP Banking</a>
+                            </div>
+                        </div>
+
+                        <div class="mobile-sub-item">
+                            <div class="mobile-sub-toggle" data-target="mob-investments">
+                                <span>Investments &amp; Insurance</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="mobile-sub-list" id="mob-investments">
+                                <a href="#">AJIB Trading</a>
+                                <a href="#">Wealth Management</a>
+                                <a href="#">Treasury</a>
+                                <a href="#">Prestige life</a>
+                                <a href="#">Sanctuary</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Business -->
+                <div class="mobile-nav-item">
+                    <div class="mobile-nav-toggle" data-target="mobile-business">
+                        <span>Business</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="mobile-nav-sub" id="mobile-business">
+
+                        <div class="mobile-sub-item">
+                            <div class="mobile-sub-toggle" data-target="mob-corporate">
+                                <span>Corporate Banking</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="mobile-sub-list" id="mob-corporate">
+                                <a href="#">Corporate Finance</a>
+                                <a href="#">Project &amp; Structured Finance</a>
+                                <a href="#">Corporate Lending</a>
+                            </div>
+                        </div>
+
+                        <div class="mobile-sub-item">
+                            <div class="mobile-sub-toggle" data-target="mob-transacting">
+                                <span>Transacting Banking</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="mobile-sub-list" id="mob-transacting">
+                                <a href="#">Cash Management</a>
+                                <a href="#">Trade Finance</a>
+                            </div>
+                        </div>
+
+                        <div class="mobile-sub-item">
+                            <div class="mobile-sub-toggle" data-target="mob-smes">
+                                <span>SMEs</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="mobile-sub-list" id="mob-smes">
+                                <a href="#">SMEs Overview</a>
+                                <a href="#">Products &amp; Services</a>
+                                <a href="#">SME Centers</a>
+                                <a href="#">Success Stories</a>
+                                <a href="#">FAQs</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Digital -->
+                <div class="mobile-nav-item">
+                    <div class="mobile-nav-toggle" data-target="mobile-digital">
+                        <span>Digital</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="mobile-nav-sub" id="mobile-digital">
+
+                        <div class="mobile-sub-item">
+                            <div class="mobile-sub-toggle" data-target="mob-digital-services">
+                                <span>Digital Services</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="mobile-sub-list" id="mob-digital-services">
+                                <a href="#">Mobile Banking</a>
+                                <a href="#">Internet Banking</a>
+                                <a href="#">ATM Services</a>
+                                <a href="#">Call Center</a>
+                            </div>
+                        </div>
+
+                        <div class="mobile-sub-item">
+                            <div class="mobile-sub-toggle" data-target="mob-security">
+                                <span>Security &amp; Support</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="mobile-sub-list" id="mob-security">
+                                <a href="#">AJIB Security</a>
+                            </div>
+                        </div>
+
+                        <div class="mobile-sub-item">
+                            <div class="mobile-sub-toggle" data-target="mob-payment">
+                                <span>Payment Solutions</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="mobile-sub-list" id="mob-payment">
+                                <a href="#">Apple Pay</a>
+                                <a href="#">Google Pay</a>
+                                <a href="#">eFAWATEERcom</a>
+                                <a href="#">CliQ</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Help & About -->
+                <div class="mobile-nav-item">
+                    <div class="mobile-nav-toggle" data-target="mobile-help">
+                        <span>Help &amp; About</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="mobile-nav-sub" id="mobile-help">
+
+                        <div class="mobile-sub-item">
+                            <div class="mobile-sub-toggle" data-target="mob-company">
+                                <span>Company</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="mobile-sub-list" id="mob-company">
+                                <a href="#">About AJIB</a>
+                                <a href="#">Investor Relations</a>
+                                <a href="#">Subsidiaries &amp; Affiliates</a>
+                                <a href="#">International Branches</a>
+                                <a href="#">Annual Reports</a>
+                            </div>
+                        </div>
+
+                        <div class="mobile-sub-item">
+                            <div class="mobile-sub-toggle" data-target="mob-help-support">
+                                <span>Help &amp; Support</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="mobile-sub-list" id="mob-help-support">
+                                <a href="#">Contact Centre</a>
+                                <a href="#">Complaints</a>
+                                <a href="#">Feedback</a>
+                                <a href="#">Careers</a>
+                                <a href="#">Ask AJIB</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Footer Button -->
+            <a href="#" class="ai-btn online-btn sm-size gray-25 ">
+                <p class="m-0 fw-semibold ">
+                    AJIB Online
+                </p>
+            </a>
+        </div>
+    </div>
 
     <!-- Start Hero Section -->
     <section class="hero-section position-relative ">
