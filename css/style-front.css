@@ -707,12 +707,16 @@ a {
     border-radius: 8px !important;
 }
 
-.radius-10 {
-    border-radius: 10px;
+.radius-15 {
+    border-radius: 15px;
 }
 
 .radius-20 {
     border-radius: 20px;
+}
+
+.radius-10 {
+    border-radius: 10px;
 }
 
 .radius-25 {

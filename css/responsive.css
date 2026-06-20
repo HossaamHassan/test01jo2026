@@ -44,7 +44,7 @@
 
     .person-card span,
     .person-card a {
-        max-width: 17.438rem;
+        max-width: 21.438rem;
     }
 
     .article-card p {
@@ -53,21 +53,26 @@
     }
 
     .swiper-button {
-        height: 2.5rem;
-        width: 2.5rem;
+        height: 2.3rem;
+        width: 2.3rem;
+    }
+
+    .swiper-button {
+        font-size: .9rem;
     }
 
     .card-slider {
-        max-width: 40.625rem;
+        max-width: 43.625rem;
     }
 
     .card-slide-content {
-        max-width: 36.875rem !important;
+        max-width: 42.875rem !important;
         margin: auto;
     }
 
     .champions-section {
         background-size: contain;
+        padding-block: 4rem 5rem;
     }
 
     .champion-box-title h6,
@@ -80,12 +85,13 @@
     }
 
     .champion-box-title img {
-        width: 1.5625rem;
+        width: 20px;
     }
 
     .standard-features-container .size-30 {
         font-size: 1.5rem !important;
-        line-height: 2rem !important;
+        line-height: 1.7rem !important;
+        font-weight: 700;
     }
 
     .primary-btn,
@@ -133,7 +139,7 @@
     }
 
     .standard-features-title {
-        font-size: 5.5rem;
+        font-size: 5.3rem;
     }
 
     .standard-features-container ul li img {
@@ -142,6 +148,7 @@
 
     .credit-box-feat span {
         font-size: 1rem !important;
+        line-height: 1.1rem;
     }
 
     .credit-box-content-desc {
@@ -203,5 +210,17 @@
 
     .article-section .section-title h4 {
         font-size: 2.5rem;
+    }
+
+    .compare-card-section h4 {
+        font-size: 2.5rem;
+    }
+
+    .card-slide h1 {
+        font-size: 5.8rem;
+    }
+
+    .icon-cashback img {
+        width: 70px;
     }
 }

@@ -31,7 +31,7 @@
     background-image: url("/assets/images/personal/bg-cards-section.png");
     background-size: cover;
     background-position: 50% 0%;
-    padding-block: 9rem 11rem;
+    padding-block: 11rem 11rem;
 }
 
 .cards-section h3 {
@@ -105,6 +105,10 @@
 .standard-features-container ul span {
     font-weight: 300;
     font-size: 1.1rem;
+}
+
+.credit-box-content h6 {
+    font-weight: 500;
 }
 
 .credit-box-content-desc {
@@ -225,7 +229,7 @@
 
 .person-card span,
 .person-card a {
-    max-width: 23.75rem;
+    max-width: 21.75rem;
     display: block;
     font-weight: 300;
     font-size: 1.1rem;

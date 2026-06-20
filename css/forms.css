@@ -245,9 +245,6 @@ input[type="checkbox"] {
     border-color: var(--blue-color) !important;
 }
 
-.form-check-input[type=checkbox] {
-    border-radius: 0 !important;
-}
 
 .credit-box .form-check-input:checked {
     background-color: var(--blue-color) !important;

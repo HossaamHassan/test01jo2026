@@ -251,6 +251,12 @@
     }
 }
 
+@media (max-width: 375.98px) {
+    .services-section-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 .services-section .section-title p {
     font-size: 1.5rem;
     /* margin-top: 2rem !important; */
