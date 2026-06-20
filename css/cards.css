@@ -61,12 +61,18 @@
 
 /*  */
 .article-section {
-    padding-block: 10rem 25rem !important;
+    padding-block: 12rem 25rem !important;
+    max-width: 101rem;
+    margin: auto;
+}
+
+.article-section .section-title {
+    margin-bottom: 5rem;
 }
 
 /*  */
 .choose-section {
-    padding-block: 10rem 6rem;
+    padding-block: 10rem 3rem;
 }
 
 .choose-section-container {

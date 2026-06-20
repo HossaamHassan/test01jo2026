@@ -41,3 +41,11 @@
     z-index: 9999;
     backdrop-filter: blur(0.0625rem);
 }
+
+.champions-section {
+    margin-top: 0 !important;
+}
+
+.standard-features-title {
+    max-width: 500px;
+}

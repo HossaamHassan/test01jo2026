@@ -48,6 +48,10 @@
     height: 100%;
 }
 
+.credit-box .credit-box-content h6 {
+    color: var(--white-color) !important;
+}
+
 @media (max-width: 991.98px) {
     .standard-features-section {
         padding-inline-start: 1rem;
@@ -124,7 +128,7 @@
 
 @media (min-width: 992px) {
     .card-slider-section {
-        margin-top: 13rem;
+        margin-top: 15rem;
     }
 }
 
@@ -135,6 +139,8 @@
 
 .icon-cashback {
     margin-block: 6rem 4rem !important;
+    max-width: 40.625rem !important;
+    margin-inline: auto !important;
 }
 
 .card-slide-content {
@@ -275,8 +281,9 @@
 .bg-slider {
     position: absolute;
     top: 0;
+    pointer-events: none;
 }
 
 .slogan-section {
-    padding-block: 2rem;
+    padding-block: 3rem;
 }

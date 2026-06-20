@@ -223,4 +223,112 @@
     .icon-cashback img {
         width: 70px;
     }
+
+    /* .article-section {
+        max-width: 77rem;
+    } */
+    .icon-cashback {
+        margin-block: 6rem 4rem !important;
+        max-width: 35.625rem !important;
+    }
+
+    .champion-title {
+        margin-block: 4rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .compare-card-title {
+        font-size: 4.5rem;
+        line-height: 4.3rem;
+    }
+
+    .standard-features-title {
+        font-size: 3rem !important;
+        line-height: 3rem !important;
+        margin-bottom: 0 !important;
+    }
+
+    .card-slider {
+        padding-top: 2rem;
+    }
+
+    .icon-cashback img {
+        width: 70px;
+    }
+
+    .choose-section-content img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .credit-box-title img {
+        width: 40px;
+    }
+
+    .apply-card img {
+        width: 30px;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+    .form-container .form-title h5 {
+        line-height: 2rem;
+    }
+
+    .cards-section h3 {
+        font-size: 2.8rem;
+    }
+
+    .icon-cashback {
+        flex-direction: column !important;
+    }
+
+    .swiper-control-container {
+        top: 5%;
+    }
+
+    .ai-cards {
+        display: block !important;
+    }
+
+    .ai-cards .ai-card {
+        max-width: 350px;
+        flex-direction: row;
+        align-items: center;
+        padding: 1rem 1.875rem;
+        margin-bottom: 20px;
+        margin-inline: auto;
+        background: linear-gradient(#181818, #181818) padding-box,
+            linear-gradient(145.59deg, #CC3BFF -28.52%, #3B66FF 130.27%) border-box;
+    }
+
+    .ai-card-label {
+        max-width: unset;
+    }
+
+    .ai-modal-title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .hero-image {
+        height: 30vh;
+        object-fit: cover;
+    }
+
+    .ai-support-text h5 {
+        line-height: 2rem;
+    }
+
+    .swiper-button {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .swiper-control-container {
+        top: 4%;
+    }
 }

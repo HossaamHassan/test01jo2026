@@ -162,6 +162,7 @@
     .hero-image-mobile {
         width: 103vw;
         margin-top: -8rem;
+        pointer-events: none;
     }
 }
 
@@ -490,13 +491,17 @@
     border-radius: 62.438rem;
 }
 
+.ai-btn-disc span {
+    font-size: 1.1rem;
+}
+
 .ai-btn-disc .sm-size {
     color: #888;
 }
 
 .ai-btns .ai-logo {
-    width: 3.75rem;
-    height: 3.75rem;
+    width: 3.75rem !important;
+    height: 3.75rem !important;
 }
 
 .arrow-ai-btn {
@@ -513,7 +518,7 @@
 }
 
 .ask-ai-btn {
-    padding: 1.25rem !important;
+    padding: 2rem 0 !important;
     border-radius: 1.875rem !important;
     opacity: 0;
     transform: translateY(-50%);
@@ -546,7 +551,7 @@
 
 @media (max-width: 767.98px) {
     .hero-section {
-        padding-block: 9rem 8rem;
+        padding-block: 2rem 4rem;
     }
 
     .bank-requirements-section::before {
@@ -570,6 +575,14 @@
 
     .services-section-container {
         gap: 0.9375rem;
+    }
+
+    .services-card h6 {
+        font-size: 1.3rem;
+    }
+
+    .ai-btns {
+        display: none;
     }
 
 }
@@ -658,8 +671,8 @@
     }
 
     .services-card {
-        padding: 1.5625rem 1.875rem !important;
-        border-radius: 1.25rem !important;
+        padding: 20px !important;
+        border-radius: 20px !important;
         gap: 1.5625rem !important;
     }
 
@@ -743,6 +756,7 @@
 
     .ai-support-banner {
         margin-block: 2rem 7rem !important;
+        background-color: var(--gray-color);
     }
 
     .ticker-track h1 {
@@ -766,14 +780,22 @@
     .ai-support-banner {
         flex-direction: column;
         text-align: center;
-        gap: 1.25rem;
+        gap: 1rem !important;
+        padding: 30px 20px 20px 20px !important;
     }
 
     .ai-support-sub {
-        max-width: 15.625rem;
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         margin-top: 0.3125rem
+    }
+
+    .ai-support-banner .regular-size {
+        font-size: 1.8rem;
+    }
+
+    .nav-logo-img {
+        height: 2.5rem;
     }
 }
 
@@ -821,6 +843,7 @@
 .ai-modal-title {
     color: #fff;
     text-align: center;
+    margin-bottom: 5rem !important;
 }
 
 @media (min-width: 1200px) {
@@ -837,9 +860,9 @@
 }
 
 .ai-card {
-    background: linear-gradient(#111, #111) padding-box,
+    background: linear-gradient(#222, #222) padding-box,
         linear-gradient(145.59deg, #CC3BFF -28.52%, #3B66FF 130.27%) border-box;
-    border: 0.09375rem solid transparent;
+    border: 2px solid transparent;
     border-radius: 1.875rem;
     padding: 1.875rem;
     cursor: pointer;
@@ -847,10 +870,11 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    flex: 1;
 }
 
 .ai-card--teal {
-    background: linear-gradient(#111, #111) padding-box,
+    background: linear-gradient(#222, #222) padding-box,
         linear-gradient(145.59deg, #3B66FF -28.52%, #3BFFCB 130.27%) border-box;
 }
 
@@ -860,6 +884,7 @@
     margin: 0;
     line-height: 1.4;
     font-size: 1.6rem;
+    max-width: 150px;
 }
 
 /* Chat Input */
