@@ -216,7 +216,7 @@
 }
 
 .services-section .section-title {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .services-section .services-card {
@@ -225,8 +225,8 @@
 }
 
 .services-section .services-card picture {
-    width: 2.625rem;
-    height: 2.625rem;
+    width: 3.5rem;
+    height: 3.5rem;
 }
 
 .services-section .services-card img {
@@ -260,7 +260,7 @@
 
 .services-section .section-title p {
     font-size: 1.5rem;
-    /* margin-top: 2rem !important; */
+    margin-top: 2rem !important;
 }
 
 /* Start Loans Section */
@@ -797,6 +797,8 @@
     .nav-logo-img {
         height: 2.5rem;
     }
+
+
 }
 
 /* ===== AI Modal ===== */
