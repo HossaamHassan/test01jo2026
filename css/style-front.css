@@ -1022,13 +1022,25 @@ button.btn-close {
 /* Modal link */
 .content-link {
     max-width: 44.625rem;
-    position: absolute;
     inset-inline-end: 0.625rem;
     top: 0.625rem;
     height: 98vh;
     position: fixed;
     overflow-y: auto;
     z-index: 9999;
+    display: none;
+}
+
+.content-link-overlay {
+    display: none;
+}
+
+.content-link:not(.open) {
+    display: none !important;
+}
+
+.content-link-overlay.open {
+    display: block;
 }
 
 .content-link-header h4 {
@@ -1042,4 +1054,18 @@ button.btn-close {
 
 #ai-modal {
     z-index: 999999 !important;
+}
+
+.content-link-header h4 {
+    max-width: 19.062rem;
+}
+
+.content-link-overlay {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #18181899;
+    z-index: 9999999;
+    backdrop-filter: blur(0.0625rem);
 }

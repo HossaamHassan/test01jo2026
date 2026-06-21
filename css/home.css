@@ -517,17 +517,16 @@
     justify-content: center;
 }
 
-.ask-ai-btn {
+.ai-btns .ask-ai-btn {
     padding: 2rem 0 !important;
     border-radius: 1.875rem !important;
     opacity: 0;
-    transform: translateY(-50%);
     pointer-events: none;
     transition: opacity 0.45s cubic-bezier(0.34, 1.56, 0.64, 1),
         transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
-.ask-ai-btn::before {
+.ai-btns .ask-ai-btn::before {
     border-radius: 1.875rem !important;
 }
 

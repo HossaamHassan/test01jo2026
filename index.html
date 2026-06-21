@@ -27,6 +27,85 @@
 </head>
 
 <body>
+    <div>
+        <div class="content-link-overlay" id="loanOverlay"></div>
+        <div class="content-link bg-gray-color-800 p-40 radius-30 d-flex flex-column">
+            <div class="content-link-header mb-4 d-flex align-items-start justify-content-between ">
+                <h4>
+                    Loan Calculator
+                </h4>
+                <div
+                    class="close-btn bg-gray-color-600 rounded-circle d-flex align-items-center justify-content-center  ">
+                    <i class="fa-solid fa-xmark fs-5"></i>
+                </div>
+            </div>
+            <div class="content-link-container d-flex align-items-end  flex-column justify-content-between h-100">
+                <div class="content-link-body">
+                    <form action="/">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label d-flex align-items-center gap-2">
+                                        Amount
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="olivia@untitledui.com">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label d-flex align-items-center gap-2">
+                                        Loan Type
+                                    </label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Select</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label d-flex align-items-center gap-2">
+                                        Interest Rate %
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="olivia@untitledui.com">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label d-flex align-items-center gap-2">
+                                        Duration Months
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="olivia@untitledui.com">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label d-flex align-items-center gap-2">
+                                        Commissions*
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="olivia@untitledui.com">
+                                    <div class="valid-feedback d-block gray-25">Commisssions for the first year only
+                                        (loan
+                                        amountX1%), the
+                                        customer will pay off evaluation/reevaluation fees</div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="content-link-footer d-flex align-items-center gap-3">
+                    <a href="#" class="reset-btn text-blue-color text-decoration-underline ">
+                        Reset
+                    </a>
+                    <a href="#" class="primary-btn px-4">
+                        Calculate
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="ai-btns">
         <a href="#" class="ai-btn ai-hero-btn">
             <picture>
@@ -772,7 +851,7 @@
                     <br>
                     banking needs
                 </h2>
-                <a href="#" class="ai-btn w-fit mt-0 mt-md-5">
+                <a href="#" class="ai-btn w-fit mt-0 mt-md-5 ask-ai-btn">
                     <picture>
                         <img src="./assets/images/ai-logo.png" alt="" class="ai-logo">
                     </picture>
@@ -893,7 +972,7 @@
                                 </picture>
                             </div>
                             <div class="col-lg-6 d-flex justify-content-center justify-content-lg-end ">
-                                <a href="#" class="primary-btn mt-3 w-fit">
+                                <a href="#" class="primary-btn mt-3 w-fit loan-calc-trigger">
                                     Calculate Now
                                 </a>
                             </div>
@@ -1071,7 +1150,7 @@
                         <div class="regular-size semi-bold-font default-size">AI AJIB support</div>
                         <p class="ai-support-sub">Trusted, secure help, whenever you need it</p>
                     </div>
-                    <a href="#" class="ai-btn w-fit gap-3">
+                    <a href="#" class="ai-btn w-fit gap-3 ask-ai-btn">
                         <picture>
                             <img src="./assets/images/ai-logo.png" alt="" class="ai-logo">
                         </picture>

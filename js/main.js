@@ -39,8 +39,8 @@ function closeAiModal() {
 }
 
 $(document).ready(function () {
-    $("#aiModalTrigger").on("click", function (e) { e.preventDefault(); openAiModal(); });
-    $("#aiModalClose").on("click", closeAiModal);
+    $(document).on("click", "#aiModalTrigger, .ask-ai-btn", function (e) { e.preventDefault(); openAiModal(); });
+    $(document).on("click", "#aiModalClose", closeAiModal);
 });
 
 $(document).ready(function () {
@@ -98,6 +98,21 @@ $(document).ready(function () {
     $(".close-ads").on("click", function () {
         $(".ads-section").hide();
     });
+
+    // ===== Loan Calculator Panel =====
+    function openLoanPanel() {
+        $(".content-link, .content-link-overlay").addClass("open");
+        $("body").addClass("overflow-hidden");
+    }
+
+    function closeLoanPanel() {
+        $(".content-link, .content-link-overlay").removeClass("open");
+        $("body").removeClass("overflow-hidden");
+    }
+
+    $(document).on("click", ".loan-calc-trigger", function (e) { e.preventDefault(); openLoanPanel(); });
+    $(document).on("click", ".content-link .close-btn", closeLoanPanel);
+    $(document).on("click", "#loanOverlay", closeLoanPanel);
 
     // ===== Compare Bar =====
     var MAX_COMPARE = 4;
