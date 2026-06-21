@@ -296,3 +296,7 @@
 .valid-feedback {
     line-height: 1rem;
 }
+
+.ai-support-banner .ai-btn {
+    padding: .95rem 1.5rem !important;
+}
