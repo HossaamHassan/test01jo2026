@@ -49,7 +49,7 @@
 }
 
 .credit-box .credit-box-content h6 {
-    color: var(--white-color) !important;
+    color: var(--white-color);
 }
 
 @media (max-width: 991.98px) {
