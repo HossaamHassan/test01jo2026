@@ -425,37 +425,37 @@
 .ai-btns {
     position: fixed;
     right: 0.75rem;
-    bottom: 7.1875rem;
+    bottom: 10.1875rem;
     z-index: 999999;
 }
 
 @media (min-width: 576px) {
     .ai-btns {
-        right: max(0.75rem, calc((100vw - 33.75rem) / 2));
+        right: max(0.75rem, calc((100vw - 37.75rem) / 2));
     }
 }
 
 @media (min-width: 768px) {
     .ai-btns {
-        right: max(0.75rem, calc((100vw - 45rem) / 2));
+        right: max(0.75rem, calc((100vw - 49rem) / 2));
     }
 }
 
 @media (min-width: 992px) {
     .ai-btns {
-        right: max(0.75rem, calc((100vw - 60rem) / 2));
+        right: max(0.75rem, calc((100vw - 62rem) / 2));
     }
 }
 
 @media (min-width: 1200px) {
     .ai-btns {
-        right: max(0.75rem, calc((100vw - 71.25rem) / 2));
+        right: max(0.75rem, calc((100vw - 85.7rem) / 2));
     }
 }
 
 @media (min-width: 1400px) {
     .ai-btns {
-        right: max(0.75rem, calc((100vw - 82.5rem) / 2));
+        right: max(0.75rem, calc((100vw - 100.5rem) / 2));
     }
 }
 

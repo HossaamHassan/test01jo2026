@@ -1,3 +1,18 @@
 .swiper-control-container {
     top: 50%;
 }
+
+.card-effect-slider .swiper-slide-shadow {
+    display: none !important;
+}
+
+.card-effect-slider .swiper-slide,
+.card-effect-slider .card-effect {
+    background: transparent !important;
+}
+
+@media (max-width: 767.98px) {
+    .swiper-control-container {
+        top: 50% !important;
+    }
+}

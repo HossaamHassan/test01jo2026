@@ -35,7 +35,7 @@
 }
 
 .cards-section h3 {
-    font-size: 3.8rem;
+    font-size: 4.2rem;
     margin-bottom: 4rem !important;
 }
 
@@ -136,6 +136,7 @@
 .card-slider-container {
     max-width: 53.125rem;
 }
+
 
 .icon-cashback {
     margin-block: 6rem 4rem !important;
@@ -246,7 +247,7 @@
 }
 
 .ai-btn p {
-    font-weight: 500;
+    font-weight: 300 !important;
 }
 
 .icon-cashback h6,
