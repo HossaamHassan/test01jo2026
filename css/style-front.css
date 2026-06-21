@@ -277,7 +277,7 @@ ul li::marker {
     }
 
     .container {
-        padding-inline: 16px !important;
+        padding-inline: 24px !important;
     }
 }
 
