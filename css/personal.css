@@ -178,6 +178,10 @@
         background-size: cover;
         background-position: center;
     }
+
+    .ai-support-banner {
+        max-width: 90%;
+    }
 }
 
 .champion-boxes-container {
@@ -287,4 +291,8 @@
 
 .slogan-section {
     padding-block: 3rem;
+}
+
+.valid-feedback {
+    line-height: 1rem;
 }

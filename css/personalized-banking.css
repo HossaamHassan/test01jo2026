@@ -1,3 +1,12 @@
+.personalized-banking {
+    height: 100dvh;
+}
+
+.personalized-banking .default-image-class {
+    height: 100%;
+    object-fit: cover;
+}
+
 .personalized-banking::before {
     position: absolute;
     content: "";
@@ -42,6 +51,9 @@
 }
 
 
+.apply-card {
+    min-height: 85px;
+}
 
 .apply-card h6 {
     font-size: 1.2rem;
@@ -54,4 +66,24 @@
 
 .apply-card:hover {
     background-color: #5d5d5d;
+}
+
+.nice-select,
+.nice-select:active,
+.nice-select.open,
+.nice-select:focus {
+    background-color: transparent;
+    border: 0;
+}
+
+.nice-select .current {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--gray-25);
+}
+
+.nice-select .list {
+    top: 144%;
+    left: -14% !important;
+    width: 119%;
 }
