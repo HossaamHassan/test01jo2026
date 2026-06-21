@@ -16,3 +16,11 @@
         top: 60% !important;
     }
 }
+
+.champions-section {
+    padding-block: 4rem !important;
+}
+
+.blue-text {
+    color: #007AFF;
+}

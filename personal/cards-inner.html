@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -179,10 +179,10 @@
                                 <h6 class="regular-size semi-bold-font mb-3">Personal Banking</h6>
                                 <div class="mega-cols mt-4">
                                     <div class="mega-col">
-                                        <a href="#" class="md-size">Accounts</a>
+                                        <a href="./accounts.html" class="md-size">Accounts</a>
                                         <ul>
                                             <li><a href="#" class="sm-size">Current</a></li>
-                                            <li><a href="#" class="sm-size">Savings</a></li>
+                                            <li><a href="./saving-account.html" class="sm-size">Savings</a></li>
                                             <li><a href="#" class="sm-size">Time Deposit</a></li>
                                             <li><a href="#" class="sm-size">Future</a></li>
                                             <li><a href="#" class="sm-size">Champions</a></li>
@@ -191,7 +191,7 @@
                                         </ul>
                                     </div>
                                     <div class="mega-col">
-                                        <a href="#" class="md-size">Cards</a>
+                                        <a href="./compare-card.html" class="md-size">Cards</a>
                                         <ul>
                                             <li><a href="#" class="sm-size">Credit</a></li>
                                             <li><a href="#" class="sm-size">Debit</a></li>
@@ -202,18 +202,18 @@
                                         </ul>
                                     </div>
                                     <div class="mega-col">
-                                        <a href="#" class="md-size">Loans</a>
+                                        <a href="./loans.html" class="md-size">Loans</a>
                                         <ul>
                                             <li><a href="#" class="sm-size">Personal</a></li>
                                             <li><a href="#" class="sm-size">Home</a></li>
                                             <li><a href="#" class="sm-size">AJIB MA3AK</a></li>
-                                            <li><a href="#" class="sm-size">Loan Calculator</a></li>
+                                            <li><a href="./house-loans.html" class="sm-size">Loan Calculator</a></li>
                                         </ul>
                                     </div>
                                     <div class="mega-col">
-                                        <a href="#" class="md-size">Transfers</a>
+                                        <a href="./transfers.html" class="md-size">Transfers</a>
                                         <ul>
-                                            <li><a href="#" class="sm-size">International</a></li>
+                                            <li><a href="./international.html" class="sm-size">International</a></li>
                                             <li><a href="#" class="sm-size">Local</a></li>
                                             <li><a href="#" class="sm-size">RTGS</a></li>
                                             <li><a href="#" class="sm-size">ACH</a></li>
@@ -223,14 +223,14 @@
                                         </ul>
                                     </div>
                                     <div class="mega-col">
-                                        <a href="#" class="md-size">Personalized Banking</a>
+                                        <a href="./personalized-banking.html" class="md-size">Personalized Banking</a>
                                         <ul>
                                             <li><a href="#" class="sm-size">Prestige Program</a></li>
-                                            <li><a href="#" class="sm-size">VIP Banking</a></li>
+                                            <li><a href="./vip-banking.html" class="sm-size">VIP Banking</a></li>
                                         </ul>
                                     </div>
                                     <div class="mega-col">
-                                        <a href="#" class="md-size">Investments&amp; Insurance</a>
+                                        <a href="./personalized-banking.html" class="md-size">Investments&amp; Insurance</a>
                                         <ul>
                                             <li><a href="#" class="sm-size">AJIB Trading</a></li>
                                             <li><a href="#" class="sm-size">Wealth Management</a></li>
@@ -1022,6 +1022,10 @@
                 data-bs-target="#exampleModal">
                 Apply Now
             </button>
+            <h6 class="text-center mt-5 d-flex align-items-center justify-content-center gap-1">
+                For additional benefits, visit <div class="text-primary-color blue-text">Mastercard</div> and <div
+                    class="text-primary-color blue-text"> Visa</div>
+            </h6>
         </div>
     </section>
     <!-- End Champions Section -->
@@ -1237,12 +1241,14 @@
             effect: "fade",
             fadeEffect: { crossFade: true },
             allowTouchMove: false,
+            loop: true,
         });
 
         var cardEffectSlider = new Swiper(".card-effect-slider", {
             effect: "cards",
             grabCursor: true,
             cardsEffect: { rotate: false },
+            loop: true,
         });
 
         var cardSlider = new Swiper(".card-slider", {
@@ -1250,24 +1256,24 @@
             effect: "fade",
             fadeEffect: { crossFade: true },
             allowTouchMove: false,
+            loop: true,
         });
 
-        var allSwipers = [cardSlider, cardSliderContent, cardEffectSlider];
-
-        function syncAll(index) {
-            allSwipers.forEach(function (s) { s.slideTo(index); });
+        function syncToReal(realIdx) {
+            cardSlider.slideToLoop(realIdx);
+            cardSliderContent.slideToLoop(realIdx);
         }
 
         $(".swiper-button-next").on("click", function () {
-            syncAll(cardSlider.activeIndex + 1);
+            cardEffectSlider.slideNext();
         });
 
         $(".swiper-button-prev").on("click", function () {
-            syncAll(cardSlider.activeIndex - 1);
+            cardEffectSlider.slidePrev();
         });
 
-        cardEffectSlider.on("slideChange", function () {
-            syncAll(cardEffectSlider.activeIndex);
+        cardEffectSlider.on("slideChangeTransitionEnd", function () {
+            syncToReal(cardEffectSlider.realIndex);
         });
     </script>
 </body>

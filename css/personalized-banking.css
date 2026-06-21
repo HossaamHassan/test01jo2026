@@ -18,7 +18,7 @@
 }
 
 .personalized-title {
-    max-width: 0.5625rem;
+    max-width: 32rem;
     margin-bottom: 4rem;
     margin-top: 7rem;
 }
@@ -46,7 +46,8 @@
 
 }
 
-.personalized-section-container .nav-item-personalized.active p {
+.personalized-section-container .nav-item-personalized.active p,
+.personalized-section-container .nav-item-personalized:hover p {
     font-weight: 600;
 }
 
@@ -90,4 +91,13 @@
 
 .content-link {
     display: block !important;
+}
+
+ul ul li {
+    list-style: disc;
+}
+
+ul ul li p {
+    line-height: 1.2;
+    margin: 0;
 }
