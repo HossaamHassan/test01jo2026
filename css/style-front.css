@@ -1027,7 +1027,7 @@ button.btn-close {
     height: 98vh;
     position: fixed;
     overflow-y: auto;
-    z-index: 9999;
+    z-index: 9999999;
     display: none;
 }
 
