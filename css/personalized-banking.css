@@ -87,3 +87,7 @@
     left: -14% !important;
     width: 119%;
 }
+
+.content-link {
+    display: block !important;
+}
