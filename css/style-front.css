@@ -1069,3 +1069,7 @@ button.btn-close {
     z-index: 9999999;
     backdrop-filter: blur(0.0625rem);
 }
+
+.valid-feedback {
+    line-height: 1rem;
+}
