@@ -119,6 +119,7 @@
 .ticker-track h1 {
     margin: 0;
     flex-shrink: 0;
+    line-height: 7rem !important;
 }
 
 .security-ticker:hover .ticker-track {
