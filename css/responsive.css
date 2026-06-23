@@ -251,6 +251,10 @@
     .apply-card {
         min-height: 75px;
     }
+
+    .experience-section .ai-support-banner .ai-btn p {
+        font-size: 1.05rem !important;
+    }
 }
 
 @media (max-width: 991.98px) {
