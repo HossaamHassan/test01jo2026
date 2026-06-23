@@ -118,6 +118,16 @@ $(document).ready(function () {
     var MAX_COMPARE = 4;
     var compareList = [];
 
+    function updateCheckboxStates() {
+        var maxed = compareList.length >= MAX_COMPARE;
+        $(".compare-container .form-check-input").each(function () {
+            if (!$(this).is(":checked")) {
+                $(this).prop("disabled", maxed);
+                $(this).closest(".compare-container").toggleClass("compare-disabled", maxed);
+            }
+        });
+    }
+
     function renderCompareBar() {
         var $slots = $("#compareSlots");
         var $bar = $("#compareBar");
@@ -155,12 +165,14 @@ $(document).ready(function () {
         compareList = compareList.filter(function (c) { return c.id !== id; });
         $('[data-compare-id="' + id + '"]').prop("checked", false);
         renderCompareBar();
+        updateCheckboxStates();
     });
 
     // Click on compare-container toggles its checkbox
     $(document).on("click", ".compare-container", function (e) {
         if (!$(e.target).is(".form-check-input")) {
             var $cb = $(this).find(".form-check-input");
+            if ($cb.prop("disabled")) return;
             $cb.prop("checked", !$cb.prop("checked")).trigger("change");
         }
     });
@@ -184,12 +196,14 @@ $(document).ready(function () {
             compareList = compareList.filter(function (c) { return c.id !== id; });
         }
         renderCompareBar();
+        updateCheckboxStates();
     });
 
     // Close bar
     $("#compareBarClose").on("click", function () {
         compareList = [];
-        $(".compare-container .form-check-input").prop("checked", false);
+        $(".compare-container .form-check-input").prop("checked", false).prop("disabled", false);
+        $(".compare-container").removeClass("compare-disabled");
         $("#compareBar").removeClass("active");
         renderCompareBar();
     });
