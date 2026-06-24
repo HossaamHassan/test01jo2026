@@ -434,8 +434,9 @@
     border-radius: 2.1875rem;
 }
 
-.mobile-nav-toggle span {
-    font-size: 0.9rem;
+.mobile-nav-toggle span,
+.mobile-nav-sub span {
+    font-size: 1.1rem;
 }
 
 .mobile-nav-toggle i {
