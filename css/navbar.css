@@ -454,6 +454,10 @@
     transform: rotate(180deg);
 }
 
+.mobile-menu-panel .ai-btn p {
+    font-weight: 500 !important;
+}
+
 /* Level 1 sub */
 .mobile-nav-sub {
     display: none;

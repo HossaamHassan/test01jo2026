@@ -1417,12 +1417,14 @@
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
+            loop: true,
         });
         var sectionSlider = new Swiper(".section-slider", {
             spaceBetween: 30,
             effect: "fade",
             fadeEffect: { crossFade: true },
             controller: { control: cardSlider },
+            loop: true,
         });
         cardSlider.controller.control = sectionSlider;
     </script>
