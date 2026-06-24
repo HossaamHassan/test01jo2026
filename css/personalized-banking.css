@@ -7,16 +7,6 @@
     object-fit: cover;
 }
 
-.personalized-banking::before {
-    position: absolute;
-    content: "";
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(18.42deg, #444CE7 28.21%, #8098F9 102.72%);
-    opacity: .6;
-}
-
 .personalized-title {
     max-width: 32rem;
     margin-bottom: 4rem;
