@@ -336,6 +336,10 @@
         width: 22px;
         height: 22px;
     }
+
+    .filter-item p {
+        font-weight: 400;
+    }
 }
 
 @media (max-width: 991.98px) {
