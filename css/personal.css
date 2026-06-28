@@ -126,7 +126,7 @@
 }
 
 .credit-box-btns {
-    max-width: 17.5rem;
+    /* max-width: 17.5rem; */
 }
 
 /* Card Slider */
@@ -320,4 +320,9 @@
     position: absolute;
     top: -30rem;
     z-index: -1;
+}
+
+.filter-list li:first-child img {
+    width: 28px;
+    height: 28px;
 }

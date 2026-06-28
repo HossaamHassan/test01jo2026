@@ -160,7 +160,7 @@
     }
 
     .credit-box-btns {
-        max-width: 17.5rem;
+        /* max-width: 17.5rem; */
     }
 
     .profile-section,
@@ -283,8 +283,8 @@
     }
 
     .filter-list img {
-        width: 25px;
-        height: 25px;
+        width: 18px;
+        height: 18px;
     }
 
     .standard-features-container {
@@ -330,6 +330,11 @@
 
     .profile-card-content h5 {
         font-size: 1.6rem !important;
+    }
+
+    .filter-list li:first-child img {
+        width: 22px;
+        height: 22px;
     }
 }
 
