@@ -2,7 +2,7 @@
 .obtain-section {
     max-width: 87.5rem;
     margin: auto;
-    margin-block: 11rem;
+    margin-block: 11rem 10rem;
 }
 
 .cards-section {

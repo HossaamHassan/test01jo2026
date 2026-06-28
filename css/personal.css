@@ -13,7 +13,7 @@
 
 .primary-btn,
 .solid-btn {
-    padding: 0.5625rem 0.625rem;
+    padding: 0.4625rem 0.625rem;
     font-size: .9rem;
     font-weight: 500;
 }
@@ -23,7 +23,7 @@
 }
 
 .ai-support-banner {
-    max-width: 56.25rem;
+    max-width: 50.25rem;
     margin-bottom: 8rem !important;
 }
 
