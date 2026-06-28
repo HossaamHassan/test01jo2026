@@ -804,12 +804,16 @@ a {
 }
 
 .ai-btn .ai-logo {
-    width: 1.875rem;
-    height: 1.875rem;
+    width: 27px;
+    height: 27px;
 }
 
 .ai-btn p {
     font-weight: 300;
+}
+
+.ai-btn picture:last-child img {
+    width: 16px;
 }
 
 .ai-btn::before {
