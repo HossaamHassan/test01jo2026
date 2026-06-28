@@ -110,7 +110,7 @@
     }
 
     .ai-support-banner .ai-btn {
-        padding: 1rem 1.7rem !important;
+        padding: .8rem 1.7rem !important;
     }
 
     .ai-btn::before {
@@ -124,7 +124,7 @@
 
     .ai-support-content img,
     .profile-card img {
-        width: 55px;
+        width: 63px;
     }
 
     .ai-support-content {

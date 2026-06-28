@@ -291,7 +291,7 @@
 @media (min-width: 1200px) and (max-width: 1599.98px) {
     .ai-support-banner {
         padding-inline: 1.875rem;
-        padding-block: 2rem;
+        padding-block: 1.8rem;
         max-width: 51.25rem !important;
     }
 }
