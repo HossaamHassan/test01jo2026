@@ -85,7 +85,7 @@
     }
 
     .champion-box-title img {
-        width: 22px;
+        width: 24px;
     }
 
     .standard-features-container .size-30 {
@@ -227,12 +227,12 @@
         width: 70px;
     }
 
-    /* .article-section {
+    /* .article-section {https://dotjo.atlassian.net/browse/AJIBW26-56
         max-width: 77rem;
     } */
     .icon-cashback {
         margin-block: 6rem 4rem !important;
-        max-width: 35.625rem !important;
+        max-width: 32.625rem !important;
     }
 
     .champion-title {
@@ -265,7 +265,7 @@
     }
 
     .card-effect img {
-        max-width: 300px;
+        max-width: 250px;
     }
 
     .card-slider,
