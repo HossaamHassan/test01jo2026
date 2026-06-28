@@ -812,7 +812,7 @@ a {
     font-weight: 300;
 }
 
-.ai-btn picture:last-child img {
+.ai-support-banner .ai-btn picture:last-child img {
     width: 16px;
 }
 
