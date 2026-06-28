@@ -953,4 +953,8 @@
     .ai-support-banner .ai-btn p {
         font-weight: 400 !important;
     }
+
+    .ai-support-banner {
+        max-width: 38.5rem !important;
+    }
 }
