@@ -53,3 +53,7 @@
 .standard-features-title {
     max-width: 500px;
 }
+
+.champion-box-content h6 {
+    font-size: 1.3rem;
+}

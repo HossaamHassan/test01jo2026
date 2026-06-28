@@ -76,3 +76,7 @@
         font-size: 5.1rem !important;
     }
 }
+
+.standard-features-container ul span {
+    max-width: 21.875rem;
+}

@@ -112,7 +112,7 @@
 }
 
 .standard-features-container .size-30 {
-    max-width: 21.5rem;
+    max-width: 23.5rem;
 }
 
 .credit-box-content h6 {
@@ -309,6 +309,7 @@
 .valid-feedback {
     line-height: 1rem;
     font-weight: 300;
+    font-size: .8rem;
 }
 
 .ai-support-banner .ai-btn {

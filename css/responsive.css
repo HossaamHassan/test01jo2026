@@ -92,6 +92,7 @@
         font-size: 1.6rem !important;
         line-height: 1.8rem !important;
         font-weight: 500;
+        max-width: 21.5rem;
     }
 
     .primary-btn,
@@ -291,6 +292,10 @@
 
     .bank-requirements-container h1 {
         font-size: 5.3rem;
+    }
+
+    .services-section .services-card {
+        gap: 15px !important;
     }
 
     .services-section .services-card picture {

@@ -1051,8 +1051,8 @@ button.btn-close {
 }
 
 .close-btn {
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 #ai-modal {
@@ -1078,7 +1078,7 @@ button.btn-close {
 }
 
 .close-btn img {
-    width: 22px;
+    width: 18px;
 }
 
 .ai-modal-wrap {
