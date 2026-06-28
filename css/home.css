@@ -41,10 +41,10 @@
     font-size: 1.1rem !important;
 }
 
-.ai-btn .ai-logo {
+/* .ai-btn .ai-logo {
     width: 2rem !important;
     height: 2rem !important;
-}
+} */
 
 .bank-requirements-section::before {
     display: none !important;
@@ -947,4 +947,10 @@
 
 .ai-cards-swiper {
     margin-top: 5rem !important;
+}
+
+@media (min-width: 992px) and (max-width: 1599.98px) {
+    .ai-support-banner .ai-btn p {
+        font-weight: 400 !important;
+    }
 }
