@@ -5,12 +5,12 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
-    padding-block: 11rem 9rem;
+    padding-block: 11rem 10rem;
     font-size: 6.5rem;
 }
 
 .compare-card-container {
-    max-width: 77.75rem;
+    max-width: 75.75rem;
     margin: 0 auto;
     padding-block: 6rem 12rem;
 }

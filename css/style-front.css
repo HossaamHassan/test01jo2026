@@ -1076,3 +1076,11 @@ button.btn-close {
 .valid-feedback {
     line-height: 1rem;
 }
+
+.close-btn img {
+    width: 22px;
+}
+
+.ai-modal-wrap {
+    display: none !important;
+}

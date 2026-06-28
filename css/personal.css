@@ -31,7 +31,7 @@
     background-image: url("/assets/images/personal/bg-cards-section.png");
     background-size: cover;
     background-position: 50% 0%;
-    padding-block: 11rem 11rem;
+    padding-block: 9rem 11rem;
 }
 
 .cards-section h3 {
@@ -122,6 +122,7 @@
 .credit-box-content-desc {
     max-width: 21.25rem;
     display: block;
+    margin-top: 15px;
 }
 
 .credit-box-btns {
@@ -258,6 +259,10 @@
     font-size: 1rem;
 }
 
+.person-card span {
+    margin-block: 8px;
+}
+
 .ai-btn p {
     font-weight: 300 !important;
 }
@@ -303,8 +308,15 @@
 
 .valid-feedback {
     line-height: 1rem;
+    font-weight: 300;
 }
 
 .ai-support-banner .ai-btn {
     padding: .95rem 1.5rem !important;
+}
+
+.bg-cards {
+    position: absolute;
+    top: -30rem;
+    z-index: -1;
 }

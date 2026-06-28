@@ -3,9 +3,13 @@
 }
 
 .credit-box-content h6 {
-    font-size: 1.8rem !important;
+    font-size: 2rem !important;
 }
 
 .ai-support-banner {
     margin-top: 0 !important;
+}
+
+.credit-box.p-30 {
+    padding: 1.875rem 1.1rem;
 }

@@ -199,6 +199,11 @@
     cursor: not-allowed;
 }
 
+.compare-bar-close img {
+    width: 16px;
+    height: 16px;
+}
+
 .article-card picture {
     position: relative;
     display: block;
@@ -219,4 +224,9 @@
 
 .article-card:hover picture::before {
     opacity: 1;
+}
+
+.cards-section {
+    background-image: unset;
+    position: relative;
 }

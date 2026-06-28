@@ -2,6 +2,12 @@
     height: 100dvh;
 }
 
+.personalized-banking .bg-section {
+    position: absolute;
+    z-index: -1;
+    height: 100dvh;
+}
+
 .personalized-banking .default-image-class {
     height: 100%;
     object-fit: cover;
@@ -10,16 +16,20 @@
 .personalized-title {
     max-width: 32rem;
     margin-bottom: 4rem;
-    margin-top: 7rem;
+    padding-top: 7rem;
 }
 
-.personalized-section-container {
+.personalized-title h1 {
+    font-size: 6.1rem;
+}
+
+/* .personalized-section-container {
     position: absolute;
-    top: 25%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: var(--container-width);
-}
+} */
 
 .personalized-section-container .nav-item-personalized p,
 .content-link-body p {
@@ -28,6 +38,7 @@
 
 .personalized-section-container .nav-item-personalized i {
     font-size: 1.125rem;
+    transform: translateY(2px);
 }
 
 .personalized-section-container .nav-item-personalized.active,

@@ -24,3 +24,11 @@
 .blue-text {
     color: #007AFF;
 }
+
+.benefits-desc {
+    font-size: 1.2rem;
+}
+
+.champions-section {
+    padding-block: 4rem 3rem !important;
+}

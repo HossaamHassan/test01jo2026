@@ -2,7 +2,7 @@
 .obtain-section {
     max-width: 87.5rem;
     margin: auto;
-    margin-block: 10rem;
+    margin-block: 11rem;
 }
 
 .cards-section {
@@ -69,4 +69,10 @@
 
 .profile-card-content .only-3-lines {
     height: calc(3* 1.1rem + 0.125rem);
+}
+
+@media (min-width: 992px) and (max-width: 1599.98px) {
+    .standard-features-title {
+        font-size: 5.1rem !important;
+    }
 }

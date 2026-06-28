@@ -1,4 +1,4 @@
-@media (min-width: 1200px) and (max-width: 1599.98px) {
+@media (min-width: 992px) and (max-width: 1599.98px) {
     .hero-title h1 {
         font-size: 6.3rem;
         line-height: 6.8rem;
@@ -24,7 +24,7 @@
 
     .online-btn p {
         font-size: .9rem !important;
-        font-weight: 300 !important;
+        font-weight: 400 !important;
     }
 
     .compare-container p {
@@ -72,7 +72,7 @@
 
     .champions-section {
         background-size: cover;
-        padding-block: 4rem 5rem;
+        padding-block: 4rem 3rem !important;
     }
 
     .champion-box-title h6,
@@ -85,7 +85,7 @@
     }
 
     .champion-box-title img {
-        width: 20px;
+        width: 22px;
     }
 
     .standard-features-container .size-30 {
@@ -118,11 +118,12 @@
 
     .ai-support-banner .ai-btn p {
         font-size: 1.1rem;
+        font-weight: 500 !important;
     }
 
     .ai-support-content img,
     .profile-card img {
-        width: 60px;
+        width: 55px;
     }
 
     .ai-support-content {
@@ -144,6 +145,7 @@
 
     .standard-features-container ul li img {
         width: 18px;
+        transform: translateY(2px);
     }
 
     .credit-box-feat span {
@@ -233,7 +235,7 @@
     }
 
     .champion-title {
-        margin-block: 4rem;
+        margin-block: 4rem 7rem;
     }
 
     .bank-requirements-section {
@@ -242,6 +244,7 @@
 
     .services-section .section-title h3 {
         margin-bottom: 2rem !important;
+        font-size: 4.1rem;
     }
 
     .services-section .section-title p {
@@ -254,6 +257,73 @@
 
     .experience-section .ai-support-banner .ai-btn p {
         font-size: 1.05rem !important;
+    }
+
+    .standard-features-section picture {
+        transform: translateY(-3px);
+    }
+
+    .card-effect img {
+        max-width: 300px;
+    }
+
+    .card-slider,
+    .card-slider-container {
+        max-width: 48.125rem;
+    }
+
+    .champion-box {
+        border-radius: 25px !important;
+    }
+
+    .cards-section h3 {
+        font-size: 3.9rem;
+    }
+
+    .filter-list img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .standard-features-container {
+        margin-top: -3rem;
+    }
+
+    .bank-requirements-container h1 {
+        font-size: 5.3rem;
+    }
+
+    .services-section .services-card picture {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .content-link {
+        max-width: 42.625rem;
+    }
+
+    .how-apply-title h5 {
+        font-size: 1.6rem;
+    }
+
+    .apply-card {
+        min-height: 70px !important;
+    }
+
+    .personalized-title {
+        /* margin-top: 15rem !important; */
+    }
+
+    .credit-box {
+        border-radius: 25px !important;
+    }
+
+    .credit-box-content h5 {
+        font-weight: 400 !important;
+    }
+
+    .profile-card-content h5 {
+        font-size: 1.6rem !important;
     }
 }
 
@@ -311,6 +381,10 @@
         width: 95%;
         margin: auto;
         transform: translateX(-50%);
+    }
+
+    .standard-features-container ul span {
+        max-width: 260px;
     }
 }
 
