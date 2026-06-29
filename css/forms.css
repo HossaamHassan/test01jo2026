@@ -1,4 +1,4 @@
-label {
+﻿label {
     font-size: .8rem;
     font-weight: 400;
     color: var(--gray-25);
@@ -152,7 +152,7 @@ input[type="checkbox"] {
 
 .nice-select .option.focus,
 .nice-select .option.selected.focus {
-    background-image: url(/assets/icons/blue-check.svg);
+    background-image: url(../assets/icons/blue-check.svg);
     background-repeat: no-repeat;
     background-position: 90% center;
 }
@@ -236,7 +236,7 @@ input[type="checkbox"] {
 }
 
 .form-check-input:checked[type=radio] {
-    background-image: url("/assets/icons/check.svg");
+    background-image: url("../assets/icons/check.svg");
     background-size: 8px;
 }
 

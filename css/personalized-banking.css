@@ -6,6 +6,7 @@
     position: absolute;
     z-index: -1;
     height: 100dvh;
+    width: 100%;
 }
 
 .personalized-banking .default-image-class {
@@ -21,6 +22,7 @@
 
 .personalized-title h1 {
     font-size: 6.1rem;
+    line-height: 5.8rem !important;
 }
 
 /* .personalized-section-container {

@@ -5,3 +5,6 @@
 .credit-box-content h6 {
     font-size: 1.8rem !important;
 }
+.credit-box-btns {
+    max-width: 17.5rem;
+}
