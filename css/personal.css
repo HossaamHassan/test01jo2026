@@ -330,3 +330,30 @@
 .filter-list {
     gap: 28px !important;
 }
+
+.icon-cashback-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-cashback-inner {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-icon img {
+    width: 80%;
+}
+
+.icon-cashback-inner .floating-check {
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
